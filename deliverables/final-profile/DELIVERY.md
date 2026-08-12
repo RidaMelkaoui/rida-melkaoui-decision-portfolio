@@ -21,6 +21,7 @@ Both are one-page, selectable-text PDFs with the same verified evidence language
 | retail-demand-decision-engine | `d700373` | tests, executed notebook, Vite build, responsive browser QA |
 | last-mile-route-control-tower | `853ccd1` | 5 tests, executed notebook, Vite build, responsive browser QA |
 | agent-reliability-lab | `6593bb2` | 9 tests, executed notebook, Vite build, audit, responsive browser QA |
+| rida-melkaoui-decision-portfolio | `ca06273` | TypeScript, production build, desktop/mobile browser QA, two one-page PDF validations |
 
 All three local repositories are clean and use the `main` branch.
 
