@@ -1,0 +1,28 @@
+{
+  "name": "rida-melkaoui-decision-portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "generate:data": "node scripts/generate-data.mjs",
+    "dev": "vite",
+    "build": "tsc -b && vite build --base ./",
+    "preview": "vite preview",
+    "check": "tsc -b --pretty false",
+    "deploy": "pnpm run build && gh-pages -d dist"
+  },
+  "dependencies": {
+    "@fontsource/barlow-condensed": "^5.1.1",
+    "@fontsource/ibm-plex-mono": "^5.1.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "recharts": "^3.10.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "gh-pages": "^6.2.0",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11"
+  }
+}
