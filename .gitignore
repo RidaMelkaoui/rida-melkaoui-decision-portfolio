@@ -1,6 +1,8 @@
 node_modules/
 dist/
 qa/
+.codex/
+graphify-out/
 *.log
 *.tsbuildinfo
 .DS_Store
