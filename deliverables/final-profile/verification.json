@@ -1,13 +1,18 @@
 {
-  "verified_at": "2026-08-12",
+  "verified_at": "2026-08-13",
   "portfolio": {
     "typescript": "passed",
     "production_build": "passed",
     "desktop_browser_qa": "passed",
+    "native_concept_viewport": "1634x965",
     "mobile_390px_browser_qa": "passed",
     "mobile_document_overflow": false,
     "console_errors_or_warnings": 0,
-    "static_live_labs": 3
+    "static_live_labs": 3,
+    "interactive_case_studies": 3,
+    "project_evidence_chains": 3,
+    "case_close_and_reopen": "passed",
+    "mobile_navigation": "passed"
   },
   "resumes": {
     "ats_pages": 1,
@@ -18,7 +23,9 @@
   "projects": {
     "retail-demand-decision-engine": "d700373",
     "last-mile-route-control-tower": "853ccd1",
-    "agent-reliability-lab": "6593bb2"
+    "agent-reliability-lab": "6593bb2",
+    "test_suites": "21 passed",
+    "dashboard_production_builds": 3
   },
   "privacy": {
     "confidential_supplier_names": false,
