@@ -12,6 +12,11 @@
     "interactive_case_studies": 3,
     "project_evidence_chains": 3,
     "case_close_and_reopen": "passed",
+    "project_collapse_regression": "passed",
+    "stale_project_preview_after_close": false,
+    "transparent_portrait_render": "passed",
+    "synthetic_sqe_preview": "passed",
+    "experience_kpi_evidence": "passed",
     "mobile_navigation": "passed",
     "github_pages_deployment": "passed",
     "live_url": "https://ridamelkaoui.github.io/rida-melkaoui-decision-portfolio/"
@@ -32,6 +37,8 @@
   "privacy": {
     "confidential_supplier_names": false,
     "confidential_customer_names": false,
-    "confidential_part_or_project_names": false
+    "confidential_part_or_project_names": false,
+    "confidential_tokens_in_sqe_preview": 0,
+    "sqe_preview_data_classification": "synthetic"
   }
 }

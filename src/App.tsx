@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useState } from "react";
 
 type ProjectKey = "demand" | "route" | "agent";
 type Project = {
@@ -14,10 +14,27 @@ type Project = {
   evidenceChain: [string, string, string];
   stack: string;
   image: string;
-  detailImage: string;
   lab: string;
   source: string;
   caveat: string;
+};
+
+type ExperienceMetric = {
+  value: string;
+  label: string;
+  note: string;
+};
+
+type Experience = {
+  period: string;
+  company: string;
+  place: string;
+  role: string;
+  statement: string;
+  details: string[];
+  metrics: ExperienceMetric[];
+  proof?: "sqe" | "stellantis";
+  sourceNote?: string;
 };
 
 const projects: Project[] = [
@@ -39,7 +56,6 @@ const projects: Project[] = [
     evidenceChain: ["Checksum-verified M5 tables", "Leakage-safe forecast + policy simulation", "Planner exception queue"],
     stack: "Python / scikit-learn / forecasting / policy simulation / React",
     image: "./images/projects/demand-overview.png",
-    detailImage: "./images/projects/demand-detail.png",
     lab: "./labs/demand/index.html",
     source: "https://github.com/RidaMelkaoui/retail-demand-decision-engine",
     caveat: "M5 28-day holdout; policy outcomes are simulation, not realized savings.",
@@ -58,7 +74,6 @@ const projects: Project[] = [
     evidenceChain: ["Public Amazon route histories", "Driver-aware constrained sequence policy", "Dispatch intervention queue"],
     stack: "Python / sequence learning / constrained local search / React",
     image: "./images/projects/route-control.png",
-    detailImage: "./images/projects/route-detail.png",
     lab: "./labs/route/index.html",
     source: "https://github.com/RidaMelkaoui/last-mile-route-control-tower",
     caveat: "Separate 13-route public cohort; retrospective simulation, not a production claim.",
@@ -77,35 +92,51 @@ const projects: Project[] = [
     evidenceChain: ["Pinned official trajectories", "Pass-k + deterministic diagnostics", "Release / monitor / hold gate"],
     stack: "Python / agent evaluation / statistics / failure diagnostics / React",
     image: "./images/projects/agent-proof.png",
-    detailImage: "./images/projects/agent-detail.png",
     lab: "./labs/agent/index.html",
     source: "https://github.com/RidaMelkaoui/agent-reliability-lab",
     caveat: "Pinned historical tau2-bench cohort; no live calls or current-production claim.",
   },
 ];
 
-const timeline = [
+const timeline: Experience[] = [
   {
     period: "MAR 2026 - NOW",
     company: "MAGNA INTERNATIONAL",
     place: "KENITRA, MOROCCO",
     role: "Supplier Quality Engineer / Electronics & Metal",
-    statement: "Turning launch activity, supplier performance and open issues into a traceable decision layer.",
+    statement: "Built the decision layer I needed to run supplier quality.",
     details: [
-      "Built a full SQE BI system spanning nomination, launch, Safe Launch and SOP, with critical-part views and meaningful issue insights.",
-      "Designed a smart notification pipeline to keep owners, milestones and overdue actions visible across the activity portfolio.",
-      "Coordinate supplier quality across Europe, Asia and Morocco while protecting confidential supplier and customer information.",
+      "Designed an SQE assistant joining ownership, timing, PPAP and DVP evidence, audits, claims and controlled data intake in one operating view.",
+      "Built KPI views and notification logic so missing baselines, overdue actions and readiness gaps surface before the next launch gate.",
+      "Operate electronics and metal supplier quality from nomination through Safe Launch and SOP across Europe, Asia and Morocco.",
     ],
+    metrics: [
+      { value: "6", label: "control modules", note: "command to intake" },
+      { value: "4", label: "lifecycle gates", note: "nomination to SOP" },
+      { value: "6", label: "supplier countries", note: "three operating regions" },
+    ],
+    proof: "sqe",
+    sourceNote: "System scope only. The interface preview below uses synthetic programs, suppliers and KPI values.",
   },
   {
     period: "FEB - AUG 2025",
     company: "STELLANTIS R&D",
     place: "CASABLANCA, MOROCCO",
     role: "Engineering Intern / Data Analytics, Process Optimization & AI",
-    statement: "Reduced a configuration-anomaly workflow from two days to two minutes.",
+    statement: "Converted a two-day BOM anomaly workflow into a sub-three-minute validated process.",
     details: [
-      "Mapped the operational workflow, structured its status logic and built a Python application backed by a Databricks data model for detection, prioritization and treatment traceability.",
+      "Mapped the E-BOM/M-BOM decision flow and its failure modes, then translated the status logic into a standardized treatment process.",
+      "Built a Python detector around exported configuration data for anomaly identification, prioritization and treatment traceability.",
+      "Benchmarked the automated workflow against the manual process and documented limitations around live PLM/SAP integration and data quality.",
     ],
+    metrics: [
+      { value: "2 days", label: "manual cycle", note: "before automation" },
+      { value: "<3 min", label: "automated cycle", note: "validation benchmark" },
+      { value: "−98%", label: "manual handling", note: "100% to 2%" },
+      { value: "100%", label: "processing reliability", note: "project test cases" },
+    ],
+    proof: "stellantis",
+    sourceNote: "PFE validation benchmark; this is not presented as a plant-wide production deployment.",
   },
   {
     period: "JUL - SEP 2024",
@@ -116,6 +147,10 @@ const timeline = [
     details: [
       "Built a Unity/NLP assistant that structured access to maintenance and spare-parts information while preserving a traceable knowledge flow.",
     ],
+    metrics: [
+      { value: "1", label: "knowledge assistant", note: "Unity + NLP" },
+      { value: "2", label: "data domains", note: "maintenance / spare parts" },
+    ],
   },
   {
     period: "AUG - SEP 2023",
@@ -124,6 +159,10 @@ const timeline = [
     role: "Data Analyst Intern",
     statement: "Converted production records into visual operating signals.",
     details: ["Built Power BI and Excel reporting around OEE, FPY, scrap and downtime to expose bottlenecks for Lean review."],
+    metrics: [
+      { value: "4", label: "KPI families", note: "OEE / FPY / scrap / downtime" },
+      { value: "2", label: "analytics tools", note: "Power BI + Excel" },
+    ],
   },
 ];
 
@@ -268,7 +307,20 @@ function Hero() {
           event.currentTarget.style.removeProperty("--portrait-ry");
         }}
       >
-        <img src="./images/rida-decision-portrait.png" alt="Rida Melkaoui, industrial engineer and data/AI professional" />
+        <div className="portrait-ghost" aria-hidden="true">
+          RIDA
+          <br />
+          MELKAOUI
+        </div>
+        <div className="portrait-orbit orbit-a" aria-hidden="true" />
+        <div className="portrait-orbit orbit-b" aria-hidden="true" />
+        <div className="portrait-axis" aria-hidden="true">
+          <span>OPERATIONS</span>
+          <span>DATA</span>
+          <span>AI</span>
+          <span>DECISIONS</span>
+        </div>
+        <img src="./images/rida-cutout.png" alt="Rida Melkaoui, industrial engineer and data/AI professional" />
         <span className="coordinate coordinate-a">33.9716 N</span>
         <span className="coordinate coordinate-b">06.8498 W</span>
         <div className="portrait-label">
@@ -300,7 +352,7 @@ function SectionIntro({ index, label, title, body }: { index: string; label: str
 function ProjectCase({ project, active, onOpen }: { project: Project; active: boolean; onOpen: () => void }) {
   const bodyId = `project-${project.key}-detail`;
   return (
-    <article className={`project-case ${active ? "active" : ""}`} data-reveal>
+    <article className={`project-case ${active ? "active" : ""}`}>
       <button className="case-cover" onClick={onOpen} aria-expanded={active} aria-controls={bodyId}>
         <div className="case-index">[{project.index}]</div>
         <div className="case-title">
@@ -312,7 +364,10 @@ function ProjectCase({ project, active, onOpen }: { project: Project; active: bo
           <strong>{project.result}</strong>
           <span>{project.resultNote}</span>
         </div>
-        <span className="case-toggle">{active ? "CLOSE -" : "OPEN +"}</span>
+        <span className="case-toggle">
+          <i aria-hidden="true" />
+          {active ? "CLOSE CASE" : "OPEN CASE"}
+        </span>
       </button>
       {active ? (
         <div className="case-body" id={bodyId}>
@@ -359,10 +414,6 @@ function ProjectCase({ project, active, onOpen }: { project: Project; active: bo
 
 function Work() {
   const [active, setActive] = useState<ProjectKey | null>("demand");
-  const activeProject = useMemo(
-    () => projects.find((project) => project.key === active) ?? projects[0],
-    [active],
-  );
   return (
     <section className="work section-shell" id="work">
       <SectionIntro
@@ -380,13 +431,6 @@ function Work() {
             onOpen={() => setActive((current) => (current === project.key ? null : project.key))}
           />
         ))}
-      </div>
-      <div className="project-film" data-reveal>
-        <img src={activeProject.detailImage} alt={`${activeProject.title} detailed interface view`} />
-        <div>
-          <span>CASE {activeProject.index} / DETAIL VIEW</span>
-          <strong>{activeProject.title}</strong>
-        </div>
       </div>
     </section>
   );
@@ -420,8 +464,68 @@ function Method() {
   );
 }
 
+function SQEDemo() {
+  const rows = [
+    ["NOVA-01", "ELECTRONICS", "LAUNCH", "86%", "REVIEW"],
+    ["VECTOR-07", "METAL", "SAFE LAUNCH", "72%", "AT RISK"],
+    ["ATLAS-12", "MECHATRONICS", "SOP", "96%", "ON TRACK"],
+  ];
+  return (
+    <div className="sqe-demo" role="img" aria-label="Synthetic preview of the supplier quality assistant">
+      <div className="demo-topline">
+        <div>
+          <span>SQE / CONTROL</span>
+          <strong>SUPPLIER QUALITY COMMAND</strong>
+        </div>
+        <i>SYNTHETIC DATA</i>
+      </div>
+      <div className="demo-kpis">
+        <div><span>TIMING COVERAGE</span><strong>92%</strong></div>
+        <div><span>OVERDUE ACTIONS</span><strong>04</strong></div>
+        <div><span>CRITICAL SIGNALS</span><strong>02</strong></div>
+      </div>
+      <div className="demo-table" aria-hidden="true">
+        <div className="demo-table-head"><span>PROGRAM</span><span>COMMODITY</span><span>GATE</span><span>READINESS</span><span>DECISION</span></div>
+        {rows.map(([program, commodity, gate, readiness, decision]) => (
+          <div className="demo-table-row" key={program}>
+            <strong>{program}</strong><span>{commodity}</span><span>{gate}</span><span>{readiness}</span><i>{decision}</i>
+          </div>
+        ))}
+      </div>
+      <div className="demo-modules">
+        <span>COMMAND</span><span>TIMING</span><span>QUALITY</span><span>AUDITS</span><span>CLAIMS</span><span>INTAKE</span>
+      </div>
+    </div>
+  );
+}
+
+function StellantisProof() {
+  return (
+    <div className="stellantis-proof">
+      <div className="cycle-comparison" role="img" aria-label="Manual cycle of two days compared with an automated cycle under three minutes">
+        <div>
+          <span>MANUAL / BEFORE</span>
+          <strong>2 DAYS</strong>
+          <i><b /></i>
+        </div>
+        <ArrowIcon direction="right" />
+        <div>
+          <span>AUTOMATED / VALIDATED</span>
+          <strong>&lt;3 MIN</strong>
+          <i><b /></i>
+        </div>
+      </div>
+      <figure className="workbench-photo">
+        <img src="./images/rida-workbench.jpeg" alt="Rida Melkaoui building and testing the anomaly-processing application" />
+        <figcaption><span>BUILD / TEST / VALIDATE</span><b>ENGINEERING WORKBENCH / 2025</b></figcaption>
+      </figure>
+    </div>
+  );
+}
+
 function Experience() {
   const [active, setActive] = useState(0);
+  const item = timeline[active];
   return (
     <section className="experience section-shell" id="experience">
       <SectionIntro index="03" label="OPERATING CONTEXT" title="I learned analytics where decisions have consequences." />
@@ -435,15 +539,34 @@ function Experience() {
             </button>
           ))}
         </div>
-        <article className="experience-detail" aria-live="polite">
+        <article className="experience-detail" aria-live="polite" key={item.company}>
           <div className="experience-code">0{active + 1} / 04</div>
-          <span>{timeline[active].place}</span>
-          <h3>{timeline[active].statement}</h3>
-          <ul>
-            {timeline[active].details.map((detail) => (
-              <li key={detail}>{detail}</li>
+          <span>{item.place}</span>
+          <h3>{item.statement}</h3>
+          <div className="experience-metrics" aria-label={`${item.company} quantified evidence`}>
+            {item.metrics.map((metric) => (
+              <div key={`${metric.value}-${metric.label}`}>
+                <strong>{metric.value}</strong>
+                <span>{metric.label}</span>
+                <small>{metric.note}</small>
+              </div>
             ))}
-          </ul>
+          </div>
+          <div className={`experience-lower ${item.proof ? "with-proof" : ""}`}>
+            <ul>
+              {item.details.map((detail) => (
+                <li key={detail}>{detail}</li>
+              ))}
+            </ul>
+            {item.proof === "sqe" ? <SQEDemo /> : null}
+            {item.proof === "stellantis" ? <StellantisProof /> : null}
+          </div>
+          {item.sourceNote ? (
+            <p className="experience-source">
+              <span>EVIDENCE NOTE</span>
+              {item.sourceNote}
+            </p>
+          ) : null}
           {active === 0 ? (
             <div className="world-strip">
               <i>CN</i>
