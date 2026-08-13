@@ -1,0 +1,289 @@
+month,monthIndex,supplier,country,commodity,partsReceived,defectCount,defectPpm,otif,riskScore,openCapa,dominantCause,nextAction,dueDate
+Jan,1,SUP-CN-04,China,Metal,9000,25,2793,66.3,67,1,Material,Containment call,2027-01-05
+Jan,1,SUP-DE-02,Germany,Electronics,9830,26,2660,69.3,64,0,Process,Root-cause review,2027-01-06
+Jan,1,SUP-SK-01,Slovakia,Metal,10660,26,2394,74.3,62,0,Component,Process audit,2027-01-07
+Jan,1,SUP-ES-03,Spain,Electronics,11490,24,2128,79.3,61,0,Handling,CAPA verification,2027-01-08
+Jan,1,SUP-KR-02,South Korea,Metal,12320,23,1862,82.3,58,0,Design,8D follow-up,2027-01-09
+Jan,1,SUP-MA-01,Morocco,Electronics,13150,6,492,88.8,34,0,Inspection,Monitor,
+Jan,1,SUP-CN-01,China,Metal,13980,7,525,89.8,31,0,Packaging,Monitor,
+Jan,1,SUP-ES-01,Spain,Electronics,14810,8,559,90.3,30,0,Other,Monitor,
+Jan,1,SUP-SK-02,Slovakia,Metal,15640,9,592,90.5,29,0,Material,Monitor,
+Jan,1,SUP-DE-01,Germany,Electronics,16470,10,625,90.8,28,0,Process,Monitor,
+Jan,1,SUP-KR-01,South Korea,Metal,17300,11,658,91.1,27,0,Component,Monitor,
+Jan,1,SUP-MA-02,Morocco,Electronics,18130,13,692,91.3,25,0,Handling,Monitor,
+Jan,1,SUP-CN-02,China,Metal,18960,14,725,91.5,25,0,Design,Monitor,
+Jan,1,SUP-ES-02,Spain,Electronics,19790,15,758,91.7,24,0,Inspection,Monitor,
+Jan,1,SUP-SK-03,Slovakia,Metal,20620,16,791,91.8,23,0,Packaging,Monitor,
+Jan,1,SUP-DE-03,Germany,Electronics,21450,18,825,91.9,22,0,Other,Monitor,
+Jan,1,SUP-KR-03,South Korea,Metal,22280,19,858,92.1,21,0,Material,Monitor,
+Jan,1,SUP-MA-03,Morocco,Electronics,23110,21,891,92.3,20,0,Process,Monitor,
+Jan,1,SUP-CN-03,China,Metal,23940,22,924,92.5,19,0,Component,Monitor,
+Jan,1,SUP-ES-04,Spain,Electronics,24770,24,958,92.7,18,0,Handling,Monitor,
+Jan,1,SUP-SK-04,Slovakia,Metal,25600,25,991,92.9,16,0,Design,Monitor,
+Jan,1,SUP-DE-04,Germany,Electronics,26430,27,1024,93.1,16,0,Inspection,Monitor,
+Jan,1,SUP-KR-04,South Korea,Metal,27260,29,1057,93.3,15,0,Packaging,Monitor,
+Jan,1,SUP-MA-04,Morocco,Electronics,28090,31,1098,89.7,14,0,Other,Monitor,
+Feb,2,SUP-CN-04,China,Metal,9120,25,2694,67.2,69,1,Material,Containment call,2027-01-05
+Feb,2,SUP-DE-02,Germany,Electronics,9950,26,2565,70.2,65,0,Process,Root-cause review,2027-01-06
+Feb,2,SUP-SK-01,Slovakia,Metal,10780,25,2309,75.2,64,0,Component,Process audit,2027-01-07
+Feb,2,SUP-ES-03,Spain,Electronics,11610,24,2052,80.2,62,0,Handling,CAPA verification,2027-01-08
+Feb,2,SUP-KR-02,South Korea,Metal,12440,22,1796,83.2,59,0,Design,8D follow-up,2027-01-09
+Feb,2,SUP-MA-01,Morocco,Electronics,13270,6,475,89.7,35,0,Inspection,Monitor,
+Feb,2,SUP-CN-01,China,Metal,14100,7,507,90.7,32,0,Packaging,Monitor,
+Feb,2,SUP-ES-01,Spain,Electronics,14930,8,539,91.2,30,0,Other,Monitor,
+Feb,2,SUP-SK-02,Slovakia,Metal,15760,9,571,91.4,29,0,Material,Monitor,
+Feb,2,SUP-DE-01,Germany,Electronics,16590,10,603,91.7,28,0,Process,Monitor,
+Feb,2,SUP-KR-01,South Korea,Metal,17420,11,635,92,28,0,Component,Monitor,
+Feb,2,SUP-MA-02,Morocco,Electronics,18250,12,667,92.2,26,0,Handling,Monitor,
+Feb,2,SUP-CN-02,China,Metal,19080,13,699,92.4,25,0,Design,Monitor,
+Feb,2,SUP-ES-02,Spain,Electronics,19910,15,731,92.6,24,0,Inspection,Monitor,
+Feb,2,SUP-SK-03,Slovakia,Metal,20740,16,763,92.7,23,0,Packaging,Monitor,
+Feb,2,SUP-DE-03,Germany,Electronics,21570,17,795,92.8,23,0,Other,Monitor,
+Feb,2,SUP-KR-03,South Korea,Metal,22400,19,827,93,21,0,Material,Monitor,
+Feb,2,SUP-MA-03,Morocco,Electronics,23230,20,859,93.2,20,0,Process,Monitor,
+Feb,2,SUP-CN-03,China,Metal,24060,21,891,93.4,19,0,Component,Monitor,
+Feb,2,SUP-ES-04,Spain,Electronics,24890,23,924,93.6,18,0,Handling,Monitor,
+Feb,2,SUP-SK-04,Slovakia,Metal,25720,25,956,93.8,17,0,Design,Monitor,
+Feb,2,SUP-DE-04,Germany,Electronics,26550,26,988,94,16,0,Inspection,Monitor,
+Feb,2,SUP-KR-04,South Korea,Metal,27380,28,1020,94.2,15,0,Packaging,Monitor,
+Feb,2,SUP-MA-04,Morocco,Electronics,28210,30,1054,90.6,14,0,Other,Monitor,
+Mar,3,SUP-CN-04,China,Metal,9240,28,3018,67.9,70,1,Material,Containment call,2027-01-05
+Mar,3,SUP-DE-02,Germany,Electronics,10070,29,2874,70.9,67,0,Process,Root-cause review,2027-01-06
+Mar,3,SUP-SK-01,Slovakia,Metal,10900,28,2587,75.9,65,0,Component,Process audit,2027-01-07
+Mar,3,SUP-ES-03,Spain,Electronics,11730,27,2299,80.9,63,0,Handling,CAPA verification,2027-01-08
+Mar,3,SUP-KR-02,South Korea,Metal,12560,25,2012,83.9,61,0,Design,8D follow-up,2027-01-09
+Mar,3,SUP-MA-01,Morocco,Electronics,13390,7,532,90.4,36,0,Inspection,Monitor,
+Mar,3,SUP-CN-01,China,Metal,14220,8,568,91.4,32,0,Packaging,Monitor,
+Mar,3,SUP-ES-01,Spain,Electronics,15050,9,604,91.9,31,0,Other,Monitor,
+Mar,3,SUP-SK-02,Slovakia,Metal,15880,10,639,92.1,30,0,Material,Monitor,
+Mar,3,SUP-DE-01,Germany,Electronics,16710,11,675,92.4,29,0,Process,Monitor,
+Mar,3,SUP-KR-01,South Korea,Metal,17540,12,711,92.7,28,0,Component,Monitor,
+Mar,3,SUP-MA-02,Morocco,Electronics,18370,14,747,92.9,26,0,Handling,Monitor,
+Mar,3,SUP-CN-02,China,Metal,19200,15,783,93.1,26,0,Design,Monitor,
+Mar,3,SUP-ES-02,Spain,Electronics,20030,16,819,93.3,25,0,Inspection,Monitor,
+Mar,3,SUP-SK-03,Slovakia,Metal,20860,18,855,93.4,24,0,Packaging,Monitor,
+Mar,3,SUP-DE-03,Germany,Electronics,21690,19,891,93.5,23,0,Other,Monitor,
+Mar,3,SUP-KR-03,South Korea,Metal,22520,21,927,93.7,21,0,Material,Monitor,
+Mar,3,SUP-MA-03,Morocco,Electronics,23350,22,963,93.9,20,0,Process,Monitor,
+Mar,3,SUP-CN-03,China,Metal,24180,24,999,94.1,20,0,Component,Monitor,
+Mar,3,SUP-ES-04,Spain,Electronics,25010,26,1035,94.3,19,0,Handling,Monitor,
+Mar,3,SUP-SK-04,Slovakia,Metal,25840,28,1071,94.5,17,0,Design,Monitor,
+Mar,3,SUP-DE-04,Germany,Electronics,26670,30,1107,94.7,16,0,Inspection,Monitor,
+Mar,3,SUP-KR-04,South Korea,Metal,27500,31,1142,94.9,15,0,Packaging,Monitor,
+Mar,3,SUP-MA-04,Morocco,Electronics,28330,33,1182,91.3,14,0,Other,Monitor,
+Apr,4,SUP-CN-04,China,Metal,9360,23,2444,68.7,71,1,Material,Containment call,2027-01-05
+Apr,4,SUP-DE-02,Germany,Electronics,10190,24,2328,71.7,68,0,Process,Root-cause review,2027-01-06
+Apr,4,SUP-SK-01,Slovakia,Metal,11020,23,2095,76.7,66,0,Component,Process audit,2027-01-07
+Apr,4,SUP-ES-03,Spain,Electronics,11850,22,1862,81.7,64,0,Handling,CAPA verification,2027-01-08
+Apr,4,SUP-KR-02,South Korea,Metal,12680,21,1629,84.7,62,0,Design,8D follow-up,2027-01-09
+Apr,4,SUP-MA-01,Morocco,Electronics,13510,6,431,91.2,37,0,Inspection,Monitor,
+Apr,4,SUP-CN-01,China,Metal,14340,7,460,92.2,33,0,Packaging,Monitor,
+Apr,4,SUP-ES-01,Spain,Electronics,15170,7,489,92.7,31,0,Other,Monitor,
+Apr,4,SUP-SK-02,Slovakia,Metal,16000,8,518,92.9,30,0,Material,Monitor,
+Apr,4,SUP-DE-01,Germany,Electronics,16830,9,547,93.2,30,0,Process,Monitor,
+Apr,4,SUP-KR-01,South Korea,Metal,17660,10,576,93.5,29,0,Component,Monitor,
+Apr,4,SUP-MA-02,Morocco,Electronics,18490,11,605,93.7,27,0,Handling,Monitor,
+Apr,4,SUP-CN-02,China,Metal,19320,12,634,93.9,26,0,Design,Monitor,
+Apr,4,SUP-ES-02,Spain,Electronics,20150,13,663,94.1,25,0,Inspection,Monitor,
+Apr,4,SUP-SK-03,Slovakia,Metal,20980,15,693,94.2,24,0,Packaging,Monitor,
+Apr,4,SUP-DE-03,Germany,Electronics,21810,16,722,94.3,23,0,Other,Monitor,
+Apr,4,SUP-KR-03,South Korea,Metal,22640,17,751,94.5,22,0,Material,Monitor,
+Apr,4,SUP-MA-03,Morocco,Electronics,23470,18,780,94.7,21,0,Process,Monitor,
+Apr,4,SUP-CN-03,China,Metal,24300,20,809,94.9,20,0,Component,Monitor,
+Apr,4,SUP-ES-04,Spain,Electronics,25130,21,838,95.1,19,0,Handling,Monitor,
+Apr,4,SUP-SK-04,Slovakia,Metal,25960,23,867,95.3,17,0,Design,Monitor,
+Apr,4,SUP-DE-04,Germany,Electronics,26790,24,896,95.5,17,0,Inspection,Monitor,
+Apr,4,SUP-KR-04,South Korea,Metal,27620,26,925,95.7,16,0,Packaging,Monitor,
+Apr,4,SUP-MA-04,Morocco,Electronics,28450,27,958,92.1,15,0,Other,Monitor,
+May,5,SUP-CN-04,China,Metal,9480,24,2569,69.4,73,2,Material,Containment call,2027-01-05
+May,5,SUP-DE-02,Germany,Electronics,10310,25,2447,72.4,69,1,Process,Root-cause review,2027-01-06
+May,5,SUP-SK-01,Slovakia,Metal,11140,25,2202,77.4,67,1,Component,Process audit,2027-01-07
+May,5,SUP-ES-03,Spain,Electronics,11970,23,1957,82.4,66,1,Handling,CAPA verification,2027-01-08
+May,5,SUP-KR-02,South Korea,Metal,12800,22,1713,85.4,63,1,Design,8D follow-up,2027-01-09
+May,5,SUP-MA-01,Morocco,Electronics,13630,6,453,91.9,37,0,Inspection,Monitor,
+May,5,SUP-CN-01,China,Metal,14460,7,483,92.9,34,0,Packaging,Monitor,
+May,5,SUP-ES-01,Spain,Electronics,15290,8,514,93.4,32,0,Other,Monitor,
+May,5,SUP-SK-02,Slovakia,Metal,16120,9,544,93.6,31,0,Material,Monitor,
+May,5,SUP-DE-01,Germany,Electronics,16950,10,575,93.9,30,0,Process,Monitor,
+May,5,SUP-KR-01,South Korea,Metal,17780,11,606,94.2,29,0,Component,Monitor,
+May,5,SUP-MA-02,Morocco,Electronics,18610,12,636,94.4,27,0,Handling,Monitor,
+May,5,SUP-CN-02,China,Metal,19440,13,667,94.6,27,0,Design,Monitor,
+May,5,SUP-ES-02,Spain,Electronics,20270,14,697,94.8,26,0,Inspection,Monitor,
+May,5,SUP-SK-03,Slovakia,Metal,21100,15,728,94.9,25,0,Packaging,Monitor,
+May,5,SUP-DE-03,Germany,Electronics,21930,17,758,95,24,0,Other,Monitor,
+May,5,SUP-KR-03,South Korea,Metal,22760,18,789,95.2,22,0,Material,Monitor,
+May,5,SUP-MA-03,Morocco,Electronics,23590,19,820,95.4,21,0,Process,Monitor,
+May,5,SUP-CN-03,China,Metal,24420,21,850,95.6,20,0,Component,Monitor,
+May,5,SUP-ES-04,Spain,Electronics,25250,22,881,95.8,19,0,Handling,Monitor,
+May,5,SUP-SK-04,Slovakia,Metal,26080,24,911,96,18,0,Design,Monitor,
+May,5,SUP-DE-04,Germany,Electronics,26910,25,942,96.2,17,0,Inspection,Monitor,
+May,5,SUP-KR-04,South Korea,Metal,27740,27,973,96.4,16,0,Packaging,Monitor,
+May,5,SUP-MA-04,Morocco,Electronics,28570,29,1005,92.8,15,0,Other,Monitor,
+Jun,6,SUP-CN-04,China,Metal,9600,22,2245,69.8,74,2,Material,Containment call,2027-01-05
+Jun,6,SUP-DE-02,Germany,Electronics,10430,22,2138,72.8,70,1,Process,Root-cause review,2027-01-06
+Jun,6,SUP-SK-01,Slovakia,Metal,11260,22,1924,77.8,69,1,Component,Process audit,2027-01-07
+Jun,6,SUP-ES-03,Spain,Electronics,12090,21,1710,82.8,67,1,Handling,CAPA verification,2027-01-08
+Jun,6,SUP-KR-02,South Korea,Metal,12920,19,1496,85.8,64,1,Design,8D follow-up,2027-01-09
+Jun,6,SUP-MA-01,Morocco,Electronics,13750,5,395,92.3,38,0,Inspection,Monitor,
+Jun,6,SUP-CN-01,China,Metal,14580,6,422,93.3,34,0,Packaging,Monitor,
+Jun,6,SUP-ES-01,Spain,Electronics,15410,7,449,93.8,32,0,Other,Monitor,
+Jun,6,SUP-SK-02,Slovakia,Metal,16240,8,476,94,32,0,Material,Monitor,
+Jun,6,SUP-DE-01,Germany,Electronics,17070,9,502,94.3,31,0,Process,Monitor,
+Jun,6,SUP-KR-01,South Korea,Metal,17900,9,529,94.6,30,0,Component,Monitor,
+Jun,6,SUP-MA-02,Morocco,Electronics,18730,10,556,94.8,28,0,Handling,Monitor,
+Jun,6,SUP-CN-02,China,Metal,19560,11,583,95,27,0,Design,Monitor,
+Jun,6,SUP-ES-02,Spain,Electronics,20390,12,609,95.2,26,0,Inspection,Monitor,
+Jun,6,SUP-SK-03,Slovakia,Metal,21220,13,636,95.3,25,0,Packaging,Monitor,
+Jun,6,SUP-DE-03,Germany,Electronics,22050,15,663,95.4,24,0,Other,Monitor,
+Jun,6,SUP-KR-03,South Korea,Metal,22880,16,689,95.6,23,0,Material,Monitor,
+Jun,6,SUP-MA-03,Morocco,Electronics,23710,17,716,95.8,22,0,Process,Monitor,
+Jun,6,SUP-CN-03,China,Metal,24540,18,743,96,21,0,Component,Monitor,
+Jun,6,SUP-ES-04,Spain,Electronics,25370,20,770,96.2,20,0,Handling,Monitor,
+Jun,6,SUP-SK-04,Slovakia,Metal,26200,21,796,96.4,18,0,Design,Monitor,
+Jun,6,SUP-DE-04,Germany,Electronics,27030,22,823,96.6,17,0,Inspection,Monitor,
+Jun,6,SUP-KR-04,South Korea,Metal,27860,24,850,96.8,16,0,Packaging,Monitor,
+Jun,6,SUP-MA-04,Morocco,Electronics,28690,25,880,93.2,15,0,Other,Monitor,
+Jul,7,SUP-CN-04,China,Metal,9720,21,2145,70.4,75,2,Material,Containment call,2027-01-05
+Jul,7,SUP-DE-02,Germany,Electronics,10550,22,2043,73.4,72,1,Process,Root-cause review,2027-01-06
+Jul,7,SUP-SK-01,Slovakia,Metal,11380,21,1838,78.4,70,1,Component,Process audit,2027-01-07
+Jul,7,SUP-ES-03,Spain,Electronics,12210,20,1634,83.4,68,1,Handling,CAPA verification,2027-01-08
+Jul,7,SUP-KR-02,South Korea,Metal,13040,19,1430,86.4,65,1,Design,8D follow-up,2027-01-09
+Jul,7,SUP-MA-01,Morocco,Electronics,13870,5,378,92.9,39,0,Inspection,Monitor,
+Jul,7,SUP-CN-01,China,Metal,14700,6,403,93.9,35,0,Packaging,Monitor,
+Jul,7,SUP-ES-01,Spain,Electronics,15530,7,429,94.4,33,0,Other,Monitor,
+Jul,7,SUP-SK-02,Slovakia,Metal,16360,7,455,94.6,32,0,Material,Monitor,
+Jul,7,SUP-DE-01,Germany,Electronics,17190,8,480,94.9,31,0,Process,Monitor,
+Jul,7,SUP-KR-01,South Korea,Metal,18020,9,506,95.2,30,0,Component,Monitor,
+Jul,7,SUP-MA-02,Morocco,Electronics,18850,10,531,95.4,28,0,Handling,Monitor,
+Jul,7,SUP-CN-02,China,Metal,19680,11,557,95.6,28,0,Design,Monitor,
+Jul,7,SUP-ES-02,Spain,Electronics,20510,12,582,95.8,27,0,Inspection,Monitor,
+Jul,7,SUP-SK-03,Slovakia,Metal,21340,13,608,95.9,26,0,Packaging,Monitor,
+Jul,7,SUP-DE-03,Germany,Electronics,22170,14,633,96,25,0,Other,Monitor,
+Jul,7,SUP-KR-03,South Korea,Metal,23000,15,659,96.2,23,0,Material,Monitor,
+Jul,7,SUP-MA-03,Morocco,Electronics,23830,16,684,96.4,22,0,Process,Monitor,
+Jul,7,SUP-CN-03,China,Metal,24660,18,710,96.6,21,0,Component,Monitor,
+Jul,7,SUP-ES-04,Spain,Electronics,25490,19,735,96.8,20,0,Handling,Monitor,
+Jul,7,SUP-SK-04,Slovakia,Metal,26320,20,761,97,18,0,Design,Monitor,
+Jul,7,SUP-DE-04,Germany,Electronics,27150,21,786,97.2,17,0,Inspection,Monitor,
+Jul,7,SUP-KR-04,South Korea,Metal,27980,23,812,97.4,17,0,Packaging,Monitor,
+Jul,7,SUP-MA-04,Morocco,Electronics,28810,24,841,93.8,16,0,Other,Monitor,
+Aug,8,SUP-CN-04,China,Metal,9840,23,2295,70.8,77,2,Material,Containment call,2027-01-05
+Aug,8,SUP-DE-02,Germany,Electronics,10670,23,2185,73.8,73,1,Process,Root-cause review,2027-01-06
+Aug,8,SUP-SK-01,Slovakia,Metal,11500,23,1967,78.8,71,1,Component,Process audit,2027-01-07
+Aug,8,SUP-ES-03,Spain,Electronics,12330,22,1748,83.8,69,1,Handling,CAPA verification,2027-01-08
+Aug,8,SUP-KR-02,South Korea,Metal,13160,20,1530,86.8,66,1,Design,8D follow-up,2027-01-09
+Aug,8,SUP-MA-01,Morocco,Electronics,13990,6,404,93.3,39,0,Inspection,Monitor,
+Aug,8,SUP-CN-01,China,Metal,14820,6,432,94.3,36,0,Packaging,Monitor,
+Aug,8,SUP-ES-01,Spain,Electronics,15650,7,459,94.8,34,0,Other,Monitor,
+Aug,8,SUP-SK-02,Slovakia,Metal,16480,8,486,95,33,0,Material,Monitor,
+Aug,8,SUP-DE-01,Germany,Electronics,17310,9,514,95.3,32,0,Process,Monitor,
+Aug,8,SUP-KR-01,South Korea,Metal,18140,10,541,95.6,31,0,Component,Monitor,
+Aug,8,SUP-MA-02,Morocco,Electronics,18970,11,568,95.8,29,0,Handling,Monitor,
+Aug,8,SUP-CN-02,China,Metal,19800,12,595,96,28,0,Design,Monitor,
+Aug,8,SUP-ES-02,Spain,Electronics,20630,13,623,96.2,27,0,Inspection,Monitor,
+Aug,8,SUP-SK-03,Slovakia,Metal,21460,14,650,96.3,26,0,Packaging,Monitor,
+Aug,8,SUP-DE-03,Germany,Electronics,22290,15,677,96.4,25,0,Other,Monitor,
+Aug,8,SUP-KR-03,South Korea,Metal,23120,16,705,96.6,23,0,Material,Monitor,
+Aug,8,SUP-MA-03,Morocco,Electronics,23950,18,732,96.8,22,0,Process,Monitor,
+Aug,8,SUP-CN-03,China,Metal,24780,19,759,97,21,0,Component,Monitor,
+Aug,8,SUP-ES-04,Spain,Electronics,25610,20,787,97.2,21,0,Handling,Monitor,
+Aug,8,SUP-SK-04,Slovakia,Metal,26440,22,814,97.4,19,0,Design,Monitor,
+Aug,8,SUP-DE-04,Germany,Electronics,27270,23,841,97.6,18,0,Inspection,Monitor,
+Aug,8,SUP-KR-04,South Korea,Metal,28100,24,869,97.8,17,0,Packaging,Monitor,
+Aug,8,SUP-MA-04,Morocco,Electronics,28930,26,899,94.2,16,0,Other,Monitor,
+Sep,9,SUP-CN-04,China,Metal,9960,22,2195,71.2,78,3,Material,Containment call,2027-01-05
+Sep,9,SUP-DE-02,Germany,Electronics,10790,23,2090,74.2,74,2,Process,Root-cause review,2027-01-06
+Sep,9,SUP-SK-01,Slovakia,Metal,11620,22,1881,79.2,72,2,Component,Process audit,2027-01-07
+Sep,9,SUP-ES-03,Spain,Electronics,12450,21,1672,84.2,70,2,Handling,CAPA verification,2027-01-08
+Sep,9,SUP-KR-02,South Korea,Metal,13280,19,1463,87.2,68,2,Design,8D follow-up,2027-01-09
+Sep,9,SUP-MA-01,Morocco,Electronics,14110,5,387,93.7,40,0,Inspection,Monitor,
+Sep,9,SUP-CN-01,China,Metal,14940,6,413,94.7,36,0,Packaging,Monitor,
+Sep,9,SUP-ES-01,Spain,Electronics,15770,7,439,95.2,34,0,Other,Monitor,
+Sep,9,SUP-SK-02,Slovakia,Metal,16600,8,465,95.4,33,0,Material,Monitor,
+Sep,9,SUP-DE-01,Germany,Electronics,17430,9,491,95.7,32,0,Process,Monitor,
+Sep,9,SUP-KR-01,South Korea,Metal,18260,9,517,96,31,0,Component,Monitor,
+Sep,9,SUP-MA-02,Morocco,Electronics,19090,10,543,96.2,29,0,Handling,Monitor,
+Sep,9,SUP-CN-02,China,Metal,19920,11,570,96.4,29,0,Design,Monitor,
+Sep,9,SUP-ES-02,Spain,Electronics,20750,12,596,96.6,28,0,Inspection,Monitor,
+Sep,9,SUP-SK-03,Slovakia,Metal,21580,13,622,96.7,27,0,Packaging,Monitor,
+Sep,9,SUP-DE-03,Germany,Electronics,22410,15,648,96.8,26,0,Other,Monitor,
+Sep,9,SUP-KR-03,South Korea,Metal,23240,16,674,97,24,0,Material,Monitor,
+Sep,9,SUP-MA-03,Morocco,Electronics,24070,17,700,97.2,23,0,Process,Monitor,
+Sep,9,SUP-CN-03,China,Metal,24900,18,726,97.4,22,0,Component,Monitor,
+Sep,9,SUP-ES-04,Spain,Electronics,25730,19,752,97.6,21,0,Handling,Monitor,
+Sep,9,SUP-SK-04,Slovakia,Metal,26560,21,779,97.8,19,0,Design,Monitor,
+Sep,9,SUP-DE-04,Germany,Electronics,27390,22,805,98,18,0,Inspection,Monitor,
+Sep,9,SUP-KR-04,South Korea,Metal,28220,23,831,98.2,17,0,Packaging,Monitor,
+Sep,9,SUP-MA-04,Morocco,Electronics,29050,25,861,94.6,16,0,Other,Monitor,
+Oct,10,SUP-CN-04,China,Metal,10080,20,2020,71.4,79,3,Material,Containment call,2027-01-05
+Oct,10,SUP-DE-02,Germany,Electronics,10910,21,1924,74.4,75,2,Process,Root-cause review,2027-01-06
+Oct,10,SUP-SK-01,Slovakia,Metal,11740,20,1732,79.4,74,2,Component,Process audit,2027-01-07
+Oct,10,SUP-ES-03,Spain,Electronics,12570,19,1539,84.4,72,2,Handling,CAPA verification,2027-01-08
+Oct,10,SUP-KR-02,South Korea,Metal,13400,18,1347,87.4,69,2,Design,8D follow-up,2027-01-09
+Oct,10,SUP-MA-01,Morocco,Electronics,14230,5,356,93.9,41,0,Inspection,Monitor,
+Oct,10,SUP-CN-01,China,Metal,15060,6,380,94.9,37,0,Packaging,Monitor,
+Oct,10,SUP-ES-01,Spain,Electronics,15890,6,404,95.4,35,0,Other,Monitor,
+Oct,10,SUP-SK-02,Slovakia,Metal,16720,7,428,95.6,34,0,Material,Monitor,
+Oct,10,SUP-DE-01,Germany,Electronics,17550,8,452,95.9,33,0,Process,Monitor,
+Oct,10,SUP-KR-01,South Korea,Metal,18380,9,476,96.2,32,0,Component,Monitor,
+Oct,10,SUP-MA-02,Morocco,Electronics,19210,10,500,96.4,30,0,Handling,Monitor,
+Oct,10,SUP-CN-02,China,Metal,20040,11,524,96.6,29,0,Design,Monitor,
+Oct,10,SUP-ES-02,Spain,Electronics,20870,11,548,96.8,28,0,Inspection,Monitor,
+Oct,10,SUP-SK-03,Slovakia,Metal,21700,12,572,96.9,27,0,Packaging,Monitor,
+Oct,10,SUP-DE-03,Germany,Electronics,22530,13,596,97,26,0,Other,Monitor,
+Oct,10,SUP-KR-03,South Korea,Metal,23360,14,620,97.2,24,0,Material,Monitor,
+Oct,10,SUP-MA-03,Morocco,Electronics,24190,16,645,97.4,23,0,Process,Monitor,
+Oct,10,SUP-CN-03,China,Metal,25020,17,669,97.6,22,0,Component,Monitor,
+Oct,10,SUP-ES-04,Spain,Electronics,25850,18,693,97.8,21,0,Handling,Monitor,
+Oct,10,SUP-SK-04,Slovakia,Metal,26680,19,717,98,19,0,Design,Monitor,
+Oct,10,SUP-DE-04,Germany,Electronics,27510,20,741,98.2,18,0,Inspection,Monitor,
+Oct,10,SUP-KR-04,South Korea,Metal,28340,22,765,98.4,17,0,Packaging,Monitor,
+Oct,10,SUP-MA-04,Morocco,Electronics,29170,23,792,94.8,16,0,Other,Monitor,
+Nov,11,SUP-CN-04,China,Metal,10200,20,1970,71.7,81,3,Material,Containment call,2027-01-05
+Nov,11,SUP-DE-02,Germany,Electronics,11030,21,1876,74.7,77,2,Process,Root-cause review,2027-01-06
+Nov,11,SUP-SK-01,Slovakia,Metal,11860,20,1689,79.7,75,2,Component,Process audit,2027-01-07
+Nov,11,SUP-ES-03,Spain,Electronics,12690,19,1501,84.7,73,2,Handling,CAPA verification,2027-01-08
+Nov,11,SUP-KR-02,South Korea,Metal,13520,18,1314,87.7,70,2,Design,8D follow-up,2027-01-09
+Nov,11,SUP-MA-01,Morocco,Electronics,14350,5,347,94.2,41,0,Inspection,Monitor,
+Nov,11,SUP-CN-01,China,Metal,15180,6,371,95.2,37,0,Packaging,Monitor,
+Nov,11,SUP-ES-01,Spain,Electronics,16010,6,394,95.7,35,0,Other,Monitor,
+Nov,11,SUP-SK-02,Slovakia,Metal,16840,7,418,95.9,34,0,Material,Monitor,
+Nov,11,SUP-DE-01,Germany,Electronics,17670,8,441,96.2,33,0,Process,Monitor,
+Nov,11,SUP-KR-01,South Korea,Metal,18500,9,464,96.5,32,0,Component,Monitor,
+Nov,11,SUP-MA-02,Morocco,Electronics,19330,9,488,96.7,30,0,Handling,Monitor,
+Nov,11,SUP-CN-02,China,Metal,20160,10,511,96.9,30,0,Design,Monitor,
+Nov,11,SUP-ES-02,Spain,Electronics,20990,11,535,97.1,29,0,Inspection,Monitor,
+Nov,11,SUP-SK-03,Slovakia,Metal,21820,12,558,97.2,28,0,Packaging,Monitor,
+Nov,11,SUP-DE-03,Germany,Electronics,22650,13,582,97.3,27,0,Other,Monitor,
+Nov,11,SUP-KR-03,South Korea,Metal,23480,14,605,97.5,25,0,Material,Monitor,
+Nov,11,SUP-MA-03,Morocco,Electronics,24310,15,629,97.7,24,0,Process,Monitor,
+Nov,11,SUP-CN-03,China,Metal,25140,16,652,97.9,23,0,Component,Monitor,
+Nov,11,SUP-ES-04,Spain,Electronics,25970,18,676,98.1,22,0,Handling,Monitor,
+Nov,11,SUP-SK-04,Slovakia,Metal,26800,19,699,98.3,20,0,Design,Monitor,
+Nov,11,SUP-DE-04,Germany,Electronics,27630,20,722,98.5,19,0,Inspection,Monitor,
+Nov,11,SUP-KR-04,South Korea,Metal,28460,21,746,98.7,18,0,Packaging,Monitor,
+Nov,11,SUP-MA-04,Morocco,Electronics,29290,23,772,95.1,17,0,Other,Monitor,
+Dec,12,SUP-CN-04,China,Metal,10320,22,2100,72,82,3,Material,Containment call,2027-01-05
+Dec,12,SUP-DE-02,Germany,Electronics,11150,22,2000,75,78,2,Process,Root-cause review,2027-01-06
+Dec,12,SUP-SK-01,Slovakia,Metal,11980,22,1800,80,76,2,Component,Process audit,2027-01-07
+Dec,12,SUP-ES-03,Spain,Electronics,12810,20,1600,85,74,2,Handling,CAPA verification,2027-01-08
+Dec,12,SUP-KR-02,South Korea,Metal,13640,19,1400,88,71,2,Design,8D follow-up,2027-01-09
+Dec,12,SUP-MA-01,Morocco,Electronics,14470,5,370,94.5,42,0,Inspection,Monitor,
+Dec,12,SUP-CN-01,China,Metal,15300,6,395,95.5,38,0,Packaging,Monitor,
+Dec,12,SUP-ES-01,Spain,Electronics,16130,7,420,96,36,0,Other,Monitor,
+Dec,12,SUP-SK-02,Slovakia,Metal,16960,8,445,96.2,35,0,Material,Monitor,
+Dec,12,SUP-DE-01,Germany,Electronics,17790,8,470,96.5,34,0,Process,Monitor,
+Dec,12,SUP-KR-01,South Korea,Metal,18620,9,495,96.8,33,0,Component,Monitor,
+Dec,12,SUP-MA-02,Morocco,Electronics,19450,10,520,97,31,0,Handling,Monitor,
+Dec,12,SUP-CN-02,China,Metal,20280,11,545,97.2,30,0,Design,Monitor,
+Dec,12,SUP-ES-02,Spain,Electronics,21110,12,570,97.4,29,0,Inspection,Monitor,
+Dec,12,SUP-SK-03,Slovakia,Metal,21940,13,595,97.5,28,0,Packaging,Monitor,
+Dec,12,SUP-DE-03,Germany,Electronics,22770,14,620,97.6,27,0,Other,Monitor,
+Dec,12,SUP-KR-03,South Korea,Metal,23600,15,645,97.8,25,0,Material,Monitor,
+Dec,12,SUP-MA-03,Morocco,Electronics,24430,16,670,98,24,0,Process,Monitor,
+Dec,12,SUP-CN-03,China,Metal,25260,18,695,98.2,23,0,Component,Monitor,
+Dec,12,SUP-ES-04,Spain,Electronics,26090,19,720,98.4,22,0,Handling,Monitor,
+Dec,12,SUP-SK-04,Slovakia,Metal,26920,20,745,98.6,20,0,Design,Monitor,
+Dec,12,SUP-DE-04,Germany,Electronics,27750,21,770,98.8,19,0,Inspection,Monitor,
+Dec,12,SUP-KR-04,South Korea,Metal,28580,23,795,99,18,0,Packaging,Monitor,
+Dec,12,SUP-MA-04,Morocco,Electronics,29410,24,823,95.4,17,0,Other,Monitor,

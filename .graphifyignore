@@ -1,0 +1,40 @@
+# Graphify indexes authored knowledge and executable source, not generated copies.
+.git/
+**/.git/
+.codex/skills/graphify/
+.pnpm-store/
+**/node_modules/
+**/.venv/
+**/__pycache__/
+dist/
+qa/
+tools/
+graphify-out/
+
+# Built portfolio/project copies; canonical sources live in src/ and projects/.
+public/labs/
+public/data/
+**/dashboard/public/data/
+**/dashboard/dist/
+
+# Large generated datasets and notebook outputs duplicate pipeline source.
+**/data/processed/
+**/data/source/
+**/data/raw/
+**/artifacts/*.json
+**/*.ipynb
+
+# Binary presentation assets are represented by their design and project docs.
+*.pdf
+*.docx
+*.zip
+*.png
+*.jpg
+*.jpeg
+*.svg
+
+# Build and runtime noise.
+*.log
+*.tsbuildinfo
+pnpm-lock.yaml
+**/pnpm-lock.yaml

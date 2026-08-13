@@ -1,0 +1,1681 @@
+runId,week,version,workflow,segment,success,latencySec,costUsd,escalated,errorType
+RUN-v10-01-01,1,v1.0,Report generation,Client,true,4.05,0.101,true,
+RUN-v10-01-02,1,v1.0,Job matching,Power user,true,4.48,0.103,true,
+RUN-v10-01-03,1,v1.0,Research,Internal,true,4.16,0.105,true,
+RUN-v10-01-04,1,v1.0,Data request,Client,true,4.49,0.107,true,
+RUN-v10-01-05,1,v1.0,Report generation,Power user,true,4.37,0.109,true,
+RUN-v10-01-06,1,v1.0,Job matching,Internal,true,4.8,0.101,true,
+RUN-v10-01-07,1,v1.0,Research,Client,true,4.48,0.103,true,
+RUN-v10-01-08,1,v1.0,Data request,Power user,true,4.81,0.105,true,
+RUN-v10-01-09,1,v1.0,Report generation,Internal,true,4.05,0.107,true,
+RUN-v10-01-10,1,v1.0,Job matching,Client,true,4.48,0.109,true,
+RUN-v10-01-11,1,v1.0,Research,Power user,true,4.16,0.101,true,
+RUN-v10-01-12,1,v1.0,Data request,Internal,true,4.49,0.103,false,
+RUN-v10-01-13,1,v1.0,Report generation,Client,true,4.37,0.105,false,
+RUN-v10-01-14,1,v1.0,Job matching,Power user,true,4.8,0.107,false,
+RUN-v10-01-15,1,v1.0,Research,Internal,true,4.48,0.109,false,
+RUN-v10-01-16,1,v1.0,Data request,Client,true,4.81,0.101,false,
+RUN-v10-01-17,1,v1.0,Report generation,Power user,true,4.05,0.103,false,
+RUN-v10-01-18,1,v1.0,Job matching,Internal,true,4.48,0.105,false,
+RUN-v10-01-19,1,v1.0,Research,Client,false,4.16,0.107,false,Retrieval
+RUN-v10-01-20,1,v1.0,Data request,Power user,false,4.49,0.109,false,Retrieval
+RUN-v10-01-21,1,v1.0,Report generation,Internal,false,4.37,0.101,false,Retrieval
+RUN-v10-01-22,1,v1.0,Job matching,Client,false,4.8,0.103,false,Retrieval
+RUN-v10-01-23,1,v1.0,Research,Power user,false,4.48,0.105,false,Retrieval
+RUN-v10-01-24,1,v1.0,Data request,Internal,false,4.81,0.107,false,Retrieval
+RUN-v10-01-25,1,v1.0,Report generation,Client,false,4.05,0.109,false,Retrieval
+RUN-v10-01-26,1,v1.0,Job matching,Power user,false,4.48,0.101,false,Retrieval
+RUN-v10-01-27,1,v1.0,Research,Internal,false,4.16,0.103,false,Retrieval
+RUN-v10-01-28,1,v1.0,Data request,Client,false,4.49,0.105,false,Retrieval
+RUN-v10-01-29,1,v1.0,Report generation,Power user,false,4.37,0.107,false,Retrieval
+RUN-v10-01-30,1,v1.0,Job matching,Internal,false,4.8,0.109,false,Retrieval
+RUN-v10-01-31,1,v1.0,Research,Client,false,4.48,0.101,false,Retrieval
+RUN-v10-01-32,1,v1.0,Data request,Power user,false,4.81,0.103,false,Retrieval
+RUN-v10-01-33,1,v1.0,Report generation,Internal,false,4.05,0.105,false,Retrieval
+RUN-v10-01-34,1,v1.0,Job matching,Client,false,4.48,0.107,false,Retrieval
+RUN-v10-01-35,1,v1.0,Research,Power user,false,4.16,0.109,false,Retrieval
+RUN-v10-02-01,2,v1.0,Job matching,Power user,true,4.4,0.101,true,
+RUN-v10-02-02,2,v1.0,Research,Internal,true,4.08,0.103,true,
+RUN-v10-02-03,2,v1.0,Data request,Client,true,4.41,0.105,true,
+RUN-v10-02-04,2,v1.0,Report generation,Power user,true,4.29,0.107,true,
+RUN-v10-02-05,2,v1.0,Job matching,Internal,true,4.72,0.109,true,
+RUN-v10-02-06,2,v1.0,Research,Client,true,4.4,0.101,true,
+RUN-v10-02-07,2,v1.0,Data request,Power user,true,4.73,0.103,true,
+RUN-v10-02-08,2,v1.0,Report generation,Internal,true,4.61,0.105,true,
+RUN-v10-02-09,2,v1.0,Job matching,Client,true,4.4,0.107,true,
+RUN-v10-02-10,2,v1.0,Research,Power user,true,4.08,0.109,true,
+RUN-v10-02-11,2,v1.0,Data request,Internal,true,4.41,0.101,true,
+RUN-v10-02-12,2,v1.0,Report generation,Client,true,4.29,0.103,false,
+RUN-v10-02-13,2,v1.0,Job matching,Power user,true,4.72,0.105,false,
+RUN-v10-02-14,2,v1.0,Research,Internal,true,4.4,0.107,false,
+RUN-v10-02-15,2,v1.0,Data request,Client,true,4.73,0.109,false,
+RUN-v10-02-16,2,v1.0,Report generation,Power user,true,4.61,0.101,false,
+RUN-v10-02-17,2,v1.0,Job matching,Internal,true,4.4,0.103,false,
+RUN-v10-02-18,2,v1.0,Research,Client,true,4.08,0.105,false,
+RUN-v10-02-19,2,v1.0,Data request,Power user,true,4.41,0.107,false,
+RUN-v10-02-20,2,v1.0,Report generation,Internal,false,4.29,0.109,false,Retrieval
+RUN-v10-02-21,2,v1.0,Job matching,Client,false,4.72,0.101,false,Retrieval
+RUN-v10-02-22,2,v1.0,Research,Power user,false,4.4,0.103,false,Retrieval
+RUN-v10-02-23,2,v1.0,Data request,Internal,false,4.73,0.105,false,Retrieval
+RUN-v10-02-24,2,v1.0,Report generation,Client,false,4.61,0.107,false,Retrieval
+RUN-v10-02-25,2,v1.0,Job matching,Power user,false,4.4,0.109,false,Retrieval
+RUN-v10-02-26,2,v1.0,Research,Internal,false,4.08,0.101,false,Retrieval
+RUN-v10-02-27,2,v1.0,Data request,Client,false,4.41,0.103,false,Retrieval
+RUN-v10-02-28,2,v1.0,Report generation,Power user,false,4.29,0.105,false,Retrieval
+RUN-v10-02-29,2,v1.0,Job matching,Internal,false,4.72,0.107,false,Retrieval
+RUN-v10-02-30,2,v1.0,Research,Client,false,4.4,0.109,false,Retrieval
+RUN-v10-02-31,2,v1.0,Data request,Power user,false,4.73,0.101,false,Retrieval
+RUN-v10-02-32,2,v1.0,Report generation,Internal,false,4.61,0.103,false,Retrieval
+RUN-v10-02-33,2,v1.0,Job matching,Client,false,4.4,0.105,false,Retrieval
+RUN-v10-02-34,2,v1.0,Research,Power user,false,4.08,0.107,false,Retrieval
+RUN-v10-02-35,2,v1.0,Data request,Internal,false,4.41,0.109,false,Retrieval
+RUN-v10-03-01,3,v1.0,Research,Internal,true,4,0.101,true,
+RUN-v10-03-02,3,v1.0,Data request,Client,true,4.33,0.103,true,
+RUN-v10-03-03,3,v1.0,Report generation,Power user,true,4.21,0.105,true,
+RUN-v10-03-04,3,v1.0,Job matching,Internal,true,4.64,0.107,true,
+RUN-v10-03-05,3,v1.0,Research,Client,true,4.32,0.109,true,
+RUN-v10-03-06,3,v1.0,Data request,Power user,true,4.65,0.101,true,
+RUN-v10-03-07,3,v1.0,Report generation,Internal,true,4.53,0.103,true,
+RUN-v10-03-08,3,v1.0,Job matching,Client,true,4.96,0.105,true,
+RUN-v10-03-09,3,v1.0,Research,Power user,true,4,0.107,true,
+RUN-v10-03-10,3,v1.0,Data request,Internal,true,4.33,0.109,true,
+RUN-v10-03-11,3,v1.0,Report generation,Client,true,4.21,0.101,false,
+RUN-v10-03-12,3,v1.0,Job matching,Power user,true,4.64,0.103,false,
+RUN-v10-03-13,3,v1.0,Research,Internal,true,4.32,0.105,false,
+RUN-v10-03-14,3,v1.0,Data request,Client,true,4.65,0.107,false,
+RUN-v10-03-15,3,v1.0,Report generation,Power user,true,4.53,0.109,false,
+RUN-v10-03-16,3,v1.0,Job matching,Internal,true,4.96,0.101,false,
+RUN-v10-03-17,3,v1.0,Research,Client,true,4,0.103,false,
+RUN-v10-03-18,3,v1.0,Data request,Power user,true,4.33,0.105,false,
+RUN-v10-03-19,3,v1.0,Report generation,Internal,true,4.21,0.107,false,
+RUN-v10-03-20,3,v1.0,Job matching,Client,true,4.64,0.109,false,
+RUN-v10-03-21,3,v1.0,Research,Power user,false,4.32,0.101,false,Retrieval
+RUN-v10-03-22,3,v1.0,Data request,Internal,false,4.65,0.103,false,Retrieval
+RUN-v10-03-23,3,v1.0,Report generation,Client,false,4.53,0.105,false,Retrieval
+RUN-v10-03-24,3,v1.0,Job matching,Power user,false,4.96,0.107,false,Retrieval
+RUN-v10-03-25,3,v1.0,Research,Internal,false,4,0.109,false,Retrieval
+RUN-v10-03-26,3,v1.0,Data request,Client,false,4.33,0.101,false,Retrieval
+RUN-v10-03-27,3,v1.0,Report generation,Power user,false,4.21,0.103,false,Retrieval
+RUN-v10-03-28,3,v1.0,Job matching,Internal,false,4.64,0.105,false,Retrieval
+RUN-v10-03-29,3,v1.0,Research,Client,false,4.32,0.107,false,Retrieval
+RUN-v10-03-30,3,v1.0,Data request,Power user,false,4.65,0.109,false,Retrieval
+RUN-v10-03-31,3,v1.0,Report generation,Internal,false,4.53,0.101,false,Retrieval
+RUN-v10-03-32,3,v1.0,Job matching,Client,false,4.96,0.103,false,Retrieval
+RUN-v10-03-33,3,v1.0,Research,Power user,false,4,0.105,false,Retrieval
+RUN-v10-03-34,3,v1.0,Data request,Internal,false,4.33,0.107,false,Retrieval
+RUN-v10-03-35,3,v1.0,Report generation,Client,false,4.21,0.109,false,Retrieval
+RUN-v10-04-01,4,v1.0,Data request,Client,true,4.25,0.101,true,
+RUN-v10-04-02,4,v1.0,Report generation,Power user,true,4.13,0.103,true,
+RUN-v10-04-03,4,v1.0,Job matching,Internal,true,4.56,0.105,true,
+RUN-v10-04-04,4,v1.0,Research,Client,true,4.24,0.107,true,
+RUN-v10-04-05,4,v1.0,Data request,Power user,true,4.57,0.109,true,
+RUN-v10-04-06,4,v1.0,Report generation,Internal,true,4.45,0.101,true,
+RUN-v10-04-07,4,v1.0,Job matching,Client,true,4.88,0.103,true,
+RUN-v10-04-08,4,v1.0,Research,Power user,true,4.56,0.105,true,
+RUN-v10-04-09,4,v1.0,Data request,Internal,true,4.25,0.107,true,
+RUN-v10-04-10,4,v1.0,Report generation,Client,true,4.13,0.109,true,
+RUN-v10-04-11,4,v1.0,Job matching,Power user,true,4.56,0.101,false,
+RUN-v10-04-12,4,v1.0,Research,Internal,true,4.24,0.103,false,
+RUN-v10-04-13,4,v1.0,Data request,Client,true,4.57,0.105,false,
+RUN-v10-04-14,4,v1.0,Report generation,Power user,true,4.45,0.107,false,
+RUN-v10-04-15,4,v1.0,Job matching,Internal,true,4.88,0.109,false,
+RUN-v10-04-16,4,v1.0,Research,Client,true,4.56,0.101,false,
+RUN-v10-04-17,4,v1.0,Data request,Power user,true,4.25,0.103,false,
+RUN-v10-04-18,4,v1.0,Report generation,Internal,true,4.13,0.105,false,
+RUN-v10-04-19,4,v1.0,Job matching,Client,true,4.56,0.107,false,
+RUN-v10-04-20,4,v1.0,Research,Power user,true,4.24,0.109,false,
+RUN-v10-04-21,4,v1.0,Data request,Internal,true,4.57,0.101,false,
+RUN-v10-04-22,4,v1.0,Report generation,Client,false,4.45,0.103,false,Retrieval
+RUN-v10-04-23,4,v1.0,Job matching,Power user,false,4.88,0.105,false,Retrieval
+RUN-v10-04-24,4,v1.0,Research,Internal,false,4.56,0.107,false,Retrieval
+RUN-v10-04-25,4,v1.0,Data request,Client,false,4.25,0.109,false,Retrieval
+RUN-v10-04-26,4,v1.0,Report generation,Power user,false,4.13,0.101,false,Tool use
+RUN-v10-04-27,4,v1.0,Job matching,Internal,false,4.56,0.103,false,Tool use
+RUN-v10-04-28,4,v1.0,Research,Client,false,4.24,0.105,false,Tool use
+RUN-v10-04-29,4,v1.0,Data request,Power user,false,4.57,0.107,false,Tool use
+RUN-v10-04-30,4,v1.0,Report generation,Internal,false,4.45,0.109,false,Tool use
+RUN-v10-04-31,4,v1.0,Job matching,Client,false,4.88,0.101,false,Tool use
+RUN-v10-04-32,4,v1.0,Research,Power user,false,4.56,0.103,false,Tool use
+RUN-v10-04-33,4,v1.0,Data request,Internal,false,4.25,0.105,false,Tool use
+RUN-v10-04-34,4,v1.0,Report generation,Client,false,4.13,0.107,false,Tool use
+RUN-v10-04-35,4,v1.0,Job matching,Power user,false,4.56,0.109,false,Tool use
+RUN-v10-05-01,5,v1.0,Report generation,Power user,true,4.05,0.101,true,
+RUN-v10-05-02,5,v1.0,Job matching,Internal,true,4.48,0.103,true,
+RUN-v10-05-03,5,v1.0,Research,Client,true,4.16,0.105,true,
+RUN-v10-05-04,5,v1.0,Data request,Power user,true,4.49,0.107,true,
+RUN-v10-05-05,5,v1.0,Report generation,Internal,true,4.37,0.109,true,
+RUN-v10-05-06,5,v1.0,Job matching,Client,true,4.8,0.101,true,
+RUN-v10-05-07,5,v1.0,Research,Power user,true,4.48,0.103,true,
+RUN-v10-05-08,5,v1.0,Data request,Internal,true,4.81,0.105,true,
+RUN-v10-05-09,5,v1.0,Report generation,Client,true,4.05,0.107,true,
+RUN-v10-05-10,5,v1.0,Job matching,Power user,true,4.48,0.109,true,
+RUN-v10-05-11,5,v1.0,Research,Internal,true,4.16,0.101,false,
+RUN-v10-05-12,5,v1.0,Data request,Client,true,4.49,0.103,false,
+RUN-v10-05-13,5,v1.0,Report generation,Power user,true,4.37,0.105,false,
+RUN-v10-05-14,5,v1.0,Job matching,Internal,true,4.8,0.107,false,
+RUN-v10-05-15,5,v1.0,Research,Client,true,4.48,0.109,false,
+RUN-v10-05-16,5,v1.0,Data request,Power user,true,4.81,0.101,false,
+RUN-v10-05-17,5,v1.0,Report generation,Internal,true,4.05,0.103,false,
+RUN-v10-05-18,5,v1.0,Job matching,Client,true,4.48,0.105,false,
+RUN-v10-05-19,5,v1.0,Research,Power user,true,4.16,0.107,false,
+RUN-v10-05-20,5,v1.0,Data request,Internal,true,4.49,0.109,false,
+RUN-v10-05-21,5,v1.0,Report generation,Client,true,4.37,0.101,false,
+RUN-v10-05-22,5,v1.0,Job matching,Power user,false,4.8,0.103,false,Tool use
+RUN-v10-05-23,5,v1.0,Research,Internal,false,4.48,0.105,false,Tool use
+RUN-v10-05-24,5,v1.0,Data request,Client,false,4.81,0.107,false,Tool use
+RUN-v10-05-25,5,v1.0,Report generation,Power user,false,4.05,0.109,false,Tool use
+RUN-v10-05-26,5,v1.0,Job matching,Internal,false,4.48,0.101,false,Tool use
+RUN-v10-05-27,5,v1.0,Research,Client,false,4.16,0.103,false,Tool use
+RUN-v10-05-28,5,v1.0,Data request,Power user,false,4.49,0.105,false,Tool use
+RUN-v10-05-29,5,v1.0,Report generation,Internal,false,4.37,0.107,false,Tool use
+RUN-v10-05-30,5,v1.0,Job matching,Client,false,4.8,0.109,false,Tool use
+RUN-v10-05-31,5,v1.0,Research,Power user,false,4.48,0.101,false,Tool use
+RUN-v10-05-32,5,v1.0,Data request,Internal,false,4.81,0.103,false,Tool use
+RUN-v10-05-33,5,v1.0,Report generation,Client,false,4.05,0.105,false,Tool use
+RUN-v10-05-34,5,v1.0,Job matching,Power user,false,4.48,0.107,false,Tool use
+RUN-v10-05-35,5,v1.0,Research,Internal,false,4.16,0.109,false,Tool use
+RUN-v10-06-01,6,v1.0,Job matching,Internal,true,4.4,0.101,true,
+RUN-v10-06-02,6,v1.0,Research,Client,true,4.08,0.103,true,
+RUN-v10-06-03,6,v1.0,Data request,Power user,true,4.41,0.105,true,
+RUN-v10-06-04,6,v1.0,Report generation,Internal,true,4.29,0.107,true,
+RUN-v10-06-05,6,v1.0,Job matching,Client,true,4.72,0.109,true,
+RUN-v10-06-06,6,v1.0,Research,Power user,true,4.4,0.101,true,
+RUN-v10-06-07,6,v1.0,Data request,Internal,true,4.73,0.103,true,
+RUN-v10-06-08,6,v1.0,Report generation,Client,true,4.61,0.105,true,
+RUN-v10-06-09,6,v1.0,Job matching,Power user,true,4.4,0.107,true,
+RUN-v10-06-10,6,v1.0,Research,Internal,true,4.08,0.109,false,
+RUN-v10-06-11,6,v1.0,Data request,Client,true,4.41,0.101,false,
+RUN-v10-06-12,6,v1.0,Report generation,Power user,true,4.29,0.103,false,
+RUN-v10-06-13,6,v1.0,Job matching,Internal,true,4.72,0.105,false,
+RUN-v10-06-14,6,v1.0,Research,Client,true,4.4,0.107,false,
+RUN-v10-06-15,6,v1.0,Data request,Power user,true,4.73,0.109,false,
+RUN-v10-06-16,6,v1.0,Report generation,Internal,true,4.61,0.101,false,
+RUN-v10-06-17,6,v1.0,Job matching,Client,true,4.4,0.103,false,
+RUN-v10-06-18,6,v1.0,Research,Power user,true,4.08,0.105,false,
+RUN-v10-06-19,6,v1.0,Data request,Internal,true,4.41,0.107,false,
+RUN-v10-06-20,6,v1.0,Report generation,Client,true,4.29,0.109,false,
+RUN-v10-06-21,6,v1.0,Job matching,Power user,true,4.72,0.101,false,
+RUN-v10-06-22,6,v1.0,Research,Internal,true,4.4,0.103,false,
+RUN-v10-06-23,6,v1.0,Data request,Client,false,4.73,0.105,false,Tool use
+RUN-v10-06-24,6,v1.0,Report generation,Power user,false,4.61,0.107,false,Tool use
+RUN-v10-06-25,6,v1.0,Job matching,Internal,false,4.4,0.109,false,Tool use
+RUN-v10-06-26,6,v1.0,Research,Client,false,4.08,0.101,false,Tool use
+RUN-v10-06-27,6,v1.0,Data request,Power user,false,4.41,0.103,false,Tool use
+RUN-v10-06-28,6,v1.0,Report generation,Internal,false,4.29,0.105,false,Tool use
+RUN-v10-06-29,6,v1.0,Job matching,Client,false,4.72,0.107,false,Tool use
+RUN-v10-06-30,6,v1.0,Research,Power user,false,4.4,0.109,false,Tool use
+RUN-v10-06-31,6,v1.0,Data request,Internal,false,4.73,0.101,false,Tool use
+RUN-v10-06-32,6,v1.0,Report generation,Client,false,4.61,0.103,false,Tool use
+RUN-v10-06-33,6,v1.0,Job matching,Power user,false,4.4,0.105,false,Tool use
+RUN-v10-06-34,6,v1.0,Research,Internal,false,4.08,0.107,false,Tool use
+RUN-v10-06-35,6,v1.0,Data request,Client,false,4.41,0.109,false,Tool use
+RUN-v10-07-01,7,v1.0,Research,Client,true,4,0.101,true,
+RUN-v10-07-02,7,v1.0,Data request,Power user,true,4.33,0.103,true,
+RUN-v10-07-03,7,v1.0,Report generation,Internal,true,4.21,0.105,true,
+RUN-v10-07-04,7,v1.0,Job matching,Client,true,4.64,0.107,true,
+RUN-v10-07-05,7,v1.0,Research,Power user,true,4.32,0.109,true,
+RUN-v10-07-06,7,v1.0,Data request,Internal,true,4.65,0.101,true,
+RUN-v10-07-07,7,v1.0,Report generation,Client,true,4.53,0.103,true,
+RUN-v10-07-08,7,v1.0,Job matching,Power user,true,4.96,0.105,true,
+RUN-v10-07-09,7,v1.0,Research,Internal,true,4,0.107,true,
+RUN-v10-07-10,7,v1.0,Data request,Client,true,4.33,0.109,false,
+RUN-v10-07-11,7,v1.0,Report generation,Power user,true,4.21,0.101,false,
+RUN-v10-07-12,7,v1.0,Job matching,Internal,true,4.64,0.103,false,
+RUN-v10-07-13,7,v1.0,Research,Client,true,4.32,0.105,false,
+RUN-v10-07-14,7,v1.0,Data request,Power user,true,4.65,0.107,false,
+RUN-v10-07-15,7,v1.0,Report generation,Internal,true,4.53,0.109,false,
+RUN-v10-07-16,7,v1.0,Job matching,Client,true,4.96,0.101,false,
+RUN-v10-07-17,7,v1.0,Research,Power user,true,4,0.103,false,
+RUN-v10-07-18,7,v1.0,Data request,Internal,true,4.33,0.105,false,
+RUN-v10-07-19,7,v1.0,Report generation,Client,true,4.21,0.107,false,
+RUN-v10-07-20,7,v1.0,Job matching,Power user,true,4.64,0.109,false,
+RUN-v10-07-21,7,v1.0,Research,Internal,true,4.32,0.101,false,
+RUN-v10-07-22,7,v1.0,Data request,Client,true,4.65,0.103,false,
+RUN-v10-07-23,7,v1.0,Report generation,Power user,false,4.53,0.105,false,Formatting
+RUN-v10-07-24,7,v1.0,Job matching,Internal,false,4.96,0.107,false,Formatting
+RUN-v10-07-25,7,v1.0,Research,Client,false,4,0.109,false,Formatting
+RUN-v10-07-26,7,v1.0,Data request,Power user,false,4.33,0.101,false,Formatting
+RUN-v10-07-27,7,v1.0,Report generation,Internal,false,4.21,0.103,false,Formatting
+RUN-v10-07-28,7,v1.0,Job matching,Client,false,4.64,0.105,false,Formatting
+RUN-v10-07-29,7,v1.0,Research,Power user,false,4.32,0.107,false,Formatting
+RUN-v10-07-30,7,v1.0,Data request,Internal,false,4.65,0.109,false,Formatting
+RUN-v10-07-31,7,v1.0,Report generation,Client,false,4.53,0.101,false,Formatting
+RUN-v10-07-32,7,v1.0,Job matching,Power user,false,4.96,0.103,false,Formatting
+RUN-v10-07-33,7,v1.0,Research,Internal,false,4,0.105,false,Formatting
+RUN-v10-07-34,7,v1.0,Data request,Client,false,4.33,0.107,false,Formatting
+RUN-v10-07-35,7,v1.0,Report generation,Power user,false,4.21,0.109,false,Formatting
+RUN-v10-08-01,8,v1.0,Data request,Power user,true,4.25,0.101,true,
+RUN-v10-08-02,8,v1.0,Report generation,Internal,true,4.13,0.103,true,
+RUN-v10-08-03,8,v1.0,Job matching,Client,true,4.56,0.105,true,
+RUN-v10-08-04,8,v1.0,Research,Power user,true,4.24,0.107,true,
+RUN-v10-08-05,8,v1.0,Data request,Internal,true,4.57,0.109,true,
+RUN-v10-08-06,8,v1.0,Report generation,Client,true,4.45,0.101,true,
+RUN-v10-08-07,8,v1.0,Job matching,Power user,true,4.88,0.103,true,
+RUN-v10-08-08,8,v1.0,Research,Internal,true,4.56,0.105,true,
+RUN-v10-08-09,8,v1.0,Data request,Client,true,4.25,0.107,true,
+RUN-v10-08-10,8,v1.0,Report generation,Power user,true,4.13,0.109,false,
+RUN-v10-08-11,8,v1.0,Job matching,Internal,true,4.56,0.101,false,
+RUN-v10-08-12,8,v1.0,Research,Client,true,4.24,0.103,false,
+RUN-v10-08-13,8,v1.0,Data request,Power user,true,4.57,0.105,false,
+RUN-v10-08-14,8,v1.0,Report generation,Internal,true,4.45,0.107,false,
+RUN-v10-08-15,8,v1.0,Job matching,Client,true,4.88,0.109,false,
+RUN-v10-08-16,8,v1.0,Research,Power user,true,4.56,0.101,false,
+RUN-v10-08-17,8,v1.0,Data request,Internal,true,4.25,0.103,false,
+RUN-v10-08-18,8,v1.0,Report generation,Client,true,4.13,0.105,false,
+RUN-v10-08-19,8,v1.0,Job matching,Power user,true,4.56,0.107,false,
+RUN-v10-08-20,8,v1.0,Research,Internal,true,4.24,0.109,false,
+RUN-v10-08-21,8,v1.0,Data request,Client,true,4.57,0.101,false,
+RUN-v10-08-22,8,v1.0,Report generation,Power user,true,4.45,0.103,false,
+RUN-v10-08-23,8,v1.0,Job matching,Internal,true,4.88,0.105,false,
+RUN-v10-08-24,8,v1.0,Research,Client,false,4.56,0.107,false,Formatting
+RUN-v10-08-25,8,v1.0,Data request,Power user,false,4.25,0.109,false,Formatting
+RUN-v10-08-26,8,v1.0,Report generation,Internal,false,4.13,0.101,false,Formatting
+RUN-v10-08-27,8,v1.0,Job matching,Client,false,4.56,0.103,false,Formatting
+RUN-v10-08-28,8,v1.0,Research,Power user,false,4.24,0.105,false,Formatting
+RUN-v10-08-29,8,v1.0,Data request,Internal,false,4.57,0.107,false,Formatting
+RUN-v10-08-30,8,v1.0,Report generation,Client,false,4.45,0.109,false,Formatting
+RUN-v10-08-31,8,v1.0,Job matching,Power user,false,4.88,0.101,false,Formatting
+RUN-v10-08-32,8,v1.0,Research,Internal,false,4.56,0.103,false,Formatting
+RUN-v10-08-33,8,v1.0,Data request,Client,false,4.25,0.105,false,Formatting
+RUN-v10-08-34,8,v1.0,Report generation,Power user,false,4.13,0.107,false,Formatting
+RUN-v10-08-35,8,v1.0,Job matching,Internal,false,4.56,0.109,false,Formatting
+RUN-v10-09-01,9,v1.0,Report generation,Internal,true,4.05,0.101,true,
+RUN-v10-09-02,9,v1.0,Job matching,Client,true,4.48,0.103,true,
+RUN-v10-09-03,9,v1.0,Research,Power user,true,4.16,0.105,true,
+RUN-v10-09-04,9,v1.0,Data request,Internal,true,4.49,0.107,true,
+RUN-v10-09-05,9,v1.0,Report generation,Client,true,4.37,0.109,true,
+RUN-v10-09-06,9,v1.0,Job matching,Power user,true,4.8,0.101,true,
+RUN-v10-09-07,9,v1.0,Research,Internal,true,4.48,0.103,true,
+RUN-v10-09-08,9,v1.0,Data request,Client,true,4.81,0.105,true,
+RUN-v10-09-09,9,v1.0,Report generation,Power user,true,4.05,0.107,false,
+RUN-v10-09-10,9,v1.0,Job matching,Internal,true,4.48,0.109,false,
+RUN-v10-09-11,9,v1.0,Research,Client,true,4.16,0.101,false,
+RUN-v10-09-12,9,v1.0,Data request,Power user,true,4.49,0.103,false,
+RUN-v10-09-13,9,v1.0,Report generation,Internal,true,4.37,0.105,false,
+RUN-v10-09-14,9,v1.0,Job matching,Client,true,4.8,0.107,false,
+RUN-v10-09-15,9,v1.0,Research,Power user,true,4.48,0.109,false,
+RUN-v10-09-16,9,v1.0,Data request,Internal,true,4.81,0.101,false,
+RUN-v10-09-17,9,v1.0,Report generation,Client,true,4.05,0.103,false,
+RUN-v10-09-18,9,v1.0,Job matching,Power user,true,4.48,0.105,false,
+RUN-v10-09-19,9,v1.0,Research,Internal,true,4.16,0.107,false,
+RUN-v10-09-20,9,v1.0,Data request,Client,true,4.49,0.109,false,
+RUN-v10-09-21,9,v1.0,Report generation,Power user,true,4.37,0.101,false,
+RUN-v10-09-22,9,v1.0,Job matching,Internal,true,4.8,0.103,false,
+RUN-v10-09-23,9,v1.0,Research,Client,true,4.48,0.105,false,
+RUN-v10-09-24,9,v1.0,Data request,Power user,false,4.81,0.107,false,Formatting
+RUN-v10-09-25,9,v1.0,Report generation,Internal,false,4.05,0.109,false,Formatting
+RUN-v10-09-26,9,v1.0,Job matching,Client,false,4.48,0.101,false,Formatting
+RUN-v10-09-27,9,v1.0,Research,Power user,false,4.16,0.103,false,Formatting
+RUN-v10-09-28,9,v1.0,Data request,Internal,false,4.49,0.105,false,Formatting
+RUN-v10-09-29,9,v1.0,Report generation,Client,false,4.37,0.107,false,Formatting
+RUN-v10-09-30,9,v1.0,Job matching,Power user,false,4.8,0.109,false,Hallucination
+RUN-v10-09-31,9,v1.0,Research,Internal,false,4.48,0.101,false,Hallucination
+RUN-v10-09-32,9,v1.0,Data request,Client,false,4.81,0.103,false,Hallucination
+RUN-v10-09-33,9,v1.0,Report generation,Power user,false,4.05,0.105,false,Hallucination
+RUN-v10-09-34,9,v1.0,Job matching,Internal,false,4.48,0.107,false,Hallucination
+RUN-v10-09-35,9,v1.0,Research,Client,false,4.16,0.109,false,Hallucination
+RUN-v10-10-01,10,v1.0,Job matching,Client,true,4.4,0.101,true,
+RUN-v10-10-02,10,v1.0,Research,Power user,true,4.08,0.103,true,
+RUN-v10-10-03,10,v1.0,Data request,Internal,true,4.41,0.105,true,
+RUN-v10-10-04,10,v1.0,Report generation,Client,true,4.29,0.107,true,
+RUN-v10-10-05,10,v1.0,Job matching,Power user,true,4.72,0.109,true,
+RUN-v10-10-06,10,v1.0,Research,Internal,true,4.4,0.101,true,
+RUN-v10-10-07,10,v1.0,Data request,Client,true,4.73,0.103,true,
+RUN-v10-10-08,10,v1.0,Report generation,Power user,true,4.61,0.105,true,
+RUN-v10-10-09,10,v1.0,Job matching,Internal,true,4.4,0.107,false,
+RUN-v10-10-10,10,v1.0,Research,Client,true,4.08,0.109,false,
+RUN-v10-10-11,10,v1.0,Data request,Power user,true,4.41,0.101,false,
+RUN-v10-10-12,10,v1.0,Report generation,Internal,true,4.29,0.103,false,
+RUN-v10-10-13,10,v1.0,Job matching,Client,true,4.72,0.105,false,
+RUN-v10-10-14,10,v1.0,Research,Power user,true,4.4,0.107,false,
+RUN-v10-10-15,10,v1.0,Data request,Internal,true,4.73,0.109,false,
+RUN-v10-10-16,10,v1.0,Report generation,Client,true,4.61,0.101,false,
+RUN-v10-10-17,10,v1.0,Job matching,Power user,true,4.4,0.103,false,
+RUN-v10-10-18,10,v1.0,Research,Internal,true,4.08,0.105,false,
+RUN-v10-10-19,10,v1.0,Data request,Client,true,4.41,0.107,false,
+RUN-v10-10-20,10,v1.0,Report generation,Power user,true,4.29,0.109,false,
+RUN-v10-10-21,10,v1.0,Job matching,Internal,true,4.72,0.101,false,
+RUN-v10-10-22,10,v1.0,Research,Client,true,4.4,0.103,false,
+RUN-v10-10-23,10,v1.0,Data request,Power user,true,4.73,0.105,false,
+RUN-v10-10-24,10,v1.0,Report generation,Internal,false,4.61,0.107,false,Hallucination
+RUN-v10-10-25,10,v1.0,Job matching,Client,false,4.4,0.109,false,Hallucination
+RUN-v10-10-26,10,v1.0,Research,Power user,false,4.08,0.101,false,Hallucination
+RUN-v10-10-27,10,v1.0,Data request,Internal,false,4.41,0.103,false,Hallucination
+RUN-v10-10-28,10,v1.0,Report generation,Client,false,4.29,0.105,false,Hallucination
+RUN-v10-10-29,10,v1.0,Job matching,Power user,false,4.72,0.107,false,Hallucination
+RUN-v10-10-30,10,v1.0,Research,Internal,false,4.4,0.109,false,Hallucination
+RUN-v10-10-31,10,v1.0,Data request,Client,false,4.73,0.101,false,Hallucination
+RUN-v10-10-32,10,v1.0,Report generation,Power user,false,4.61,0.103,false,Hallucination
+RUN-v10-10-33,10,v1.0,Job matching,Internal,false,4.4,0.105,false,Hallucination
+RUN-v10-10-34,10,v1.0,Research,Client,false,4.08,0.107,false,Hallucination
+RUN-v10-10-35,10,v1.0,Data request,Power user,false,4.41,0.109,false,Hallucination
+RUN-v10-11-01,11,v1.0,Research,Power user,true,4,0.101,true,
+RUN-v10-11-02,11,v1.0,Data request,Internal,true,4.33,0.103,true,
+RUN-v10-11-03,11,v1.0,Report generation,Client,true,4.21,0.105,true,
+RUN-v10-11-04,11,v1.0,Job matching,Power user,true,4.64,0.107,true,
+RUN-v10-11-05,11,v1.0,Research,Internal,true,4.32,0.109,true,
+RUN-v10-11-06,11,v1.0,Data request,Client,true,4.65,0.101,true,
+RUN-v10-11-07,11,v1.0,Report generation,Power user,true,4.53,0.103,true,
+RUN-v10-11-08,11,v1.0,Job matching,Internal,true,4.96,0.105,true,
+RUN-v10-11-09,11,v1.0,Research,Client,true,4,0.107,false,
+RUN-v10-11-10,11,v1.0,Data request,Power user,true,4.33,0.109,false,
+RUN-v10-11-11,11,v1.0,Report generation,Internal,true,4.21,0.101,false,
+RUN-v10-11-12,11,v1.0,Job matching,Client,true,4.64,0.103,false,
+RUN-v10-11-13,11,v1.0,Research,Power user,true,4.32,0.105,false,
+RUN-v10-11-14,11,v1.0,Data request,Internal,true,4.65,0.107,false,
+RUN-v10-11-15,11,v1.0,Report generation,Client,true,4.53,0.109,false,
+RUN-v10-11-16,11,v1.0,Job matching,Power user,true,4.96,0.101,false,
+RUN-v10-11-17,11,v1.0,Research,Internal,true,4,0.103,false,
+RUN-v10-11-18,11,v1.0,Data request,Client,true,4.33,0.105,false,
+RUN-v10-11-19,11,v1.0,Report generation,Power user,true,4.21,0.107,false,
+RUN-v10-11-20,11,v1.0,Job matching,Internal,true,4.64,0.109,false,
+RUN-v10-11-21,11,v1.0,Research,Client,true,4.32,0.101,false,
+RUN-v10-11-22,11,v1.0,Data request,Power user,true,4.65,0.103,false,
+RUN-v10-11-23,11,v1.0,Report generation,Internal,true,4.53,0.105,false,
+RUN-v10-11-24,11,v1.0,Job matching,Client,true,4.96,0.107,false,
+RUN-v10-11-25,11,v1.0,Research,Power user,false,4,0.109,false,Hallucination
+RUN-v10-11-26,11,v1.0,Data request,Internal,false,4.33,0.101,false,Hallucination
+RUN-v10-11-27,11,v1.0,Report generation,Client,false,4.21,0.103,false,Hallucination
+RUN-v10-11-28,11,v1.0,Job matching,Power user,false,4.64,0.105,false,Hallucination
+RUN-v10-11-29,11,v1.0,Research,Internal,false,4.32,0.107,false,Hallucination
+RUN-v10-11-30,11,v1.0,Data request,Client,false,4.65,0.109,false,Hallucination
+RUN-v10-11-31,11,v1.0,Report generation,Power user,false,4.53,0.101,false,Hallucination
+RUN-v10-11-32,11,v1.0,Job matching,Internal,false,4.96,0.103,false,Other
+RUN-v10-11-33,11,v1.0,Research,Client,false,4,0.105,false,Other
+RUN-v10-11-34,11,v1.0,Data request,Power user,false,4.33,0.107,false,Other
+RUN-v10-11-35,11,v1.0,Report generation,Internal,false,4.21,0.109,false,Other
+RUN-v10-12-01,12,v1.0,Data request,Internal,true,4.25,0.101,true,
+RUN-v10-12-02,12,v1.0,Report generation,Client,true,4.13,0.103,true,
+RUN-v10-12-03,12,v1.0,Job matching,Power user,true,4.56,0.105,true,
+RUN-v10-12-04,12,v1.0,Research,Internal,true,4.24,0.107,true,
+RUN-v10-12-05,12,v1.0,Data request,Client,true,4.57,0.109,true,
+RUN-v10-12-06,12,v1.0,Report generation,Power user,true,4.45,0.101,true,
+RUN-v10-12-07,12,v1.0,Job matching,Internal,true,4.88,0.103,true,
+RUN-v10-12-08,12,v1.0,Research,Client,true,4.56,0.105,false,
+RUN-v10-12-09,12,v1.0,Data request,Power user,true,4.25,0.107,false,
+RUN-v10-12-10,12,v1.0,Report generation,Internal,true,4.13,0.109,false,
+RUN-v10-12-11,12,v1.0,Job matching,Client,true,4.56,0.101,false,
+RUN-v10-12-12,12,v1.0,Research,Power user,true,4.24,0.103,false,
+RUN-v10-12-13,12,v1.0,Data request,Internal,true,4.57,0.105,false,
+RUN-v10-12-14,12,v1.0,Report generation,Client,true,4.45,0.107,false,
+RUN-v10-12-15,12,v1.0,Job matching,Power user,true,4.88,0.109,false,
+RUN-v10-12-16,12,v1.0,Research,Internal,true,4.56,0.101,false,
+RUN-v10-12-17,12,v1.0,Data request,Client,true,4.25,0.103,false,
+RUN-v10-12-18,12,v1.0,Report generation,Power user,true,4.13,0.105,false,
+RUN-v10-12-19,12,v1.0,Job matching,Internal,true,4.56,0.107,false,
+RUN-v10-12-20,12,v1.0,Research,Client,true,4.24,0.109,false,
+RUN-v10-12-21,12,v1.0,Data request,Power user,true,4.57,0.101,false,
+RUN-v10-12-22,12,v1.0,Report generation,Internal,true,4.45,0.103,false,
+RUN-v10-12-23,12,v1.0,Job matching,Client,true,4.88,0.105,false,
+RUN-v10-12-24,12,v1.0,Research,Power user,true,4.56,0.107,false,
+RUN-v10-12-25,12,v1.0,Data request,Internal,false,4.25,0.109,false,Other
+RUN-v10-12-26,12,v1.0,Report generation,Client,false,4.13,0.101,false,Other
+RUN-v10-12-27,12,v1.0,Job matching,Power user,false,4.56,0.103,false,Other
+RUN-v10-12-28,12,v1.0,Research,Internal,false,4.24,0.105,false,Other
+RUN-v10-12-29,12,v1.0,Data request,Client,false,4.57,0.107,false,Other
+RUN-v10-12-30,12,v1.0,Report generation,Power user,false,4.45,0.109,false,Other
+RUN-v10-12-31,12,v1.0,Job matching,Internal,false,4.88,0.101,false,Other
+RUN-v10-12-32,12,v1.0,Research,Client,false,4.56,0.103,false,Other
+RUN-v10-12-33,12,v1.0,Data request,Power user,false,4.25,0.105,false,Other
+RUN-v10-12-34,12,v1.0,Report generation,Internal,false,4.13,0.107,false,Other
+RUN-v10-12-35,12,v1.0,Job matching,Client,false,4.56,0.109,false,Other
+RUN-v11-01-01,1,v1.1,Job matching,Client,true,3.7,0.088,true,
+RUN-v11-01-02,1,v1.1,Research,Power user,true,3.38,0.09,true,
+RUN-v11-01-03,1,v1.1,Data request,Internal,true,3.71,0.092,true,
+RUN-v11-01-04,1,v1.1,Report generation,Client,true,3.59,0.094,true,
+RUN-v11-01-05,1,v1.1,Job matching,Power user,true,4.02,0.096,true,
+RUN-v11-01-06,1,v1.1,Research,Internal,true,3.7,0.088,true,
+RUN-v11-01-07,1,v1.1,Data request,Client,true,4.03,0.09,true,
+RUN-v11-01-08,1,v1.1,Report generation,Power user,true,3.91,0.092,true,
+RUN-v11-01-09,1,v1.1,Job matching,Internal,true,3.7,0.094,true,
+RUN-v11-01-10,1,v1.1,Research,Client,true,3.38,0.096,true,
+RUN-v11-01-11,1,v1.1,Data request,Power user,true,3.71,0.088,false,
+RUN-v11-01-12,1,v1.1,Report generation,Internal,true,3.59,0.09,false,
+RUN-v11-01-13,1,v1.1,Job matching,Client,true,4.02,0.092,false,
+RUN-v11-01-14,1,v1.1,Research,Power user,true,3.7,0.094,false,
+RUN-v11-01-15,1,v1.1,Data request,Internal,true,4.03,0.096,false,
+RUN-v11-01-16,1,v1.1,Report generation,Client,true,3.91,0.088,false,
+RUN-v11-01-17,1,v1.1,Job matching,Power user,true,3.7,0.09,false,
+RUN-v11-01-18,1,v1.1,Research,Internal,true,3.38,0.092,false,
+RUN-v11-01-19,1,v1.1,Data request,Client,true,3.71,0.094,false,
+RUN-v11-01-20,1,v1.1,Report generation,Power user,true,3.59,0.096,false,
+RUN-v11-01-21,1,v1.1,Job matching,Internal,true,4.02,0.088,false,
+RUN-v11-01-22,1,v1.1,Research,Client,false,3.7,0.09,false,Retrieval
+RUN-v11-01-23,1,v1.1,Data request,Power user,false,4.03,0.092,false,Retrieval
+RUN-v11-01-24,1,v1.1,Report generation,Internal,false,3.91,0.094,false,Retrieval
+RUN-v11-01-25,1,v1.1,Job matching,Client,false,3.7,0.096,false,Retrieval
+RUN-v11-01-26,1,v1.1,Research,Power user,false,3.38,0.088,false,Retrieval
+RUN-v11-01-27,1,v1.1,Data request,Internal,false,3.71,0.09,false,Retrieval
+RUN-v11-01-28,1,v1.1,Report generation,Client,false,3.59,0.092,false,Retrieval
+RUN-v11-01-29,1,v1.1,Job matching,Power user,false,4.02,0.094,false,Retrieval
+RUN-v11-01-30,1,v1.1,Research,Internal,false,3.7,0.096,false,Retrieval
+RUN-v11-01-31,1,v1.1,Data request,Client,false,4.03,0.088,false,Retrieval
+RUN-v11-01-32,1,v1.1,Report generation,Power user,false,3.91,0.09,false,Retrieval
+RUN-v11-01-33,1,v1.1,Job matching,Internal,false,3.7,0.092,false,Retrieval
+RUN-v11-01-34,1,v1.1,Research,Client,false,3.38,0.094,false,Retrieval
+RUN-v11-01-35,1,v1.1,Data request,Power user,false,3.71,0.096,false,Retrieval
+RUN-v11-02-01,2,v1.1,Research,Power user,true,3.3,0.088,true,
+RUN-v11-02-02,2,v1.1,Data request,Internal,true,3.63,0.09,true,
+RUN-v11-02-03,2,v1.1,Report generation,Client,true,3.51,0.092,true,
+RUN-v11-02-04,2,v1.1,Job matching,Power user,true,3.94,0.094,true,
+RUN-v11-02-05,2,v1.1,Research,Internal,true,3.62,0.096,true,
+RUN-v11-02-06,2,v1.1,Data request,Client,true,3.95,0.088,true,
+RUN-v11-02-07,2,v1.1,Report generation,Power user,true,3.83,0.09,true,
+RUN-v11-02-08,2,v1.1,Job matching,Internal,true,4.26,0.092,true,
+RUN-v11-02-09,2,v1.1,Research,Client,true,3.3,0.094,true,
+RUN-v11-02-10,2,v1.1,Data request,Power user,true,3.63,0.096,false,
+RUN-v11-02-11,2,v1.1,Report generation,Internal,true,3.51,0.088,false,
+RUN-v11-02-12,2,v1.1,Job matching,Client,true,3.94,0.09,false,
+RUN-v11-02-13,2,v1.1,Research,Power user,true,3.62,0.092,false,
+RUN-v11-02-14,2,v1.1,Data request,Internal,true,3.95,0.094,false,
+RUN-v11-02-15,2,v1.1,Report generation,Client,true,3.83,0.096,false,
+RUN-v11-02-16,2,v1.1,Job matching,Power user,true,4.26,0.088,false,
+RUN-v11-02-17,2,v1.1,Research,Internal,true,3.3,0.09,false,
+RUN-v11-02-18,2,v1.1,Data request,Client,true,3.63,0.092,false,
+RUN-v11-02-19,2,v1.1,Report generation,Power user,true,3.51,0.094,false,
+RUN-v11-02-20,2,v1.1,Job matching,Internal,true,3.94,0.096,false,
+RUN-v11-02-21,2,v1.1,Research,Client,true,3.62,0.088,false,
+RUN-v11-02-22,2,v1.1,Data request,Power user,true,3.95,0.09,false,
+RUN-v11-02-23,2,v1.1,Report generation,Internal,false,3.83,0.092,false,Retrieval
+RUN-v11-02-24,2,v1.1,Job matching,Client,false,4.26,0.094,false,Retrieval
+RUN-v11-02-25,2,v1.1,Research,Power user,false,3.3,0.096,false,Retrieval
+RUN-v11-02-26,2,v1.1,Data request,Internal,false,3.63,0.088,false,Retrieval
+RUN-v11-02-27,2,v1.1,Report generation,Client,false,3.51,0.09,false,Retrieval
+RUN-v11-02-28,2,v1.1,Job matching,Power user,false,3.94,0.092,false,Retrieval
+RUN-v11-02-29,2,v1.1,Research,Internal,false,3.62,0.094,false,Retrieval
+RUN-v11-02-30,2,v1.1,Data request,Client,false,3.95,0.096,false,Retrieval
+RUN-v11-02-31,2,v1.1,Report generation,Power user,false,3.83,0.088,false,Retrieval
+RUN-v11-02-32,2,v1.1,Job matching,Internal,false,4.26,0.09,false,Retrieval
+RUN-v11-02-33,2,v1.1,Research,Client,false,3.3,0.092,false,Retrieval
+RUN-v11-02-34,2,v1.1,Data request,Power user,false,3.63,0.094,false,Retrieval
+RUN-v11-02-35,2,v1.1,Report generation,Internal,false,3.51,0.096,false,Retrieval
+RUN-v11-03-01,3,v1.1,Data request,Internal,true,3.55,0.088,true,
+RUN-v11-03-02,3,v1.1,Report generation,Client,true,3.43,0.09,true,
+RUN-v11-03-03,3,v1.1,Job matching,Power user,true,3.86,0.092,true,
+RUN-v11-03-04,3,v1.1,Research,Internal,true,3.54,0.094,true,
+RUN-v11-03-05,3,v1.1,Data request,Client,true,3.87,0.096,true,
+RUN-v11-03-06,3,v1.1,Report generation,Power user,true,3.75,0.088,true,
+RUN-v11-03-07,3,v1.1,Job matching,Internal,true,4.18,0.09,true,
+RUN-v11-03-08,3,v1.1,Research,Client,true,3.86,0.092,true,
+RUN-v11-03-09,3,v1.1,Data request,Power user,true,3.55,0.094,true,
+RUN-v11-03-10,3,v1.1,Report generation,Internal,true,3.43,0.096,false,
+RUN-v11-03-11,3,v1.1,Job matching,Client,true,3.86,0.088,false,
+RUN-v11-03-12,3,v1.1,Research,Power user,true,3.54,0.09,false,
+RUN-v11-03-13,3,v1.1,Data request,Internal,true,3.87,0.092,false,
+RUN-v11-03-14,3,v1.1,Report generation,Client,true,3.75,0.094,false,
+RUN-v11-03-15,3,v1.1,Job matching,Power user,true,4.18,0.096,false,
+RUN-v11-03-16,3,v1.1,Research,Internal,true,3.86,0.088,false,
+RUN-v11-03-17,3,v1.1,Data request,Client,true,3.55,0.09,false,
+RUN-v11-03-18,3,v1.1,Report generation,Power user,true,3.43,0.092,false,
+RUN-v11-03-19,3,v1.1,Job matching,Internal,true,3.86,0.094,false,
+RUN-v11-03-20,3,v1.1,Research,Client,true,3.54,0.096,false,
+RUN-v11-03-21,3,v1.1,Data request,Power user,true,3.87,0.088,false,
+RUN-v11-03-22,3,v1.1,Report generation,Internal,true,3.75,0.09,false,
+RUN-v11-03-23,3,v1.1,Job matching,Client,true,4.18,0.092,false,
+RUN-v11-03-24,3,v1.1,Research,Power user,false,3.86,0.094,false,Retrieval
+RUN-v11-03-25,3,v1.1,Data request,Internal,false,3.55,0.096,false,Retrieval
+RUN-v11-03-26,3,v1.1,Report generation,Client,false,3.43,0.088,false,Retrieval
+RUN-v11-03-27,3,v1.1,Job matching,Power user,false,3.86,0.09,false,Retrieval
+RUN-v11-03-28,3,v1.1,Research,Internal,false,3.54,0.092,false,Retrieval
+RUN-v11-03-29,3,v1.1,Data request,Client,false,3.87,0.094,false,Retrieval
+RUN-v11-03-30,3,v1.1,Report generation,Power user,false,3.75,0.096,false,Retrieval
+RUN-v11-03-31,3,v1.1,Job matching,Internal,false,4.18,0.088,false,Retrieval
+RUN-v11-03-32,3,v1.1,Research,Client,false,3.86,0.09,false,Retrieval
+RUN-v11-03-33,3,v1.1,Data request,Power user,false,3.55,0.092,false,Retrieval
+RUN-v11-03-34,3,v1.1,Report generation,Internal,false,3.43,0.094,false,Retrieval
+RUN-v11-03-35,3,v1.1,Job matching,Client,false,3.86,0.096,false,Retrieval
+RUN-v11-04-01,4,v1.1,Report generation,Client,true,3.35,0.088,true,
+RUN-v11-04-02,4,v1.1,Job matching,Power user,true,3.78,0.09,true,
+RUN-v11-04-03,4,v1.1,Research,Internal,true,3.46,0.092,true,
+RUN-v11-04-04,4,v1.1,Data request,Client,true,3.79,0.094,true,
+RUN-v11-04-05,4,v1.1,Report generation,Power user,true,3.67,0.096,true,
+RUN-v11-04-06,4,v1.1,Job matching,Internal,true,4.1,0.088,true,
+RUN-v11-04-07,4,v1.1,Research,Client,true,3.78,0.09,true,
+RUN-v11-04-08,4,v1.1,Data request,Power user,true,4.11,0.092,true,
+RUN-v11-04-09,4,v1.1,Report generation,Internal,true,3.35,0.094,false,
+RUN-v11-04-10,4,v1.1,Job matching,Client,true,3.78,0.096,false,
+RUN-v11-04-11,4,v1.1,Research,Power user,true,3.46,0.088,false,
+RUN-v11-04-12,4,v1.1,Data request,Internal,true,3.79,0.09,false,
+RUN-v11-04-13,4,v1.1,Report generation,Client,true,3.67,0.092,false,
+RUN-v11-04-14,4,v1.1,Job matching,Power user,true,4.1,0.094,false,
+RUN-v11-04-15,4,v1.1,Research,Internal,true,3.78,0.096,false,
+RUN-v11-04-16,4,v1.1,Data request,Client,true,4.11,0.088,false,
+RUN-v11-04-17,4,v1.1,Report generation,Power user,true,3.35,0.09,false,
+RUN-v11-04-18,4,v1.1,Job matching,Internal,true,3.78,0.092,false,
+RUN-v11-04-19,4,v1.1,Research,Client,true,3.46,0.094,false,
+RUN-v11-04-20,4,v1.1,Data request,Power user,true,3.79,0.096,false,
+RUN-v11-04-21,4,v1.1,Report generation,Internal,true,3.67,0.088,false,
+RUN-v11-04-22,4,v1.1,Job matching,Client,true,4.1,0.09,false,
+RUN-v11-04-23,4,v1.1,Research,Power user,true,3.78,0.092,false,
+RUN-v11-04-24,4,v1.1,Data request,Internal,true,4.11,0.094,false,
+RUN-v11-04-25,4,v1.1,Report generation,Client,false,3.35,0.096,false,Retrieval
+RUN-v11-04-26,4,v1.1,Job matching,Power user,false,3.78,0.088,false,Retrieval
+RUN-v11-04-27,4,v1.1,Research,Internal,false,3.46,0.09,false,Retrieval
+RUN-v11-04-28,4,v1.1,Data request,Client,false,3.79,0.092,false,Retrieval
+RUN-v11-04-29,4,v1.1,Report generation,Power user,false,3.67,0.094,false,Tool use
+RUN-v11-04-30,4,v1.1,Job matching,Internal,false,4.1,0.096,false,Tool use
+RUN-v11-04-31,4,v1.1,Research,Client,false,3.78,0.088,false,Tool use
+RUN-v11-04-32,4,v1.1,Data request,Power user,false,4.11,0.09,false,Tool use
+RUN-v11-04-33,4,v1.1,Report generation,Internal,false,3.35,0.092,false,Tool use
+RUN-v11-04-34,4,v1.1,Job matching,Client,false,3.78,0.094,false,Tool use
+RUN-v11-04-35,4,v1.1,Research,Power user,false,3.46,0.096,false,Tool use
+RUN-v11-05-01,5,v1.1,Job matching,Power user,true,3.7,0.088,true,
+RUN-v11-05-02,5,v1.1,Research,Internal,true,3.38,0.09,true,
+RUN-v11-05-03,5,v1.1,Data request,Client,true,3.71,0.092,true,
+RUN-v11-05-04,5,v1.1,Report generation,Power user,true,3.59,0.094,true,
+RUN-v11-05-05,5,v1.1,Job matching,Internal,true,4.02,0.096,true,
+RUN-v11-05-06,5,v1.1,Research,Client,true,3.7,0.088,true,
+RUN-v11-05-07,5,v1.1,Data request,Power user,true,4.03,0.09,true,
+RUN-v11-05-08,5,v1.1,Report generation,Internal,true,3.91,0.092,true,
+RUN-v11-05-09,5,v1.1,Job matching,Client,true,3.7,0.094,false,
+RUN-v11-05-10,5,v1.1,Research,Power user,true,3.38,0.096,false,
+RUN-v11-05-11,5,v1.1,Data request,Internal,true,3.71,0.088,false,
+RUN-v11-05-12,5,v1.1,Report generation,Client,true,3.59,0.09,false,
+RUN-v11-05-13,5,v1.1,Job matching,Power user,true,4.02,0.092,false,
+RUN-v11-05-14,5,v1.1,Research,Internal,true,3.7,0.094,false,
+RUN-v11-05-15,5,v1.1,Data request,Client,true,4.03,0.096,false,
+RUN-v11-05-16,5,v1.1,Report generation,Power user,true,3.91,0.088,false,
+RUN-v11-05-17,5,v1.1,Job matching,Internal,true,3.7,0.09,false,
+RUN-v11-05-18,5,v1.1,Research,Client,true,3.38,0.092,false,
+RUN-v11-05-19,5,v1.1,Data request,Power user,true,3.71,0.094,false,
+RUN-v11-05-20,5,v1.1,Report generation,Internal,true,3.59,0.096,false,
+RUN-v11-05-21,5,v1.1,Job matching,Client,true,4.02,0.088,false,
+RUN-v11-05-22,5,v1.1,Research,Power user,true,3.7,0.09,false,
+RUN-v11-05-23,5,v1.1,Data request,Internal,true,4.03,0.092,false,
+RUN-v11-05-24,5,v1.1,Report generation,Client,true,3.91,0.094,false,
+RUN-v11-05-25,5,v1.1,Job matching,Power user,false,3.7,0.096,false,Tool use
+RUN-v11-05-26,5,v1.1,Research,Internal,false,3.38,0.088,false,Tool use
+RUN-v11-05-27,5,v1.1,Data request,Client,false,3.71,0.09,false,Tool use
+RUN-v11-05-28,5,v1.1,Report generation,Power user,false,3.59,0.092,false,Tool use
+RUN-v11-05-29,5,v1.1,Job matching,Internal,false,4.02,0.094,false,Tool use
+RUN-v11-05-30,5,v1.1,Research,Client,false,3.7,0.096,false,Tool use
+RUN-v11-05-31,5,v1.1,Data request,Power user,false,4.03,0.088,false,Tool use
+RUN-v11-05-32,5,v1.1,Report generation,Internal,false,3.91,0.09,false,Tool use
+RUN-v11-05-33,5,v1.1,Job matching,Client,false,3.7,0.092,false,Tool use
+RUN-v11-05-34,5,v1.1,Research,Power user,false,3.38,0.094,false,Tool use
+RUN-v11-05-35,5,v1.1,Data request,Internal,false,3.71,0.096,false,Tool use
+RUN-v11-06-01,6,v1.1,Research,Internal,true,3.3,0.088,true,
+RUN-v11-06-02,6,v1.1,Data request,Client,true,3.63,0.09,true,
+RUN-v11-06-03,6,v1.1,Report generation,Power user,true,3.51,0.092,true,
+RUN-v11-06-04,6,v1.1,Job matching,Internal,true,3.94,0.094,true,
+RUN-v11-06-05,6,v1.1,Research,Client,true,3.62,0.096,true,
+RUN-v11-06-06,6,v1.1,Data request,Power user,true,3.95,0.088,true,
+RUN-v11-06-07,6,v1.1,Report generation,Internal,true,3.83,0.09,true,
+RUN-v11-06-08,6,v1.1,Job matching,Client,true,4.26,0.092,true,
+RUN-v11-06-09,6,v1.1,Research,Power user,true,3.3,0.094,false,
+RUN-v11-06-10,6,v1.1,Data request,Internal,true,3.63,0.096,false,
+RUN-v11-06-11,6,v1.1,Report generation,Client,true,3.51,0.088,false,
+RUN-v11-06-12,6,v1.1,Job matching,Power user,true,3.94,0.09,false,
+RUN-v11-06-13,6,v1.1,Research,Internal,true,3.62,0.092,false,
+RUN-v11-06-14,6,v1.1,Data request,Client,true,3.95,0.094,false,
+RUN-v11-06-15,6,v1.1,Report generation,Power user,true,3.83,0.096,false,
+RUN-v11-06-16,6,v1.1,Job matching,Internal,true,4.26,0.088,false,
+RUN-v11-06-17,6,v1.1,Research,Client,true,3.3,0.09,false,
+RUN-v11-06-18,6,v1.1,Data request,Power user,true,3.63,0.092,false,
+RUN-v11-06-19,6,v1.1,Report generation,Internal,true,3.51,0.094,false,
+RUN-v11-06-20,6,v1.1,Job matching,Client,true,3.94,0.096,false,
+RUN-v11-06-21,6,v1.1,Research,Power user,true,3.62,0.088,false,
+RUN-v11-06-22,6,v1.1,Data request,Internal,true,3.95,0.09,false,
+RUN-v11-06-23,6,v1.1,Report generation,Client,true,3.83,0.092,false,
+RUN-v11-06-24,6,v1.1,Job matching,Power user,true,4.26,0.094,false,
+RUN-v11-06-25,6,v1.1,Research,Internal,true,3.3,0.096,false,
+RUN-v11-06-26,6,v1.1,Data request,Client,false,3.63,0.088,false,Tool use
+RUN-v11-06-27,6,v1.1,Report generation,Power user,false,3.51,0.09,false,Tool use
+RUN-v11-06-28,6,v1.1,Job matching,Internal,false,3.94,0.092,false,Tool use
+RUN-v11-06-29,6,v1.1,Research,Client,false,3.62,0.094,false,Tool use
+RUN-v11-06-30,6,v1.1,Data request,Power user,false,3.95,0.096,false,Tool use
+RUN-v11-06-31,6,v1.1,Report generation,Internal,false,3.83,0.088,false,Tool use
+RUN-v11-06-32,6,v1.1,Job matching,Client,false,4.26,0.09,false,Tool use
+RUN-v11-06-33,6,v1.1,Research,Power user,false,3.3,0.092,false,Tool use
+RUN-v11-06-34,6,v1.1,Data request,Internal,false,3.63,0.094,false,Tool use
+RUN-v11-06-35,6,v1.1,Report generation,Client,false,3.51,0.096,false,Formatting
+RUN-v11-07-01,7,v1.1,Data request,Client,true,3.55,0.088,true,
+RUN-v11-07-02,7,v1.1,Report generation,Power user,true,3.43,0.09,true,
+RUN-v11-07-03,7,v1.1,Job matching,Internal,true,3.86,0.092,true,
+RUN-v11-07-04,7,v1.1,Research,Client,true,3.54,0.094,true,
+RUN-v11-07-05,7,v1.1,Data request,Power user,true,3.87,0.096,true,
+RUN-v11-07-06,7,v1.1,Report generation,Internal,true,3.75,0.088,true,
+RUN-v11-07-07,7,v1.1,Job matching,Client,true,4.18,0.09,true,
+RUN-v11-07-08,7,v1.1,Research,Power user,true,3.86,0.092,false,
+RUN-v11-07-09,7,v1.1,Data request,Internal,true,3.55,0.094,false,
+RUN-v11-07-10,7,v1.1,Report generation,Client,true,3.43,0.096,false,
+RUN-v11-07-11,7,v1.1,Job matching,Power user,true,3.86,0.088,false,
+RUN-v11-07-12,7,v1.1,Research,Internal,true,3.54,0.09,false,
+RUN-v11-07-13,7,v1.1,Data request,Client,true,3.87,0.092,false,
+RUN-v11-07-14,7,v1.1,Report generation,Power user,true,3.75,0.094,false,
+RUN-v11-07-15,7,v1.1,Job matching,Internal,true,4.18,0.096,false,
+RUN-v11-07-16,7,v1.1,Research,Client,true,3.86,0.088,false,
+RUN-v11-07-17,7,v1.1,Data request,Power user,true,3.55,0.09,false,
+RUN-v11-07-18,7,v1.1,Report generation,Internal,true,3.43,0.092,false,
+RUN-v11-07-19,7,v1.1,Job matching,Client,true,3.86,0.094,false,
+RUN-v11-07-20,7,v1.1,Research,Power user,true,3.54,0.096,false,
+RUN-v11-07-21,7,v1.1,Data request,Internal,true,3.87,0.088,false,
+RUN-v11-07-22,7,v1.1,Report generation,Client,true,3.75,0.09,false,
+RUN-v11-07-23,7,v1.1,Job matching,Power user,true,4.18,0.092,false,
+RUN-v11-07-24,7,v1.1,Research,Internal,true,3.86,0.094,false,
+RUN-v11-07-25,7,v1.1,Data request,Client,true,3.55,0.096,false,
+RUN-v11-07-26,7,v1.1,Report generation,Power user,false,3.43,0.088,false,Formatting
+RUN-v11-07-27,7,v1.1,Job matching,Internal,false,3.86,0.09,false,Formatting
+RUN-v11-07-28,7,v1.1,Research,Client,false,3.54,0.092,false,Formatting
+RUN-v11-07-29,7,v1.1,Data request,Power user,false,3.87,0.094,false,Formatting
+RUN-v11-07-30,7,v1.1,Report generation,Internal,false,3.75,0.096,false,Formatting
+RUN-v11-07-31,7,v1.1,Job matching,Client,false,4.18,0.088,false,Formatting
+RUN-v11-07-32,7,v1.1,Research,Power user,false,3.86,0.09,false,Formatting
+RUN-v11-07-33,7,v1.1,Data request,Internal,false,3.55,0.092,false,Formatting
+RUN-v11-07-34,7,v1.1,Report generation,Client,false,3.43,0.094,false,Formatting
+RUN-v11-07-35,7,v1.1,Job matching,Power user,false,3.86,0.096,false,Formatting
+RUN-v11-08-01,8,v1.1,Report generation,Power user,true,3.35,0.088,true,
+RUN-v11-08-02,8,v1.1,Job matching,Internal,true,3.78,0.09,true,
+RUN-v11-08-03,8,v1.1,Research,Client,true,3.46,0.092,true,
+RUN-v11-08-04,8,v1.1,Data request,Power user,true,3.79,0.094,true,
+RUN-v11-08-05,8,v1.1,Report generation,Internal,true,3.67,0.096,true,
+RUN-v11-08-06,8,v1.1,Job matching,Client,true,4.1,0.088,true,
+RUN-v11-08-07,8,v1.1,Research,Power user,true,3.78,0.09,true,
+RUN-v11-08-08,8,v1.1,Data request,Internal,true,4.11,0.092,false,
+RUN-v11-08-09,8,v1.1,Report generation,Client,true,3.35,0.094,false,
+RUN-v11-08-10,8,v1.1,Job matching,Power user,true,3.78,0.096,false,
+RUN-v11-08-11,8,v1.1,Research,Internal,true,3.46,0.088,false,
+RUN-v11-08-12,8,v1.1,Data request,Client,true,3.79,0.09,false,
+RUN-v11-08-13,8,v1.1,Report generation,Power user,true,3.67,0.092,false,
+RUN-v11-08-14,8,v1.1,Job matching,Internal,true,4.1,0.094,false,
+RUN-v11-08-15,8,v1.1,Research,Client,true,3.78,0.096,false,
+RUN-v11-08-16,8,v1.1,Data request,Power user,true,4.11,0.088,false,
+RUN-v11-08-17,8,v1.1,Report generation,Internal,true,3.35,0.09,false,
+RUN-v11-08-18,8,v1.1,Job matching,Client,true,3.78,0.092,false,
+RUN-v11-08-19,8,v1.1,Research,Power user,true,3.46,0.094,false,
+RUN-v11-08-20,8,v1.1,Data request,Internal,true,3.79,0.096,false,
+RUN-v11-08-21,8,v1.1,Report generation,Client,true,3.67,0.088,false,
+RUN-v11-08-22,8,v1.1,Job matching,Power user,true,4.1,0.09,false,
+RUN-v11-08-23,8,v1.1,Research,Internal,true,3.78,0.092,false,
+RUN-v11-08-24,8,v1.1,Data request,Client,true,4.11,0.094,false,
+RUN-v11-08-25,8,v1.1,Report generation,Power user,true,3.35,0.096,false,
+RUN-v11-08-26,8,v1.1,Job matching,Internal,true,3.78,0.088,false,
+RUN-v11-08-27,8,v1.1,Research,Client,false,3.46,0.09,false,Formatting
+RUN-v11-08-28,8,v1.1,Data request,Power user,false,3.79,0.092,false,Formatting
+RUN-v11-08-29,8,v1.1,Report generation,Internal,false,3.67,0.094,false,Formatting
+RUN-v11-08-30,8,v1.1,Job matching,Client,false,4.1,0.096,false,Formatting
+RUN-v11-08-31,8,v1.1,Research,Power user,false,3.78,0.088,false,Formatting
+RUN-v11-08-32,8,v1.1,Data request,Internal,false,4.11,0.09,false,Formatting
+RUN-v11-08-33,8,v1.1,Report generation,Client,false,3.35,0.092,false,Formatting
+RUN-v11-08-34,8,v1.1,Job matching,Power user,false,3.78,0.094,false,Formatting
+RUN-v11-08-35,8,v1.1,Research,Internal,false,3.46,0.096,false,Formatting
+RUN-v11-09-01,9,v1.1,Job matching,Internal,true,3.7,0.088,true,
+RUN-v11-09-02,9,v1.1,Research,Client,true,3.38,0.09,true,
+RUN-v11-09-03,9,v1.1,Data request,Power user,true,3.71,0.092,true,
+RUN-v11-09-04,9,v1.1,Report generation,Internal,true,3.59,0.094,true,
+RUN-v11-09-05,9,v1.1,Job matching,Client,true,4.02,0.096,true,
+RUN-v11-09-06,9,v1.1,Research,Power user,true,3.7,0.088,true,
+RUN-v11-09-07,9,v1.1,Data request,Internal,true,4.03,0.09,true,
+RUN-v11-09-08,9,v1.1,Report generation,Client,true,3.91,0.092,false,
+RUN-v11-09-09,9,v1.1,Job matching,Power user,true,3.7,0.094,false,
+RUN-v11-09-10,9,v1.1,Research,Internal,true,3.38,0.096,false,
+RUN-v11-09-11,9,v1.1,Data request,Client,true,3.71,0.088,false,
+RUN-v11-09-12,9,v1.1,Report generation,Power user,true,3.59,0.09,false,
+RUN-v11-09-13,9,v1.1,Job matching,Internal,true,4.02,0.092,false,
+RUN-v11-09-14,9,v1.1,Research,Client,true,3.7,0.094,false,
+RUN-v11-09-15,9,v1.1,Data request,Power user,true,4.03,0.096,false,
+RUN-v11-09-16,9,v1.1,Report generation,Internal,true,3.91,0.088,false,
+RUN-v11-09-17,9,v1.1,Job matching,Client,true,3.7,0.09,false,
+RUN-v11-09-18,9,v1.1,Research,Power user,true,3.38,0.092,false,
+RUN-v11-09-19,9,v1.1,Data request,Internal,true,3.71,0.094,false,
+RUN-v11-09-20,9,v1.1,Report generation,Client,true,3.59,0.096,false,
+RUN-v11-09-21,9,v1.1,Job matching,Power user,true,4.02,0.088,false,
+RUN-v11-09-22,9,v1.1,Research,Internal,true,3.7,0.09,false,
+RUN-v11-09-23,9,v1.1,Data request,Client,true,4.03,0.092,false,
+RUN-v11-09-24,9,v1.1,Report generation,Power user,true,3.91,0.094,false,
+RUN-v11-09-25,9,v1.1,Job matching,Internal,true,3.7,0.096,false,
+RUN-v11-09-26,9,v1.1,Research,Client,true,3.38,0.088,false,
+RUN-v11-09-27,9,v1.1,Data request,Power user,false,3.71,0.09,false,Formatting
+RUN-v11-09-28,9,v1.1,Report generation,Internal,false,3.59,0.092,false,Formatting
+RUN-v11-09-29,9,v1.1,Job matching,Client,false,4.02,0.094,false,Hallucination
+RUN-v11-09-30,9,v1.1,Research,Power user,false,3.7,0.096,false,Hallucination
+RUN-v11-09-31,9,v1.1,Data request,Internal,false,4.03,0.088,false,Hallucination
+RUN-v11-09-32,9,v1.1,Report generation,Client,false,3.91,0.09,false,Hallucination
+RUN-v11-09-33,9,v1.1,Job matching,Power user,false,3.7,0.092,false,Hallucination
+RUN-v11-09-34,9,v1.1,Research,Internal,false,3.38,0.094,false,Hallucination
+RUN-v11-09-35,9,v1.1,Data request,Client,false,3.71,0.096,false,Hallucination
+RUN-v11-10-01,10,v1.1,Research,Client,true,3.3,0.088,true,
+RUN-v11-10-02,10,v1.1,Data request,Power user,true,3.63,0.09,true,
+RUN-v11-10-03,10,v1.1,Report generation,Internal,true,3.51,0.092,true,
+RUN-v11-10-04,10,v1.1,Job matching,Client,true,3.94,0.094,true,
+RUN-v11-10-05,10,v1.1,Research,Power user,true,3.62,0.096,true,
+RUN-v11-10-06,10,v1.1,Data request,Internal,true,3.95,0.088,true,
+RUN-v11-10-07,10,v1.1,Report generation,Client,true,3.83,0.09,false,
+RUN-v11-10-08,10,v1.1,Job matching,Power user,true,4.26,0.092,false,
+RUN-v11-10-09,10,v1.1,Research,Internal,true,3.3,0.094,false,
+RUN-v11-10-10,10,v1.1,Data request,Client,true,3.63,0.096,false,
+RUN-v11-10-11,10,v1.1,Report generation,Power user,true,3.51,0.088,false,
+RUN-v11-10-12,10,v1.1,Job matching,Internal,true,3.94,0.09,false,
+RUN-v11-10-13,10,v1.1,Research,Client,true,3.62,0.092,false,
+RUN-v11-10-14,10,v1.1,Data request,Power user,true,3.95,0.094,false,
+RUN-v11-10-15,10,v1.1,Report generation,Internal,true,3.83,0.096,false,
+RUN-v11-10-16,10,v1.1,Job matching,Client,true,4.26,0.088,false,
+RUN-v11-10-17,10,v1.1,Research,Power user,true,3.3,0.09,false,
+RUN-v11-10-18,10,v1.1,Data request,Internal,true,3.63,0.092,false,
+RUN-v11-10-19,10,v1.1,Report generation,Client,true,3.51,0.094,false,
+RUN-v11-10-20,10,v1.1,Job matching,Power user,true,3.94,0.096,false,
+RUN-v11-10-21,10,v1.1,Research,Internal,true,3.62,0.088,false,
+RUN-v11-10-22,10,v1.1,Data request,Client,true,3.95,0.09,false,
+RUN-v11-10-23,10,v1.1,Report generation,Power user,true,3.83,0.092,false,
+RUN-v11-10-24,10,v1.1,Job matching,Internal,true,4.26,0.094,false,
+RUN-v11-10-25,10,v1.1,Research,Client,true,3.3,0.096,false,
+RUN-v11-10-26,10,v1.1,Data request,Power user,true,3.63,0.088,false,
+RUN-v11-10-27,10,v1.1,Report generation,Internal,true,3.51,0.09,false,
+RUN-v11-10-28,10,v1.1,Job matching,Client,false,3.94,0.092,false,Hallucination
+RUN-v11-10-29,10,v1.1,Research,Power user,false,3.62,0.094,false,Hallucination
+RUN-v11-10-30,10,v1.1,Data request,Internal,false,3.95,0.096,false,Hallucination
+RUN-v11-10-31,10,v1.1,Report generation,Client,false,3.83,0.088,false,Hallucination
+RUN-v11-10-32,10,v1.1,Job matching,Power user,false,4.26,0.09,false,Hallucination
+RUN-v11-10-33,10,v1.1,Research,Internal,false,3.3,0.092,false,Hallucination
+RUN-v11-10-34,10,v1.1,Data request,Client,false,3.63,0.094,false,Hallucination
+RUN-v11-10-35,10,v1.1,Report generation,Power user,false,3.51,0.096,false,Hallucination
+RUN-v11-11-01,11,v1.1,Data request,Power user,true,3.55,0.088,true,
+RUN-v11-11-02,11,v1.1,Report generation,Internal,true,3.43,0.09,true,
+RUN-v11-11-03,11,v1.1,Job matching,Client,true,3.86,0.092,true,
+RUN-v11-11-04,11,v1.1,Research,Power user,true,3.54,0.094,true,
+RUN-v11-11-05,11,v1.1,Data request,Internal,true,3.87,0.096,true,
+RUN-v11-11-06,11,v1.1,Report generation,Client,true,3.75,0.088,true,
+RUN-v11-11-07,11,v1.1,Job matching,Power user,true,4.18,0.09,false,
+RUN-v11-11-08,11,v1.1,Research,Internal,true,3.86,0.092,false,
+RUN-v11-11-09,11,v1.1,Data request,Client,true,3.55,0.094,false,
+RUN-v11-11-10,11,v1.1,Report generation,Power user,true,3.43,0.096,false,
+RUN-v11-11-11,11,v1.1,Job matching,Internal,true,3.86,0.088,false,
+RUN-v11-11-12,11,v1.1,Research,Client,true,3.54,0.09,false,
+RUN-v11-11-13,11,v1.1,Data request,Power user,true,3.87,0.092,false,
+RUN-v11-11-14,11,v1.1,Report generation,Internal,true,3.75,0.094,false,
+RUN-v11-11-15,11,v1.1,Job matching,Client,true,4.18,0.096,false,
+RUN-v11-11-16,11,v1.1,Research,Power user,true,3.86,0.088,false,
+RUN-v11-11-17,11,v1.1,Data request,Internal,true,3.55,0.09,false,
+RUN-v11-11-18,11,v1.1,Report generation,Client,true,3.43,0.092,false,
+RUN-v11-11-19,11,v1.1,Job matching,Power user,true,3.86,0.094,false,
+RUN-v11-11-20,11,v1.1,Research,Internal,true,3.54,0.096,false,
+RUN-v11-11-21,11,v1.1,Data request,Client,true,3.87,0.088,false,
+RUN-v11-11-22,11,v1.1,Report generation,Power user,true,3.75,0.09,false,
+RUN-v11-11-23,11,v1.1,Job matching,Internal,true,4.18,0.092,false,
+RUN-v11-11-24,11,v1.1,Research,Client,true,3.86,0.094,false,
+RUN-v11-11-25,11,v1.1,Data request,Power user,true,3.55,0.096,false,
+RUN-v11-11-26,11,v1.1,Report generation,Internal,true,3.43,0.088,false,
+RUN-v11-11-27,11,v1.1,Job matching,Client,true,3.86,0.09,false,
+RUN-v11-11-28,11,v1.1,Research,Power user,true,3.54,0.092,false,
+RUN-v11-11-29,11,v1.1,Data request,Internal,false,3.87,0.094,false,Hallucination
+RUN-v11-11-30,11,v1.1,Report generation,Client,false,3.75,0.096,false,Hallucination
+RUN-v11-11-31,11,v1.1,Job matching,Power user,false,4.18,0.088,false,Hallucination
+RUN-v11-11-32,11,v1.1,Research,Internal,false,3.86,0.09,false,Other
+RUN-v11-11-33,11,v1.1,Data request,Client,false,3.55,0.092,false,Other
+RUN-v11-11-34,11,v1.1,Report generation,Power user,false,3.43,0.094,false,Other
+RUN-v11-11-35,11,v1.1,Job matching,Internal,false,3.86,0.096,false,Other
+RUN-v11-12-01,12,v1.1,Report generation,Internal,true,3.35,0.088,true,
+RUN-v11-12-02,12,v1.1,Job matching,Client,true,3.78,0.09,true,
+RUN-v11-12-03,12,v1.1,Research,Power user,true,3.46,0.092,true,
+RUN-v11-12-04,12,v1.1,Data request,Internal,true,3.79,0.094,true,
+RUN-v11-12-05,12,v1.1,Report generation,Client,true,3.67,0.096,true,
+RUN-v11-12-06,12,v1.1,Job matching,Power user,true,4.1,0.088,true,
+RUN-v11-12-07,12,v1.1,Research,Internal,true,3.78,0.09,false,
+RUN-v11-12-08,12,v1.1,Data request,Client,true,4.11,0.092,false,
+RUN-v11-12-09,12,v1.1,Report generation,Power user,true,3.35,0.094,false,
+RUN-v11-12-10,12,v1.1,Job matching,Internal,true,3.78,0.096,false,
+RUN-v11-12-11,12,v1.1,Research,Client,true,3.46,0.088,false,
+RUN-v11-12-12,12,v1.1,Data request,Power user,true,3.79,0.09,false,
+RUN-v11-12-13,12,v1.1,Report generation,Internal,true,3.67,0.092,false,
+RUN-v11-12-14,12,v1.1,Job matching,Client,true,4.1,0.094,false,
+RUN-v11-12-15,12,v1.1,Research,Power user,true,3.78,0.096,false,
+RUN-v11-12-16,12,v1.1,Data request,Internal,true,4.11,0.088,false,
+RUN-v11-12-17,12,v1.1,Report generation,Client,true,3.35,0.09,false,
+RUN-v11-12-18,12,v1.1,Job matching,Power user,true,3.78,0.092,false,
+RUN-v11-12-19,12,v1.1,Research,Internal,true,3.46,0.094,false,
+RUN-v11-12-20,12,v1.1,Data request,Client,true,3.79,0.096,false,
+RUN-v11-12-21,12,v1.1,Report generation,Power user,true,3.67,0.088,false,
+RUN-v11-12-22,12,v1.1,Job matching,Internal,true,4.1,0.09,false,
+RUN-v11-12-23,12,v1.1,Research,Client,true,3.78,0.092,false,
+RUN-v11-12-24,12,v1.1,Data request,Power user,true,4.11,0.094,false,
+RUN-v11-12-25,12,v1.1,Report generation,Internal,true,3.35,0.096,false,
+RUN-v11-12-26,12,v1.1,Job matching,Client,true,3.78,0.088,false,
+RUN-v11-12-27,12,v1.1,Research,Power user,true,3.46,0.09,false,
+RUN-v11-12-28,12,v1.1,Data request,Internal,true,3.79,0.092,false,
+RUN-v11-12-29,12,v1.1,Report generation,Client,true,3.67,0.094,false,
+RUN-v11-12-30,12,v1.1,Job matching,Power user,false,4.1,0.096,false,Other
+RUN-v11-12-31,12,v1.1,Research,Internal,false,3.78,0.088,false,Other
+RUN-v11-12-32,12,v1.1,Data request,Client,false,4.11,0.09,false,Other
+RUN-v11-12-33,12,v1.1,Report generation,Power user,false,3.35,0.092,false,Other
+RUN-v11-12-34,12,v1.1,Job matching,Internal,false,3.78,0.094,false,Other
+RUN-v11-12-35,12,v1.1,Research,Client,false,3.46,0.096,false,Other
+RUN-v12-01-01,1,v1.2,Research,Client,true,2.6,0.077,true,
+RUN-v12-01-02,1,v1.2,Data request,Power user,true,2.93,0.079,true,
+RUN-v12-01-03,1,v1.2,Report generation,Internal,true,2.81,0.081,true,
+RUN-v12-01-04,1,v1.2,Job matching,Client,true,3.24,0.083,true,
+RUN-v12-01-05,1,v1.2,Research,Power user,true,2.92,0.085,true,
+RUN-v12-01-06,1,v1.2,Data request,Internal,true,3.25,0.077,true,
+RUN-v12-01-07,1,v1.2,Report generation,Client,true,3.13,0.079,true,
+RUN-v12-01-08,1,v1.2,Job matching,Power user,true,3.56,0.081,true,
+RUN-v12-01-09,1,v1.2,Research,Internal,true,2.6,0.083,false,
+RUN-v12-01-10,1,v1.2,Data request,Client,true,2.93,0.085,false,
+RUN-v12-01-11,1,v1.2,Report generation,Power user,true,2.81,0.077,false,
+RUN-v12-01-12,1,v1.2,Job matching,Internal,true,3.24,0.079,false,
+RUN-v12-01-13,1,v1.2,Research,Client,true,2.92,0.081,false,
+RUN-v12-01-14,1,v1.2,Data request,Power user,true,3.25,0.083,false,
+RUN-v12-01-15,1,v1.2,Report generation,Internal,true,3.13,0.085,false,
+RUN-v12-01-16,1,v1.2,Job matching,Client,true,3.56,0.077,false,
+RUN-v12-01-17,1,v1.2,Research,Power user,true,2.6,0.079,false,
+RUN-v12-01-18,1,v1.2,Data request,Internal,true,2.93,0.081,false,
+RUN-v12-01-19,1,v1.2,Report generation,Client,true,2.81,0.083,false,
+RUN-v12-01-20,1,v1.2,Job matching,Power user,true,3.24,0.085,false,
+RUN-v12-01-21,1,v1.2,Research,Internal,true,2.92,0.077,false,
+RUN-v12-01-22,1,v1.2,Data request,Client,true,3.25,0.079,false,
+RUN-v12-01-23,1,v1.2,Report generation,Power user,true,3.13,0.081,false,
+RUN-v12-01-24,1,v1.2,Job matching,Internal,true,3.56,0.083,false,
+RUN-v12-01-25,1,v1.2,Research,Client,false,2.6,0.085,false,Retrieval
+RUN-v12-01-26,1,v1.2,Data request,Power user,false,2.93,0.077,false,Retrieval
+RUN-v12-01-27,1,v1.2,Report generation,Internal,false,2.81,0.079,false,Retrieval
+RUN-v12-01-28,1,v1.2,Job matching,Client,false,3.24,0.081,false,Retrieval
+RUN-v12-01-29,1,v1.2,Research,Power user,false,2.92,0.083,false,Retrieval
+RUN-v12-01-30,1,v1.2,Data request,Internal,false,3.25,0.085,false,Retrieval
+RUN-v12-01-31,1,v1.2,Report generation,Client,false,3.13,0.077,false,Retrieval
+RUN-v12-01-32,1,v1.2,Job matching,Power user,false,3.56,0.079,false,Retrieval
+RUN-v12-01-33,1,v1.2,Research,Internal,false,2.6,0.081,false,Retrieval
+RUN-v12-01-34,1,v1.2,Data request,Client,false,2.93,0.083,false,Retrieval
+RUN-v12-01-35,1,v1.2,Report generation,Power user,false,2.81,0.085,false,Retrieval
+RUN-v12-02-01,2,v1.2,Data request,Power user,true,2.85,0.077,true,
+RUN-v12-02-02,2,v1.2,Report generation,Internal,true,2.73,0.079,true,
+RUN-v12-02-03,2,v1.2,Job matching,Client,true,3.16,0.081,true,
+RUN-v12-02-04,2,v1.2,Research,Power user,true,2.84,0.083,true,
+RUN-v12-02-05,2,v1.2,Data request,Internal,true,3.17,0.085,true,
+RUN-v12-02-06,2,v1.2,Report generation,Client,true,3.05,0.077,true,
+RUN-v12-02-07,2,v1.2,Job matching,Power user,true,3.48,0.079,true,
+RUN-v12-02-08,2,v1.2,Research,Internal,true,3.16,0.081,true,
+RUN-v12-02-09,2,v1.2,Data request,Client,true,2.85,0.083,false,
+RUN-v12-02-10,2,v1.2,Report generation,Power user,true,2.73,0.085,false,
+RUN-v12-02-11,2,v1.2,Job matching,Internal,true,3.16,0.077,false,
+RUN-v12-02-12,2,v1.2,Research,Client,true,2.84,0.079,false,
+RUN-v12-02-13,2,v1.2,Data request,Power user,true,3.17,0.081,false,
+RUN-v12-02-14,2,v1.2,Report generation,Internal,true,3.05,0.083,false,
+RUN-v12-02-15,2,v1.2,Job matching,Client,true,3.48,0.085,false,
+RUN-v12-02-16,2,v1.2,Research,Power user,true,3.16,0.077,false,
+RUN-v12-02-17,2,v1.2,Data request,Internal,true,2.85,0.079,false,
+RUN-v12-02-18,2,v1.2,Report generation,Client,true,2.73,0.081,false,
+RUN-v12-02-19,2,v1.2,Job matching,Power user,true,3.16,0.083,false,
+RUN-v12-02-20,2,v1.2,Research,Internal,true,2.84,0.085,false,
+RUN-v12-02-21,2,v1.2,Data request,Client,true,3.17,0.077,false,
+RUN-v12-02-22,2,v1.2,Report generation,Power user,true,3.05,0.079,false,
+RUN-v12-02-23,2,v1.2,Job matching,Internal,true,3.48,0.081,false,
+RUN-v12-02-24,2,v1.2,Research,Client,true,3.16,0.083,false,
+RUN-v12-02-25,2,v1.2,Data request,Power user,true,2.85,0.085,false,
+RUN-v12-02-26,2,v1.2,Report generation,Internal,false,2.73,0.077,false,Retrieval
+RUN-v12-02-27,2,v1.2,Job matching,Client,false,3.16,0.079,false,Retrieval
+RUN-v12-02-28,2,v1.2,Research,Power user,false,2.84,0.081,false,Retrieval
+RUN-v12-02-29,2,v1.2,Data request,Internal,false,3.17,0.083,false,Retrieval
+RUN-v12-02-30,2,v1.2,Report generation,Client,false,3.05,0.085,false,Retrieval
+RUN-v12-02-31,2,v1.2,Job matching,Power user,false,3.48,0.077,false,Retrieval
+RUN-v12-02-32,2,v1.2,Research,Internal,false,3.16,0.079,false,Retrieval
+RUN-v12-02-33,2,v1.2,Data request,Client,false,2.85,0.081,false,Retrieval
+RUN-v12-02-34,2,v1.2,Report generation,Power user,false,2.73,0.083,false,Retrieval
+RUN-v12-02-35,2,v1.2,Job matching,Internal,false,3.16,0.085,false,Retrieval
+RUN-v12-03-01,3,v1.2,Report generation,Internal,true,2.65,0.077,true,
+RUN-v12-03-02,3,v1.2,Job matching,Client,true,3.08,0.079,true,
+RUN-v12-03-03,3,v1.2,Research,Power user,true,2.76,0.081,true,
+RUN-v12-03-04,3,v1.2,Data request,Internal,true,3.09,0.083,true,
+RUN-v12-03-05,3,v1.2,Report generation,Client,true,2.97,0.085,true,
+RUN-v12-03-06,3,v1.2,Job matching,Power user,true,3.4,0.077,true,
+RUN-v12-03-07,3,v1.2,Research,Internal,true,3.08,0.079,true,
+RUN-v12-03-08,3,v1.2,Data request,Client,true,3.41,0.081,false,
+RUN-v12-03-09,3,v1.2,Report generation,Power user,true,2.65,0.083,false,
+RUN-v12-03-10,3,v1.2,Job matching,Internal,true,3.08,0.085,false,
+RUN-v12-03-11,3,v1.2,Research,Client,true,2.76,0.077,false,
+RUN-v12-03-12,3,v1.2,Data request,Power user,true,3.09,0.079,false,
+RUN-v12-03-13,3,v1.2,Report generation,Internal,true,2.97,0.081,false,
+RUN-v12-03-14,3,v1.2,Job matching,Client,true,3.4,0.083,false,
+RUN-v12-03-15,3,v1.2,Research,Power user,true,3.08,0.085,false,
+RUN-v12-03-16,3,v1.2,Data request,Internal,true,3.41,0.077,false,
+RUN-v12-03-17,3,v1.2,Report generation,Client,true,2.65,0.079,false,
+RUN-v12-03-18,3,v1.2,Job matching,Power user,true,3.08,0.081,false,
+RUN-v12-03-19,3,v1.2,Research,Internal,true,2.76,0.083,false,
+RUN-v12-03-20,3,v1.2,Data request,Client,true,3.09,0.085,false,
+RUN-v12-03-21,3,v1.2,Report generation,Power user,true,2.97,0.077,false,
+RUN-v12-03-22,3,v1.2,Job matching,Internal,true,3.4,0.079,false,
+RUN-v12-03-23,3,v1.2,Research,Client,true,3.08,0.081,false,
+RUN-v12-03-24,3,v1.2,Data request,Power user,true,3.41,0.083,false,
+RUN-v12-03-25,3,v1.2,Report generation,Internal,true,2.65,0.085,false,
+RUN-v12-03-26,3,v1.2,Job matching,Client,true,3.08,0.077,false,
+RUN-v12-03-27,3,v1.2,Research,Power user,false,2.76,0.079,false,Retrieval
+RUN-v12-03-28,3,v1.2,Data request,Internal,false,3.09,0.081,false,Retrieval
+RUN-v12-03-29,3,v1.2,Report generation,Client,false,2.97,0.083,false,Retrieval
+RUN-v12-03-30,3,v1.2,Job matching,Power user,false,3.4,0.085,false,Retrieval
+RUN-v12-03-31,3,v1.2,Research,Internal,false,3.08,0.077,false,Retrieval
+RUN-v12-03-32,3,v1.2,Data request,Client,false,3.41,0.079,false,Retrieval
+RUN-v12-03-33,3,v1.2,Report generation,Power user,false,2.65,0.081,false,Retrieval
+RUN-v12-03-34,3,v1.2,Job matching,Internal,false,3.08,0.083,false,Retrieval
+RUN-v12-03-35,3,v1.2,Research,Client,false,2.76,0.085,false,Retrieval
+RUN-v12-04-01,4,v1.2,Job matching,Client,true,3,0.077,true,
+RUN-v12-04-02,4,v1.2,Research,Power user,true,2.68,0.079,true,
+RUN-v12-04-03,4,v1.2,Data request,Internal,true,3.01,0.081,true,
+RUN-v12-04-04,4,v1.2,Report generation,Client,true,2.89,0.083,true,
+RUN-v12-04-05,4,v1.2,Job matching,Power user,true,3.32,0.085,true,
+RUN-v12-04-06,4,v1.2,Research,Internal,true,3,0.077,true,
+RUN-v12-04-07,4,v1.2,Data request,Client,true,3.33,0.079,true,
+RUN-v12-04-08,4,v1.2,Report generation,Power user,true,3.21,0.081,false,
+RUN-v12-04-09,4,v1.2,Job matching,Internal,true,3,0.083,false,
+RUN-v12-04-10,4,v1.2,Research,Client,true,2.68,0.085,false,
+RUN-v12-04-11,4,v1.2,Data request,Power user,true,3.01,0.077,false,
+RUN-v12-04-12,4,v1.2,Report generation,Internal,true,2.89,0.079,false,
+RUN-v12-04-13,4,v1.2,Job matching,Client,true,3.32,0.081,false,
+RUN-v12-04-14,4,v1.2,Research,Power user,true,3,0.083,false,
+RUN-v12-04-15,4,v1.2,Data request,Internal,true,3.33,0.085,false,
+RUN-v12-04-16,4,v1.2,Report generation,Client,true,3.21,0.077,false,
+RUN-v12-04-17,4,v1.2,Job matching,Power user,true,3,0.079,false,
+RUN-v12-04-18,4,v1.2,Research,Internal,true,2.68,0.081,false,
+RUN-v12-04-19,4,v1.2,Data request,Client,true,3.01,0.083,false,
+RUN-v12-04-20,4,v1.2,Report generation,Power user,true,2.89,0.085,false,
+RUN-v12-04-21,4,v1.2,Job matching,Internal,true,3.32,0.077,false,
+RUN-v12-04-22,4,v1.2,Research,Client,true,3,0.079,false,
+RUN-v12-04-23,4,v1.2,Data request,Power user,true,3.33,0.081,false,
+RUN-v12-04-24,4,v1.2,Report generation,Internal,true,3.21,0.083,false,
+RUN-v12-04-25,4,v1.2,Job matching,Client,true,3,0.085,false,
+RUN-v12-04-26,4,v1.2,Research,Power user,true,2.68,0.077,false,
+RUN-v12-04-27,4,v1.2,Data request,Internal,true,3.01,0.079,false,
+RUN-v12-04-28,4,v1.2,Report generation,Client,false,2.89,0.081,false,Retrieval
+RUN-v12-04-29,4,v1.2,Job matching,Power user,false,3.32,0.083,false,Retrieval
+RUN-v12-04-30,4,v1.2,Research,Internal,false,3,0.085,false,Retrieval
+RUN-v12-04-31,4,v1.2,Data request,Client,false,3.33,0.077,false,Tool use
+RUN-v12-04-32,4,v1.2,Report generation,Power user,false,3.21,0.079,false,Tool use
+RUN-v12-04-33,4,v1.2,Job matching,Internal,false,3,0.081,false,Tool use
+RUN-v12-04-34,4,v1.2,Research,Client,false,2.68,0.083,false,Tool use
+RUN-v12-04-35,4,v1.2,Data request,Power user,false,3.01,0.085,false,Tool use
+RUN-v12-05-01,5,v1.2,Research,Power user,true,2.6,0.077,true,
+RUN-v12-05-02,5,v1.2,Data request,Internal,true,2.93,0.079,true,
+RUN-v12-05-03,5,v1.2,Report generation,Client,true,2.81,0.081,true,
+RUN-v12-05-04,5,v1.2,Job matching,Power user,true,3.24,0.083,true,
+RUN-v12-05-05,5,v1.2,Research,Internal,true,2.92,0.085,true,
+RUN-v12-05-06,5,v1.2,Data request,Client,true,3.25,0.077,true,
+RUN-v12-05-07,5,v1.2,Report generation,Power user,true,3.13,0.079,true,
+RUN-v12-05-08,5,v1.2,Job matching,Internal,true,3.56,0.081,false,
+RUN-v12-05-09,5,v1.2,Research,Client,true,2.6,0.083,false,
+RUN-v12-05-10,5,v1.2,Data request,Power user,true,2.93,0.085,false,
+RUN-v12-05-11,5,v1.2,Report generation,Internal,true,2.81,0.077,false,
+RUN-v12-05-12,5,v1.2,Job matching,Client,true,3.24,0.079,false,
+RUN-v12-05-13,5,v1.2,Research,Power user,true,2.92,0.081,false,
+RUN-v12-05-14,5,v1.2,Data request,Internal,true,3.25,0.083,false,
+RUN-v12-05-15,5,v1.2,Report generation,Client,true,3.13,0.085,false,
+RUN-v12-05-16,5,v1.2,Job matching,Power user,true,3.56,0.077,false,
+RUN-v12-05-17,5,v1.2,Research,Internal,true,2.6,0.079,false,
+RUN-v12-05-18,5,v1.2,Data request,Client,true,2.93,0.081,false,
+RUN-v12-05-19,5,v1.2,Report generation,Power user,true,2.81,0.083,false,
+RUN-v12-05-20,5,v1.2,Job matching,Internal,true,3.24,0.085,false,
+RUN-v12-05-21,5,v1.2,Research,Client,true,2.92,0.077,false,
+RUN-v12-05-22,5,v1.2,Data request,Power user,true,3.25,0.079,false,
+RUN-v12-05-23,5,v1.2,Report generation,Internal,true,3.13,0.081,false,
+RUN-v12-05-24,5,v1.2,Job matching,Client,true,3.56,0.083,false,
+RUN-v12-05-25,5,v1.2,Research,Power user,true,2.6,0.085,false,
+RUN-v12-05-26,5,v1.2,Data request,Internal,true,2.93,0.077,false,
+RUN-v12-05-27,5,v1.2,Report generation,Client,true,2.81,0.079,false,
+RUN-v12-05-28,5,v1.2,Job matching,Power user,false,3.24,0.081,false,Tool use
+RUN-v12-05-29,5,v1.2,Research,Internal,false,2.92,0.083,false,Tool use
+RUN-v12-05-30,5,v1.2,Data request,Client,false,3.25,0.085,false,Tool use
+RUN-v12-05-31,5,v1.2,Report generation,Power user,false,3.13,0.077,false,Tool use
+RUN-v12-05-32,5,v1.2,Job matching,Internal,false,3.56,0.079,false,Tool use
+RUN-v12-05-33,5,v1.2,Research,Client,false,2.6,0.081,false,Tool use
+RUN-v12-05-34,5,v1.2,Data request,Power user,false,2.93,0.083,false,Tool use
+RUN-v12-05-35,5,v1.2,Report generation,Internal,false,2.81,0.085,false,Tool use
+RUN-v12-06-01,6,v1.2,Data request,Internal,true,2.85,0.077,true,
+RUN-v12-06-02,6,v1.2,Report generation,Client,true,2.73,0.079,true,
+RUN-v12-06-03,6,v1.2,Job matching,Power user,true,3.16,0.081,true,
+RUN-v12-06-04,6,v1.2,Research,Internal,true,2.84,0.083,true,
+RUN-v12-06-05,6,v1.2,Data request,Client,true,3.17,0.085,true,
+RUN-v12-06-06,6,v1.2,Report generation,Power user,true,3.05,0.077,true,
+RUN-v12-06-07,6,v1.2,Job matching,Internal,true,3.48,0.079,false,
+RUN-v12-06-08,6,v1.2,Research,Client,true,3.16,0.081,false,
+RUN-v12-06-09,6,v1.2,Data request,Power user,true,2.85,0.083,false,
+RUN-v12-06-10,6,v1.2,Report generation,Internal,true,2.73,0.085,false,
+RUN-v12-06-11,6,v1.2,Job matching,Client,true,3.16,0.077,false,
+RUN-v12-06-12,6,v1.2,Research,Power user,true,2.84,0.079,false,
+RUN-v12-06-13,6,v1.2,Data request,Internal,true,3.17,0.081,false,
+RUN-v12-06-14,6,v1.2,Report generation,Client,true,3.05,0.083,false,
+RUN-v12-06-15,6,v1.2,Job matching,Power user,true,3.48,0.085,false,
+RUN-v12-06-16,6,v1.2,Research,Internal,true,3.16,0.077,false,
+RUN-v12-06-17,6,v1.2,Data request,Client,true,2.85,0.079,false,
+RUN-v12-06-18,6,v1.2,Report generation,Power user,true,2.73,0.081,false,
+RUN-v12-06-19,6,v1.2,Job matching,Internal,true,3.16,0.083,false,
+RUN-v12-06-20,6,v1.2,Research,Client,true,2.84,0.085,false,
+RUN-v12-06-21,6,v1.2,Data request,Power user,true,3.17,0.077,false,
+RUN-v12-06-22,6,v1.2,Report generation,Internal,true,3.05,0.079,false,
+RUN-v12-06-23,6,v1.2,Job matching,Client,true,3.48,0.081,false,
+RUN-v12-06-24,6,v1.2,Research,Power user,true,3.16,0.083,false,
+RUN-v12-06-25,6,v1.2,Data request,Internal,true,2.85,0.085,false,
+RUN-v12-06-26,6,v1.2,Report generation,Client,true,2.73,0.077,false,
+RUN-v12-06-27,6,v1.2,Job matching,Power user,true,3.16,0.079,false,
+RUN-v12-06-28,6,v1.2,Research,Internal,true,2.84,0.081,false,
+RUN-v12-06-29,6,v1.2,Data request,Client,false,3.17,0.083,false,Tool use
+RUN-v12-06-30,6,v1.2,Report generation,Power user,false,3.05,0.085,false,Tool use
+RUN-v12-06-31,6,v1.2,Job matching,Internal,false,3.48,0.077,false,Tool use
+RUN-v12-06-32,6,v1.2,Research,Client,false,3.16,0.079,false,Tool use
+RUN-v12-06-33,6,v1.2,Data request,Power user,false,2.85,0.081,false,Tool use
+RUN-v12-06-34,6,v1.2,Report generation,Internal,false,2.73,0.083,false,Tool use
+RUN-v12-06-35,6,v1.2,Job matching,Client,false,3.16,0.085,false,Formatting
+RUN-v12-07-01,7,v1.2,Report generation,Client,true,2.65,0.077,true,
+RUN-v12-07-02,7,v1.2,Job matching,Power user,true,3.08,0.079,true,
+RUN-v12-07-03,7,v1.2,Research,Internal,true,2.76,0.081,true,
+RUN-v12-07-04,7,v1.2,Data request,Client,true,3.09,0.083,true,
+RUN-v12-07-05,7,v1.2,Report generation,Power user,true,2.97,0.085,true,
+RUN-v12-07-06,7,v1.2,Job matching,Internal,true,3.4,0.077,true,
+RUN-v12-07-07,7,v1.2,Research,Client,true,3.08,0.079,false,
+RUN-v12-07-08,7,v1.2,Data request,Power user,true,3.41,0.081,false,
+RUN-v12-07-09,7,v1.2,Report generation,Internal,true,2.65,0.083,false,
+RUN-v12-07-10,7,v1.2,Job matching,Client,true,3.08,0.085,false,
+RUN-v12-07-11,7,v1.2,Research,Power user,true,2.76,0.077,false,
+RUN-v12-07-12,7,v1.2,Data request,Internal,true,3.09,0.079,false,
+RUN-v12-07-13,7,v1.2,Report generation,Client,true,2.97,0.081,false,
+RUN-v12-07-14,7,v1.2,Job matching,Power user,true,3.4,0.083,false,
+RUN-v12-07-15,7,v1.2,Research,Internal,true,3.08,0.085,false,
+RUN-v12-07-16,7,v1.2,Data request,Client,true,3.41,0.077,false,
+RUN-v12-07-17,7,v1.2,Report generation,Power user,true,2.65,0.079,false,
+RUN-v12-07-18,7,v1.2,Job matching,Internal,true,3.08,0.081,false,
+RUN-v12-07-19,7,v1.2,Research,Client,true,2.76,0.083,false,
+RUN-v12-07-20,7,v1.2,Data request,Power user,true,3.09,0.085,false,
+RUN-v12-07-21,7,v1.2,Report generation,Internal,true,2.97,0.077,false,
+RUN-v12-07-22,7,v1.2,Job matching,Client,true,3.4,0.079,false,
+RUN-v12-07-23,7,v1.2,Research,Power user,true,3.08,0.081,false,
+RUN-v12-07-24,7,v1.2,Data request,Internal,true,3.41,0.083,false,
+RUN-v12-07-25,7,v1.2,Report generation,Client,true,2.65,0.085,false,
+RUN-v12-07-26,7,v1.2,Job matching,Power user,true,3.08,0.077,false,
+RUN-v12-07-27,7,v1.2,Research,Internal,true,2.76,0.079,false,
+RUN-v12-07-28,7,v1.2,Data request,Client,true,3.09,0.081,false,
+RUN-v12-07-29,7,v1.2,Report generation,Power user,false,2.97,0.083,false,Formatting
+RUN-v12-07-30,7,v1.2,Job matching,Internal,false,3.4,0.085,false,Formatting
+RUN-v12-07-31,7,v1.2,Research,Client,false,3.08,0.077,false,Formatting
+RUN-v12-07-32,7,v1.2,Data request,Power user,false,3.41,0.079,false,Formatting
+RUN-v12-07-33,7,v1.2,Report generation,Internal,false,2.65,0.081,false,Formatting
+RUN-v12-07-34,7,v1.2,Job matching,Client,false,3.08,0.083,false,Formatting
+RUN-v12-07-35,7,v1.2,Research,Power user,false,2.76,0.085,false,Formatting
+RUN-v12-08-01,8,v1.2,Job matching,Power user,true,3,0.077,true,
+RUN-v12-08-02,8,v1.2,Research,Internal,true,2.68,0.079,true,
+RUN-v12-08-03,8,v1.2,Data request,Client,true,3.01,0.081,true,
+RUN-v12-08-04,8,v1.2,Report generation,Power user,true,2.89,0.083,true,
+RUN-v12-08-05,8,v1.2,Job matching,Internal,true,3.32,0.085,true,
+RUN-v12-08-06,8,v1.2,Research,Client,true,3,0.077,true,
+RUN-v12-08-07,8,v1.2,Data request,Power user,true,3.33,0.079,false,
+RUN-v12-08-08,8,v1.2,Report generation,Internal,true,3.21,0.081,false,
+RUN-v12-08-09,8,v1.2,Job matching,Client,true,3,0.083,false,
+RUN-v12-08-10,8,v1.2,Research,Power user,true,2.68,0.085,false,
+RUN-v12-08-11,8,v1.2,Data request,Internal,true,3.01,0.077,false,
+RUN-v12-08-12,8,v1.2,Report generation,Client,true,2.89,0.079,false,
+RUN-v12-08-13,8,v1.2,Job matching,Power user,true,3.32,0.081,false,
+RUN-v12-08-14,8,v1.2,Research,Internal,true,3,0.083,false,
+RUN-v12-08-15,8,v1.2,Data request,Client,true,3.33,0.085,false,
+RUN-v12-08-16,8,v1.2,Report generation,Power user,true,3.21,0.077,false,
+RUN-v12-08-17,8,v1.2,Job matching,Internal,true,3,0.079,false,
+RUN-v12-08-18,8,v1.2,Research,Client,true,2.68,0.081,false,
+RUN-v12-08-19,8,v1.2,Data request,Power user,true,3.01,0.083,false,
+RUN-v12-08-20,8,v1.2,Report generation,Internal,true,2.89,0.085,false,
+RUN-v12-08-21,8,v1.2,Job matching,Client,true,3.32,0.077,false,
+RUN-v12-08-22,8,v1.2,Research,Power user,true,3,0.079,false,
+RUN-v12-08-23,8,v1.2,Data request,Internal,true,3.33,0.081,false,
+RUN-v12-08-24,8,v1.2,Report generation,Client,true,3.21,0.083,false,
+RUN-v12-08-25,8,v1.2,Job matching,Power user,true,3,0.085,false,
+RUN-v12-08-26,8,v1.2,Research,Internal,true,2.68,0.077,false,
+RUN-v12-08-27,8,v1.2,Data request,Client,true,3.01,0.079,false,
+RUN-v12-08-28,8,v1.2,Report generation,Power user,true,2.89,0.081,false,
+RUN-v12-08-29,8,v1.2,Job matching,Internal,true,3.32,0.083,false,
+RUN-v12-08-30,8,v1.2,Research,Client,false,3,0.085,false,Formatting
+RUN-v12-08-31,8,v1.2,Data request,Power user,false,3.33,0.077,false,Formatting
+RUN-v12-08-32,8,v1.2,Report generation,Internal,false,3.21,0.079,false,Formatting
+RUN-v12-08-33,8,v1.2,Job matching,Client,false,3,0.081,false,Formatting
+RUN-v12-08-34,8,v1.2,Research,Power user,false,2.68,0.083,false,Formatting
+RUN-v12-08-35,8,v1.2,Data request,Internal,false,3.01,0.085,false,Formatting
+RUN-v12-09-01,9,v1.2,Research,Internal,true,2.6,0.077,true,
+RUN-v12-09-02,9,v1.2,Data request,Client,true,2.93,0.079,true,
+RUN-v12-09-03,9,v1.2,Report generation,Power user,true,2.81,0.081,true,
+RUN-v12-09-04,9,v1.2,Job matching,Internal,true,3.24,0.083,true,
+RUN-v12-09-05,9,v1.2,Research,Client,true,2.92,0.085,true,
+RUN-v12-09-06,9,v1.2,Data request,Power user,true,3.25,0.077,false,
+RUN-v12-09-07,9,v1.2,Report generation,Internal,true,3.13,0.079,false,
+RUN-v12-09-08,9,v1.2,Job matching,Client,true,3.56,0.081,false,
+RUN-v12-09-09,9,v1.2,Research,Power user,true,2.6,0.083,false,
+RUN-v12-09-10,9,v1.2,Data request,Internal,true,2.93,0.085,false,
+RUN-v12-09-11,9,v1.2,Report generation,Client,true,2.81,0.077,false,
+RUN-v12-09-12,9,v1.2,Job matching,Power user,true,3.24,0.079,false,
+RUN-v12-09-13,9,v1.2,Research,Internal,true,2.92,0.081,false,
+RUN-v12-09-14,9,v1.2,Data request,Client,true,3.25,0.083,false,
+RUN-v12-09-15,9,v1.2,Report generation,Power user,true,3.13,0.085,false,
+RUN-v12-09-16,9,v1.2,Job matching,Internal,true,3.56,0.077,false,
+RUN-v12-09-17,9,v1.2,Research,Client,true,2.6,0.079,false,
+RUN-v12-09-18,9,v1.2,Data request,Power user,true,2.93,0.081,false,
+RUN-v12-09-19,9,v1.2,Report generation,Internal,true,2.81,0.083,false,
+RUN-v12-09-20,9,v1.2,Job matching,Client,true,3.24,0.085,false,
+RUN-v12-09-21,9,v1.2,Research,Power user,true,2.92,0.077,false,
+RUN-v12-09-22,9,v1.2,Data request,Internal,true,3.25,0.079,false,
+RUN-v12-09-23,9,v1.2,Report generation,Client,true,3.13,0.081,false,
+RUN-v12-09-24,9,v1.2,Job matching,Power user,true,3.56,0.083,false,
+RUN-v12-09-25,9,v1.2,Research,Internal,true,2.6,0.085,false,
+RUN-v12-09-26,9,v1.2,Data request,Client,true,2.93,0.077,false,
+RUN-v12-09-27,9,v1.2,Report generation,Power user,true,2.81,0.079,false,
+RUN-v12-09-28,9,v1.2,Job matching,Internal,true,3.24,0.081,false,
+RUN-v12-09-29,9,v1.2,Research,Client,true,2.92,0.083,false,
+RUN-v12-09-30,9,v1.2,Data request,Power user,false,3.25,0.085,false,Formatting
+RUN-v12-09-31,9,v1.2,Report generation,Internal,false,3.13,0.077,false,Hallucination
+RUN-v12-09-32,9,v1.2,Job matching,Client,false,3.56,0.079,false,Hallucination
+RUN-v12-09-33,9,v1.2,Research,Power user,false,2.6,0.081,false,Hallucination
+RUN-v12-09-34,9,v1.2,Data request,Internal,false,2.93,0.083,false,Hallucination
+RUN-v12-09-35,9,v1.2,Report generation,Client,false,2.81,0.085,false,Hallucination
+RUN-v12-10-01,10,v1.2,Data request,Client,true,2.85,0.077,true,
+RUN-v12-10-02,10,v1.2,Report generation,Power user,true,2.73,0.079,true,
+RUN-v12-10-03,10,v1.2,Job matching,Internal,true,3.16,0.081,true,
+RUN-v12-10-04,10,v1.2,Research,Client,true,2.84,0.083,true,
+RUN-v12-10-05,10,v1.2,Data request,Power user,true,3.17,0.085,true,
+RUN-v12-10-06,10,v1.2,Report generation,Internal,true,3.05,0.077,false,
+RUN-v12-10-07,10,v1.2,Job matching,Client,true,3.48,0.079,false,
+RUN-v12-10-08,10,v1.2,Research,Power user,true,3.16,0.081,false,
+RUN-v12-10-09,10,v1.2,Data request,Internal,true,2.85,0.083,false,
+RUN-v12-10-10,10,v1.2,Report generation,Client,true,2.73,0.085,false,
+RUN-v12-10-11,10,v1.2,Job matching,Power user,true,3.16,0.077,false,
+RUN-v12-10-12,10,v1.2,Research,Internal,true,2.84,0.079,false,
+RUN-v12-10-13,10,v1.2,Data request,Client,true,3.17,0.081,false,
+RUN-v12-10-14,10,v1.2,Report generation,Power user,true,3.05,0.083,false,
+RUN-v12-10-15,10,v1.2,Job matching,Internal,true,3.48,0.085,false,
+RUN-v12-10-16,10,v1.2,Research,Client,true,3.16,0.077,false,
+RUN-v12-10-17,10,v1.2,Data request,Power user,true,2.85,0.079,false,
+RUN-v12-10-18,10,v1.2,Report generation,Internal,true,2.73,0.081,false,
+RUN-v12-10-19,10,v1.2,Job matching,Client,true,3.16,0.083,false,
+RUN-v12-10-20,10,v1.2,Research,Power user,true,2.84,0.085,false,
+RUN-v12-10-21,10,v1.2,Data request,Internal,true,3.17,0.077,false,
+RUN-v12-10-22,10,v1.2,Report generation,Client,true,3.05,0.079,false,
+RUN-v12-10-23,10,v1.2,Job matching,Power user,true,3.48,0.081,false,
+RUN-v12-10-24,10,v1.2,Research,Internal,true,3.16,0.083,false,
+RUN-v12-10-25,10,v1.2,Data request,Client,true,2.85,0.085,false,
+RUN-v12-10-26,10,v1.2,Report generation,Power user,true,2.73,0.077,false,
+RUN-v12-10-27,10,v1.2,Job matching,Internal,true,3.16,0.079,false,
+RUN-v12-10-28,10,v1.2,Research,Client,true,2.84,0.081,false,
+RUN-v12-10-29,10,v1.2,Data request,Power user,true,3.17,0.083,false,
+RUN-v12-10-30,10,v1.2,Report generation,Internal,true,3.05,0.085,false,
+RUN-v12-10-31,10,v1.2,Job matching,Client,false,3.48,0.077,false,Hallucination
+RUN-v12-10-32,10,v1.2,Research,Power user,false,3.16,0.079,false,Hallucination
+RUN-v12-10-33,10,v1.2,Data request,Internal,false,2.85,0.081,false,Hallucination
+RUN-v12-10-34,10,v1.2,Report generation,Client,false,2.73,0.083,false,Hallucination
+RUN-v12-10-35,10,v1.2,Job matching,Power user,false,3.16,0.085,false,Hallucination
+RUN-v12-11-01,11,v1.2,Report generation,Power user,true,2.65,0.077,true,
+RUN-v12-11-02,11,v1.2,Job matching,Internal,true,3.08,0.079,true,
+RUN-v12-11-03,11,v1.2,Research,Client,true,2.76,0.081,true,
+RUN-v12-11-04,11,v1.2,Data request,Power user,true,3.09,0.083,true,
+RUN-v12-11-05,11,v1.2,Report generation,Internal,true,2.97,0.085,true,
+RUN-v12-11-06,11,v1.2,Job matching,Client,true,3.4,0.077,false,
+RUN-v12-11-07,11,v1.2,Research,Power user,true,3.08,0.079,false,
+RUN-v12-11-08,11,v1.2,Data request,Internal,true,3.41,0.081,false,
+RUN-v12-11-09,11,v1.2,Report generation,Client,true,2.65,0.083,false,
+RUN-v12-11-10,11,v1.2,Job matching,Power user,true,3.08,0.085,false,
+RUN-v12-11-11,11,v1.2,Research,Internal,true,2.76,0.077,false,
+RUN-v12-11-12,11,v1.2,Data request,Client,true,3.09,0.079,false,
+RUN-v12-11-13,11,v1.2,Report generation,Power user,true,2.97,0.081,false,
+RUN-v12-11-14,11,v1.2,Job matching,Internal,true,3.4,0.083,false,
+RUN-v12-11-15,11,v1.2,Research,Client,true,3.08,0.085,false,
+RUN-v12-11-16,11,v1.2,Data request,Power user,true,3.41,0.077,false,
+RUN-v12-11-17,11,v1.2,Report generation,Internal,true,2.65,0.079,false,
+RUN-v12-11-18,11,v1.2,Job matching,Client,true,3.08,0.081,false,
+RUN-v12-11-19,11,v1.2,Research,Power user,true,2.76,0.083,false,
+RUN-v12-11-20,11,v1.2,Data request,Internal,true,3.09,0.085,false,
+RUN-v12-11-21,11,v1.2,Report generation,Client,true,2.97,0.077,false,
+RUN-v12-11-22,11,v1.2,Job matching,Power user,true,3.4,0.079,false,
+RUN-v12-11-23,11,v1.2,Research,Internal,true,3.08,0.081,false,
+RUN-v12-11-24,11,v1.2,Data request,Client,true,3.41,0.083,false,
+RUN-v12-11-25,11,v1.2,Report generation,Power user,true,2.65,0.085,false,
+RUN-v12-11-26,11,v1.2,Job matching,Internal,true,3.08,0.077,false,
+RUN-v12-11-27,11,v1.2,Research,Client,true,2.76,0.079,false,
+RUN-v12-11-28,11,v1.2,Data request,Power user,true,3.09,0.081,false,
+RUN-v12-11-29,11,v1.2,Report generation,Internal,true,2.97,0.083,false,
+RUN-v12-11-30,11,v1.2,Job matching,Client,true,3.4,0.085,false,
+RUN-v12-11-31,11,v1.2,Research,Power user,true,3.08,0.077,false,
+RUN-v12-11-32,11,v1.2,Data request,Internal,false,3.41,0.079,false,Hallucination
+RUN-v12-11-33,11,v1.2,Report generation,Client,false,2.65,0.081,false,Other
+RUN-v12-11-34,11,v1.2,Job matching,Power user,false,3.08,0.083,false,Other
+RUN-v12-11-35,11,v1.2,Research,Internal,false,2.76,0.085,false,Other
+RUN-v12-12-01,12,v1.2,Job matching,Internal,true,3,0.077,true,
+RUN-v12-12-02,12,v1.2,Research,Client,true,2.68,0.079,true,
+RUN-v12-12-03,12,v1.2,Data request,Power user,true,3.01,0.081,true,
+RUN-v12-12-04,12,v1.2,Report generation,Internal,true,2.89,0.083,true,
+RUN-v12-12-05,12,v1.2,Job matching,Client,true,3.32,0.085,true,
+RUN-v12-12-06,12,v1.2,Research,Power user,true,3,0.077,false,
+RUN-v12-12-07,12,v1.2,Data request,Internal,true,3.33,0.079,false,
+RUN-v12-12-08,12,v1.2,Report generation,Client,true,3.21,0.081,false,
+RUN-v12-12-09,12,v1.2,Job matching,Power user,true,3,0.083,false,
+RUN-v12-12-10,12,v1.2,Research,Internal,true,2.68,0.085,false,
+RUN-v12-12-11,12,v1.2,Data request,Client,true,3.01,0.077,false,
+RUN-v12-12-12,12,v1.2,Report generation,Power user,true,2.89,0.079,false,
+RUN-v12-12-13,12,v1.2,Job matching,Internal,true,3.32,0.081,false,
+RUN-v12-12-14,12,v1.2,Research,Client,true,3,0.083,false,
+RUN-v12-12-15,12,v1.2,Data request,Power user,true,3.33,0.085,false,
+RUN-v12-12-16,12,v1.2,Report generation,Internal,true,3.21,0.077,false,
+RUN-v12-12-17,12,v1.2,Job matching,Client,true,3,0.079,false,
+RUN-v12-12-18,12,v1.2,Research,Power user,true,2.68,0.081,false,
+RUN-v12-12-19,12,v1.2,Data request,Internal,true,3.01,0.083,false,
+RUN-v12-12-20,12,v1.2,Report generation,Client,true,2.89,0.085,false,
+RUN-v12-12-21,12,v1.2,Job matching,Power user,true,3.32,0.077,false,
+RUN-v12-12-22,12,v1.2,Research,Internal,true,3,0.079,false,
+RUN-v12-12-23,12,v1.2,Data request,Client,true,3.33,0.081,false,
+RUN-v12-12-24,12,v1.2,Report generation,Power user,true,3.21,0.083,false,
+RUN-v12-12-25,12,v1.2,Job matching,Internal,true,3,0.085,false,
+RUN-v12-12-26,12,v1.2,Research,Client,true,2.68,0.077,false,
+RUN-v12-12-27,12,v1.2,Data request,Power user,true,3.01,0.079,false,
+RUN-v12-12-28,12,v1.2,Report generation,Internal,true,2.89,0.081,false,
+RUN-v12-12-29,12,v1.2,Job matching,Client,true,3.32,0.083,false,
+RUN-v12-12-30,12,v1.2,Research,Power user,true,3,0.085,false,
+RUN-v12-12-31,12,v1.2,Data request,Internal,true,3.33,0.077,false,
+RUN-v12-12-32,12,v1.2,Report generation,Client,false,3.21,0.079,false,Other
+RUN-v12-12-33,12,v1.2,Job matching,Power user,false,3,0.081,false,Other
+RUN-v12-12-34,12,v1.2,Research,Internal,false,2.68,0.083,false,Other
+RUN-v12-12-35,12,v1.2,Data request,Client,false,3.01,0.085,false,Other
+RUN-v13-01-01,1,v1.3,Data request,Client,true,2.2,0.07,true,
+RUN-v13-01-02,1,v1.3,Report generation,Power user,true,2.08,0.072,true,
+RUN-v13-01-03,1,v1.3,Job matching,Internal,true,2.51,0.074,true,
+RUN-v13-01-04,1,v1.3,Research,Client,true,2.19,0.076,true,
+RUN-v13-01-05,1,v1.3,Data request,Power user,true,2.52,0.078,true,
+RUN-v13-01-06,1,v1.3,Report generation,Internal,true,2.4,0.07,false,
+RUN-v13-01-07,1,v1.3,Job matching,Client,true,2.83,0.072,false,
+RUN-v13-01-08,1,v1.3,Research,Power user,true,2.51,0.074,false,
+RUN-v13-01-09,1,v1.3,Data request,Internal,true,2.2,0.076,false,
+RUN-v13-01-10,1,v1.3,Report generation,Client,true,2.08,0.078,false,
+RUN-v13-01-11,1,v1.3,Job matching,Power user,true,2.51,0.07,false,
+RUN-v13-01-12,1,v1.3,Research,Internal,true,2.19,0.072,false,
+RUN-v13-01-13,1,v1.3,Data request,Client,true,2.52,0.074,false,
+RUN-v13-01-14,1,v1.3,Report generation,Power user,true,2.4,0.076,false,
+RUN-v13-01-15,1,v1.3,Job matching,Internal,true,2.83,0.078,false,
+RUN-v13-01-16,1,v1.3,Research,Client,true,2.51,0.07,false,
+RUN-v13-01-17,1,v1.3,Data request,Power user,true,2.2,0.072,false,
+RUN-v13-01-18,1,v1.3,Report generation,Internal,true,2.08,0.074,false,
+RUN-v13-01-19,1,v1.3,Job matching,Client,true,2.51,0.076,false,
+RUN-v13-01-20,1,v1.3,Research,Power user,true,2.19,0.078,false,
+RUN-v13-01-21,1,v1.3,Data request,Internal,true,2.52,0.07,false,
+RUN-v13-01-22,1,v1.3,Report generation,Client,true,2.4,0.072,false,
+RUN-v13-01-23,1,v1.3,Job matching,Power user,true,2.83,0.074,false,
+RUN-v13-01-24,1,v1.3,Research,Internal,true,2.51,0.076,false,
+RUN-v13-01-25,1,v1.3,Data request,Client,true,2.2,0.078,false,
+RUN-v13-01-26,1,v1.3,Report generation,Power user,true,2.08,0.07,false,
+RUN-v13-01-27,1,v1.3,Job matching,Internal,true,2.51,0.072,false,
+RUN-v13-01-28,1,v1.3,Research,Client,false,2.19,0.074,false,Retrieval
+RUN-v13-01-29,1,v1.3,Data request,Power user,false,2.52,0.076,false,Retrieval
+RUN-v13-01-30,1,v1.3,Report generation,Internal,false,2.4,0.078,false,Retrieval
+RUN-v13-01-31,1,v1.3,Job matching,Client,false,2.83,0.07,false,Retrieval
+RUN-v13-01-32,1,v1.3,Research,Power user,false,2.51,0.072,false,Retrieval
+RUN-v13-01-33,1,v1.3,Data request,Internal,false,2.2,0.074,false,Retrieval
+RUN-v13-01-34,1,v1.3,Report generation,Client,false,2.08,0.076,false,Retrieval
+RUN-v13-01-35,1,v1.3,Job matching,Power user,false,2.51,0.078,false,Retrieval
+RUN-v13-02-01,2,v1.3,Report generation,Power user,true,2,0.07,true,
+RUN-v13-02-02,2,v1.3,Job matching,Internal,true,2.43,0.072,true,
+RUN-v13-02-03,2,v1.3,Research,Client,true,2.11,0.074,true,
+RUN-v13-02-04,2,v1.3,Data request,Power user,true,2.44,0.076,true,
+RUN-v13-02-05,2,v1.3,Report generation,Internal,true,2.32,0.078,true,
+RUN-v13-02-06,2,v1.3,Job matching,Client,true,2.75,0.07,false,
+RUN-v13-02-07,2,v1.3,Research,Power user,true,2.43,0.072,false,
+RUN-v13-02-08,2,v1.3,Data request,Internal,true,2.76,0.074,false,
+RUN-v13-02-09,2,v1.3,Report generation,Client,true,2,0.076,false,
+RUN-v13-02-10,2,v1.3,Job matching,Power user,true,2.43,0.078,false,
+RUN-v13-02-11,2,v1.3,Research,Internal,true,2.11,0.07,false,
+RUN-v13-02-12,2,v1.3,Data request,Client,true,2.44,0.072,false,
+RUN-v13-02-13,2,v1.3,Report generation,Power user,true,2.32,0.074,false,
+RUN-v13-02-14,2,v1.3,Job matching,Internal,true,2.75,0.076,false,
+RUN-v13-02-15,2,v1.3,Research,Client,true,2.43,0.078,false,
+RUN-v13-02-16,2,v1.3,Data request,Power user,true,2.76,0.07,false,
+RUN-v13-02-17,2,v1.3,Report generation,Internal,true,2,0.072,false,
+RUN-v13-02-18,2,v1.3,Job matching,Client,true,2.43,0.074,false,
+RUN-v13-02-19,2,v1.3,Research,Power user,true,2.11,0.076,false,
+RUN-v13-02-20,2,v1.3,Data request,Internal,true,2.44,0.078,false,
+RUN-v13-02-21,2,v1.3,Report generation,Client,true,2.32,0.07,false,
+RUN-v13-02-22,2,v1.3,Job matching,Power user,true,2.75,0.072,false,
+RUN-v13-02-23,2,v1.3,Research,Internal,true,2.43,0.074,false,
+RUN-v13-02-24,2,v1.3,Data request,Client,true,2.76,0.076,false,
+RUN-v13-02-25,2,v1.3,Report generation,Power user,true,2,0.078,false,
+RUN-v13-02-26,2,v1.3,Job matching,Internal,true,2.43,0.07,false,
+RUN-v13-02-27,2,v1.3,Research,Client,true,2.11,0.072,false,
+RUN-v13-02-28,2,v1.3,Data request,Power user,true,2.44,0.074,false,
+RUN-v13-02-29,2,v1.3,Report generation,Internal,false,2.32,0.076,false,Retrieval
+RUN-v13-02-30,2,v1.3,Job matching,Client,false,2.75,0.078,false,Retrieval
+RUN-v13-02-31,2,v1.3,Research,Power user,false,2.43,0.07,false,Retrieval
+RUN-v13-02-32,2,v1.3,Data request,Internal,false,2.76,0.072,false,Retrieval
+RUN-v13-02-33,2,v1.3,Report generation,Client,false,2,0.074,false,Retrieval
+RUN-v13-02-34,2,v1.3,Job matching,Power user,false,2.43,0.076,false,Retrieval
+RUN-v13-02-35,2,v1.3,Research,Internal,false,2.11,0.078,false,Retrieval
+RUN-v13-03-01,3,v1.3,Job matching,Internal,true,2.35,0.07,true,
+RUN-v13-03-02,3,v1.3,Research,Client,true,2.03,0.072,true,
+RUN-v13-03-03,3,v1.3,Data request,Power user,true,2.36,0.074,true,
+RUN-v13-03-04,3,v1.3,Report generation,Internal,true,2.24,0.076,true,
+RUN-v13-03-05,3,v1.3,Job matching,Client,true,2.67,0.078,false,
+RUN-v13-03-06,3,v1.3,Research,Power user,true,2.35,0.07,false,
+RUN-v13-03-07,3,v1.3,Data request,Internal,true,2.68,0.072,false,
+RUN-v13-03-08,3,v1.3,Report generation,Client,true,2.56,0.074,false,
+RUN-v13-03-09,3,v1.3,Job matching,Power user,true,2.35,0.076,false,
+RUN-v13-03-10,3,v1.3,Research,Internal,true,2.03,0.078,false,
+RUN-v13-03-11,3,v1.3,Data request,Client,true,2.36,0.07,false,
+RUN-v13-03-12,3,v1.3,Report generation,Power user,true,2.24,0.072,false,
+RUN-v13-03-13,3,v1.3,Job matching,Internal,true,2.67,0.074,false,
+RUN-v13-03-14,3,v1.3,Research,Client,true,2.35,0.076,false,
+RUN-v13-03-15,3,v1.3,Data request,Power user,true,2.68,0.078,false,
+RUN-v13-03-16,3,v1.3,Report generation,Internal,true,2.56,0.07,false,
+RUN-v13-03-17,3,v1.3,Job matching,Client,true,2.35,0.072,false,
+RUN-v13-03-18,3,v1.3,Research,Power user,true,2.03,0.074,false,
+RUN-v13-03-19,3,v1.3,Data request,Internal,true,2.36,0.076,false,
+RUN-v13-03-20,3,v1.3,Report generation,Client,true,2.24,0.078,false,
+RUN-v13-03-21,3,v1.3,Job matching,Power user,true,2.67,0.07,false,
+RUN-v13-03-22,3,v1.3,Research,Internal,true,2.35,0.072,false,
+RUN-v13-03-23,3,v1.3,Data request,Client,true,2.68,0.074,false,
+RUN-v13-03-24,3,v1.3,Report generation,Power user,true,2.56,0.076,false,
+RUN-v13-03-25,3,v1.3,Job matching,Internal,true,2.35,0.078,false,
+RUN-v13-03-26,3,v1.3,Research,Client,true,2.03,0.07,false,
+RUN-v13-03-27,3,v1.3,Data request,Power user,true,2.36,0.072,false,
+RUN-v13-03-28,3,v1.3,Report generation,Internal,true,2.24,0.074,false,
+RUN-v13-03-29,3,v1.3,Job matching,Client,false,2.67,0.076,false,Retrieval
+RUN-v13-03-30,3,v1.3,Research,Power user,false,2.35,0.078,false,Retrieval
+RUN-v13-03-31,3,v1.3,Data request,Internal,false,2.68,0.07,false,Retrieval
+RUN-v13-03-32,3,v1.3,Report generation,Client,false,2.56,0.072,false,Retrieval
+RUN-v13-03-33,3,v1.3,Job matching,Power user,false,2.35,0.074,false,Retrieval
+RUN-v13-03-34,3,v1.3,Research,Internal,false,2.03,0.076,false,Retrieval
+RUN-v13-03-35,3,v1.3,Data request,Client,false,2.36,0.078,false,Retrieval
+RUN-v13-04-01,4,v1.3,Research,Client,true,1.95,0.07,true,
+RUN-v13-04-02,4,v1.3,Data request,Power user,true,2.28,0.072,true,
+RUN-v13-04-03,4,v1.3,Report generation,Internal,true,2.16,0.074,true,
+RUN-v13-04-04,4,v1.3,Job matching,Client,true,2.59,0.076,true,
+RUN-v13-04-05,4,v1.3,Research,Power user,true,2.27,0.078,false,
+RUN-v13-04-06,4,v1.3,Data request,Internal,true,2.6,0.07,false,
+RUN-v13-04-07,4,v1.3,Report generation,Client,true,2.48,0.072,false,
+RUN-v13-04-08,4,v1.3,Job matching,Power user,true,2.91,0.074,false,
+RUN-v13-04-09,4,v1.3,Research,Internal,true,1.95,0.076,false,
+RUN-v13-04-10,4,v1.3,Data request,Client,true,2.28,0.078,false,
+RUN-v13-04-11,4,v1.3,Report generation,Power user,true,2.16,0.07,false,
+RUN-v13-04-12,4,v1.3,Job matching,Internal,true,2.59,0.072,false,
+RUN-v13-04-13,4,v1.3,Research,Client,true,2.27,0.074,false,
+RUN-v13-04-14,4,v1.3,Data request,Power user,true,2.6,0.076,false,
+RUN-v13-04-15,4,v1.3,Report generation,Internal,true,2.48,0.078,false,
+RUN-v13-04-16,4,v1.3,Job matching,Client,true,2.91,0.07,false,
+RUN-v13-04-17,4,v1.3,Research,Power user,true,1.95,0.072,false,
+RUN-v13-04-18,4,v1.3,Data request,Internal,true,2.28,0.074,false,
+RUN-v13-04-19,4,v1.3,Report generation,Client,true,2.16,0.076,false,
+RUN-v13-04-20,4,v1.3,Job matching,Power user,true,2.59,0.078,false,
+RUN-v13-04-21,4,v1.3,Research,Internal,true,2.27,0.07,false,
+RUN-v13-04-22,4,v1.3,Data request,Client,true,2.6,0.072,false,
+RUN-v13-04-23,4,v1.3,Report generation,Power user,true,2.48,0.074,false,
+RUN-v13-04-24,4,v1.3,Job matching,Internal,true,2.91,0.076,false,
+RUN-v13-04-25,4,v1.3,Research,Client,true,1.95,0.078,false,
+RUN-v13-04-26,4,v1.3,Data request,Power user,true,2.28,0.07,false,
+RUN-v13-04-27,4,v1.3,Report generation,Internal,true,2.16,0.072,false,
+RUN-v13-04-28,4,v1.3,Job matching,Client,true,2.59,0.074,false,
+RUN-v13-04-29,4,v1.3,Research,Power user,true,2.27,0.076,false,
+RUN-v13-04-30,4,v1.3,Data request,Internal,false,2.6,0.078,false,Retrieval
+RUN-v13-04-31,4,v1.3,Report generation,Client,false,2.48,0.07,false,Retrieval
+RUN-v13-04-32,4,v1.3,Job matching,Power user,false,2.91,0.072,false,Tool use
+RUN-v13-04-33,4,v1.3,Research,Internal,false,1.95,0.074,false,Tool use
+RUN-v13-04-34,4,v1.3,Data request,Client,false,2.28,0.076,false,Tool use
+RUN-v13-04-35,4,v1.3,Report generation,Power user,false,2.16,0.078,false,Tool use
+RUN-v13-05-01,5,v1.3,Data request,Power user,true,2.2,0.07,true,
+RUN-v13-05-02,5,v1.3,Report generation,Internal,true,2.08,0.072,true,
+RUN-v13-05-03,5,v1.3,Job matching,Client,true,2.51,0.074,true,
+RUN-v13-05-04,5,v1.3,Research,Power user,true,2.19,0.076,true,
+RUN-v13-05-05,5,v1.3,Data request,Internal,true,2.52,0.078,false,
+RUN-v13-05-06,5,v1.3,Report generation,Client,true,2.4,0.07,false,
+RUN-v13-05-07,5,v1.3,Job matching,Power user,true,2.83,0.072,false,
+RUN-v13-05-08,5,v1.3,Research,Internal,true,2.51,0.074,false,
+RUN-v13-05-09,5,v1.3,Data request,Client,true,2.2,0.076,false,
+RUN-v13-05-10,5,v1.3,Report generation,Power user,true,2.08,0.078,false,
+RUN-v13-05-11,5,v1.3,Job matching,Internal,true,2.51,0.07,false,
+RUN-v13-05-12,5,v1.3,Research,Client,true,2.19,0.072,false,
+RUN-v13-05-13,5,v1.3,Data request,Power user,true,2.52,0.074,false,
+RUN-v13-05-14,5,v1.3,Report generation,Internal,true,2.4,0.076,false,
+RUN-v13-05-15,5,v1.3,Job matching,Client,true,2.83,0.078,false,
+RUN-v13-05-16,5,v1.3,Research,Power user,true,2.51,0.07,false,
+RUN-v13-05-17,5,v1.3,Data request,Internal,true,2.2,0.072,false,
+RUN-v13-05-18,5,v1.3,Report generation,Client,true,2.08,0.074,false,
+RUN-v13-05-19,5,v1.3,Job matching,Power user,true,2.51,0.076,false,
+RUN-v13-05-20,5,v1.3,Research,Internal,true,2.19,0.078,false,
+RUN-v13-05-21,5,v1.3,Data request,Client,true,2.52,0.07,false,
+RUN-v13-05-22,5,v1.3,Report generation,Power user,true,2.4,0.072,false,
+RUN-v13-05-23,5,v1.3,Job matching,Internal,true,2.83,0.074,false,
+RUN-v13-05-24,5,v1.3,Research,Client,true,2.51,0.076,false,
+RUN-v13-05-25,5,v1.3,Data request,Power user,true,2.2,0.078,false,
+RUN-v13-05-26,5,v1.3,Report generation,Internal,true,2.08,0.07,false,
+RUN-v13-05-27,5,v1.3,Job matching,Client,true,2.51,0.072,false,
+RUN-v13-05-28,5,v1.3,Research,Power user,true,2.19,0.074,false,
+RUN-v13-05-29,5,v1.3,Data request,Internal,true,2.52,0.076,false,
+RUN-v13-05-30,5,v1.3,Report generation,Client,false,2.4,0.078,false,Tool use
+RUN-v13-05-31,5,v1.3,Job matching,Power user,false,2.83,0.07,false,Tool use
+RUN-v13-05-32,5,v1.3,Research,Internal,false,2.51,0.072,false,Tool use
+RUN-v13-05-33,5,v1.3,Data request,Client,false,2.2,0.074,false,Tool use
+RUN-v13-05-34,5,v1.3,Report generation,Power user,false,2.08,0.076,false,Tool use
+RUN-v13-05-35,5,v1.3,Job matching,Internal,false,2.51,0.078,false,Tool use
+RUN-v13-06-01,6,v1.3,Report generation,Internal,true,2,0.07,true,
+RUN-v13-06-02,6,v1.3,Job matching,Client,true,2.43,0.072,true,
+RUN-v13-06-03,6,v1.3,Research,Power user,true,2.11,0.074,true,
+RUN-v13-06-04,6,v1.3,Data request,Internal,true,2.44,0.076,false,
+RUN-v13-06-05,6,v1.3,Report generation,Client,true,2.32,0.078,false,
+RUN-v13-06-06,6,v1.3,Job matching,Power user,true,2.75,0.07,false,
+RUN-v13-06-07,6,v1.3,Research,Internal,true,2.43,0.072,false,
+RUN-v13-06-08,6,v1.3,Data request,Client,true,2.76,0.074,false,
+RUN-v13-06-09,6,v1.3,Report generation,Power user,true,2,0.076,false,
+RUN-v13-06-10,6,v1.3,Job matching,Internal,true,2.43,0.078,false,
+RUN-v13-06-11,6,v1.3,Research,Client,true,2.11,0.07,false,
+RUN-v13-06-12,6,v1.3,Data request,Power user,true,2.44,0.072,false,
+RUN-v13-06-13,6,v1.3,Report generation,Internal,true,2.32,0.074,false,
+RUN-v13-06-14,6,v1.3,Job matching,Client,true,2.75,0.076,false,
+RUN-v13-06-15,6,v1.3,Research,Power user,true,2.43,0.078,false,
+RUN-v13-06-16,6,v1.3,Data request,Internal,true,2.76,0.07,false,
+RUN-v13-06-17,6,v1.3,Report generation,Client,true,2,0.072,false,
+RUN-v13-06-18,6,v1.3,Job matching,Power user,true,2.43,0.074,false,
+RUN-v13-06-19,6,v1.3,Research,Internal,true,2.11,0.076,false,
+RUN-v13-06-20,6,v1.3,Data request,Client,true,2.44,0.078,false,
+RUN-v13-06-21,6,v1.3,Report generation,Power user,true,2.32,0.07,false,
+RUN-v13-06-22,6,v1.3,Job matching,Internal,true,2.75,0.072,false,
+RUN-v13-06-23,6,v1.3,Research,Client,true,2.43,0.074,false,
+RUN-v13-06-24,6,v1.3,Data request,Power user,true,2.76,0.076,false,
+RUN-v13-06-25,6,v1.3,Report generation,Internal,true,2,0.078,false,
+RUN-v13-06-26,6,v1.3,Job matching,Client,true,2.43,0.07,false,
+RUN-v13-06-27,6,v1.3,Research,Power user,true,2.11,0.072,false,
+RUN-v13-06-28,6,v1.3,Data request,Internal,true,2.44,0.074,false,
+RUN-v13-06-29,6,v1.3,Report generation,Client,true,2.32,0.076,false,
+RUN-v13-06-30,6,v1.3,Job matching,Power user,true,2.75,0.078,false,
+RUN-v13-06-31,6,v1.3,Research,Internal,false,2.43,0.07,false,Tool use
+RUN-v13-06-32,6,v1.3,Data request,Client,false,2.76,0.072,false,Tool use
+RUN-v13-06-33,6,v1.3,Report generation,Power user,false,2,0.074,false,Formatting
+RUN-v13-06-34,6,v1.3,Job matching,Internal,false,2.43,0.076,false,Formatting
+RUN-v13-06-35,6,v1.3,Research,Client,false,2.11,0.078,false,Formatting
+RUN-v13-07-01,7,v1.3,Job matching,Client,true,2.35,0.07,true,
+RUN-v13-07-02,7,v1.3,Research,Power user,true,2.03,0.072,true,
+RUN-v13-07-03,7,v1.3,Data request,Internal,true,2.36,0.074,true,
+RUN-v13-07-04,7,v1.3,Report generation,Client,true,2.24,0.076,false,
+RUN-v13-07-05,7,v1.3,Job matching,Power user,true,2.67,0.078,false,
+RUN-v13-07-06,7,v1.3,Research,Internal,true,2.35,0.07,false,
+RUN-v13-07-07,7,v1.3,Data request,Client,true,2.68,0.072,false,
+RUN-v13-07-08,7,v1.3,Report generation,Power user,true,2.56,0.074,false,
+RUN-v13-07-09,7,v1.3,Job matching,Internal,true,2.35,0.076,false,
+RUN-v13-07-10,7,v1.3,Research,Client,true,2.03,0.078,false,
+RUN-v13-07-11,7,v1.3,Data request,Power user,true,2.36,0.07,false,
+RUN-v13-07-12,7,v1.3,Report generation,Internal,true,2.24,0.072,false,
+RUN-v13-07-13,7,v1.3,Job matching,Client,true,2.67,0.074,false,
+RUN-v13-07-14,7,v1.3,Research,Power user,true,2.35,0.076,false,
+RUN-v13-07-15,7,v1.3,Data request,Internal,true,2.68,0.078,false,
+RUN-v13-07-16,7,v1.3,Report generation,Client,true,2.56,0.07,false,
+RUN-v13-07-17,7,v1.3,Job matching,Power user,true,2.35,0.072,false,
+RUN-v13-07-18,7,v1.3,Research,Internal,true,2.03,0.074,false,
+RUN-v13-07-19,7,v1.3,Data request,Client,true,2.36,0.076,false,
+RUN-v13-07-20,7,v1.3,Report generation,Power user,true,2.24,0.078,false,
+RUN-v13-07-21,7,v1.3,Job matching,Internal,true,2.67,0.07,false,
+RUN-v13-07-22,7,v1.3,Research,Client,true,2.35,0.072,false,
+RUN-v13-07-23,7,v1.3,Data request,Power user,true,2.68,0.074,false,
+RUN-v13-07-24,7,v1.3,Report generation,Internal,true,2.56,0.076,false,
+RUN-v13-07-25,7,v1.3,Job matching,Client,true,2.35,0.078,false,
+RUN-v13-07-26,7,v1.3,Research,Power user,true,2.03,0.07,false,
+RUN-v13-07-27,7,v1.3,Data request,Internal,true,2.36,0.072,false,
+RUN-v13-07-28,7,v1.3,Report generation,Client,true,2.24,0.074,false,
+RUN-v13-07-29,7,v1.3,Job matching,Power user,true,2.67,0.076,false,
+RUN-v13-07-30,7,v1.3,Research,Internal,true,2.35,0.078,false,
+RUN-v13-07-31,7,v1.3,Data request,Client,false,2.68,0.07,false,Formatting
+RUN-v13-07-32,7,v1.3,Report generation,Power user,false,2.56,0.072,false,Formatting
+RUN-v13-07-33,7,v1.3,Job matching,Internal,false,2.35,0.074,false,Formatting
+RUN-v13-07-34,7,v1.3,Research,Client,false,2.03,0.076,false,Formatting
+RUN-v13-07-35,7,v1.3,Data request,Power user,false,2.36,0.078,false,Formatting
+RUN-v13-08-01,8,v1.3,Research,Power user,true,1.95,0.07,true,
+RUN-v13-08-02,8,v1.3,Data request,Internal,true,2.28,0.072,true,
+RUN-v13-08-03,8,v1.3,Report generation,Client,true,2.16,0.074,true,
+RUN-v13-08-04,8,v1.3,Job matching,Power user,true,2.59,0.076,false,
+RUN-v13-08-05,8,v1.3,Research,Internal,true,2.27,0.078,false,
+RUN-v13-08-06,8,v1.3,Data request,Client,true,2.6,0.07,false,
+RUN-v13-08-07,8,v1.3,Report generation,Power user,true,2.48,0.072,false,
+RUN-v13-08-08,8,v1.3,Job matching,Internal,true,2.91,0.074,false,
+RUN-v13-08-09,8,v1.3,Research,Client,true,1.95,0.076,false,
+RUN-v13-08-10,8,v1.3,Data request,Power user,true,2.28,0.078,false,
+RUN-v13-08-11,8,v1.3,Report generation,Internal,true,2.16,0.07,false,
+RUN-v13-08-12,8,v1.3,Job matching,Client,true,2.59,0.072,false,
+RUN-v13-08-13,8,v1.3,Research,Power user,true,2.27,0.074,false,
+RUN-v13-08-14,8,v1.3,Data request,Internal,true,2.6,0.076,false,
+RUN-v13-08-15,8,v1.3,Report generation,Client,true,2.48,0.078,false,
+RUN-v13-08-16,8,v1.3,Job matching,Power user,true,2.91,0.07,false,
+RUN-v13-08-17,8,v1.3,Research,Internal,true,1.95,0.072,false,
+RUN-v13-08-18,8,v1.3,Data request,Client,true,2.28,0.074,false,
+RUN-v13-08-19,8,v1.3,Report generation,Power user,true,2.16,0.076,false,
+RUN-v13-08-20,8,v1.3,Job matching,Internal,true,2.59,0.078,false,
+RUN-v13-08-21,8,v1.3,Research,Client,true,2.27,0.07,false,
+RUN-v13-08-22,8,v1.3,Data request,Power user,true,2.6,0.072,false,
+RUN-v13-08-23,8,v1.3,Report generation,Internal,true,2.48,0.074,false,
+RUN-v13-08-24,8,v1.3,Job matching,Client,true,2.91,0.076,false,
+RUN-v13-08-25,8,v1.3,Research,Power user,true,1.95,0.078,false,
+RUN-v13-08-26,8,v1.3,Data request,Internal,true,2.28,0.07,false,
+RUN-v13-08-27,8,v1.3,Report generation,Client,true,2.16,0.072,false,
+RUN-v13-08-28,8,v1.3,Job matching,Power user,true,2.59,0.074,false,
+RUN-v13-08-29,8,v1.3,Research,Internal,true,2.27,0.076,false,
+RUN-v13-08-30,8,v1.3,Data request,Client,true,2.6,0.078,false,
+RUN-v13-08-31,8,v1.3,Report generation,Power user,false,2.48,0.07,false,Formatting
+RUN-v13-08-32,8,v1.3,Job matching,Internal,false,2.91,0.072,false,Formatting
+RUN-v13-08-33,8,v1.3,Research,Client,false,1.95,0.074,false,Hallucination
+RUN-v13-08-34,8,v1.3,Data request,Power user,false,2.28,0.076,false,Hallucination
+RUN-v13-08-35,8,v1.3,Report generation,Internal,false,2.16,0.078,false,Hallucination
+RUN-v13-09-01,9,v1.3,Data request,Internal,true,2.2,0.07,true,
+RUN-v13-09-02,9,v1.3,Report generation,Client,true,2.08,0.072,true,
+RUN-v13-09-03,9,v1.3,Job matching,Power user,true,2.51,0.074,true,
+RUN-v13-09-04,9,v1.3,Research,Internal,true,2.19,0.076,false,
+RUN-v13-09-05,9,v1.3,Data request,Client,true,2.52,0.078,false,
+RUN-v13-09-06,9,v1.3,Report generation,Power user,true,2.4,0.07,false,
+RUN-v13-09-07,9,v1.3,Job matching,Internal,true,2.83,0.072,false,
+RUN-v13-09-08,9,v1.3,Research,Client,true,2.51,0.074,false,
+RUN-v13-09-09,9,v1.3,Data request,Power user,true,2.2,0.076,false,
+RUN-v13-09-10,9,v1.3,Report generation,Internal,true,2.08,0.078,false,
+RUN-v13-09-11,9,v1.3,Job matching,Client,true,2.51,0.07,false,
+RUN-v13-09-12,9,v1.3,Research,Power user,true,2.19,0.072,false,
+RUN-v13-09-13,9,v1.3,Data request,Internal,true,2.52,0.074,false,
+RUN-v13-09-14,9,v1.3,Report generation,Client,true,2.4,0.076,false,
+RUN-v13-09-15,9,v1.3,Job matching,Power user,true,2.83,0.078,false,
+RUN-v13-09-16,9,v1.3,Research,Internal,true,2.51,0.07,false,
+RUN-v13-09-17,9,v1.3,Data request,Client,true,2.2,0.072,false,
+RUN-v13-09-18,9,v1.3,Report generation,Power user,true,2.08,0.074,false,
+RUN-v13-09-19,9,v1.3,Job matching,Internal,true,2.51,0.076,false,
+RUN-v13-09-20,9,v1.3,Research,Client,true,2.19,0.078,false,
+RUN-v13-09-21,9,v1.3,Data request,Power user,true,2.52,0.07,false,
+RUN-v13-09-22,9,v1.3,Report generation,Internal,true,2.4,0.072,false,
+RUN-v13-09-23,9,v1.3,Job matching,Client,true,2.83,0.074,false,
+RUN-v13-09-24,9,v1.3,Research,Power user,true,2.51,0.076,false,
+RUN-v13-09-25,9,v1.3,Data request,Internal,true,2.2,0.078,false,
+RUN-v13-09-26,9,v1.3,Report generation,Client,true,2.08,0.07,false,
+RUN-v13-09-27,9,v1.3,Job matching,Power user,true,2.51,0.072,false,
+RUN-v13-09-28,9,v1.3,Research,Internal,true,2.19,0.074,false,
+RUN-v13-09-29,9,v1.3,Data request,Client,true,2.52,0.076,false,
+RUN-v13-09-30,9,v1.3,Report generation,Power user,true,2.4,0.078,false,
+RUN-v13-09-31,9,v1.3,Job matching,Internal,true,2.83,0.07,false,
+RUN-v13-09-32,9,v1.3,Research,Client,false,2.51,0.072,false,Hallucination
+RUN-v13-09-33,9,v1.3,Data request,Power user,false,2.2,0.074,false,Hallucination
+RUN-v13-09-34,9,v1.3,Report generation,Internal,false,2.08,0.076,false,Hallucination
+RUN-v13-09-35,9,v1.3,Job matching,Client,false,2.51,0.078,false,Hallucination
+RUN-v13-10-01,10,v1.3,Report generation,Client,true,2,0.07,true,
+RUN-v13-10-02,10,v1.3,Job matching,Power user,true,2.43,0.072,true,
+RUN-v13-10-03,10,v1.3,Research,Internal,true,2.11,0.074,false,
+RUN-v13-10-04,10,v1.3,Data request,Client,true,2.44,0.076,false,
+RUN-v13-10-05,10,v1.3,Report generation,Power user,true,2.32,0.078,false,
+RUN-v13-10-06,10,v1.3,Job matching,Internal,true,2.75,0.07,false,
+RUN-v13-10-07,10,v1.3,Research,Client,true,2.43,0.072,false,
+RUN-v13-10-08,10,v1.3,Data request,Power user,true,2.76,0.074,false,
+RUN-v13-10-09,10,v1.3,Report generation,Internal,true,2,0.076,false,
+RUN-v13-10-10,10,v1.3,Job matching,Client,true,2.43,0.078,false,
+RUN-v13-10-11,10,v1.3,Research,Power user,true,2.11,0.07,false,
+RUN-v13-10-12,10,v1.3,Data request,Internal,true,2.44,0.072,false,
+RUN-v13-10-13,10,v1.3,Report generation,Client,true,2.32,0.074,false,
+RUN-v13-10-14,10,v1.3,Job matching,Power user,true,2.75,0.076,false,
+RUN-v13-10-15,10,v1.3,Research,Internal,true,2.43,0.078,false,
+RUN-v13-10-16,10,v1.3,Data request,Client,true,2.76,0.07,false,
+RUN-v13-10-17,10,v1.3,Report generation,Power user,true,2,0.072,false,
+RUN-v13-10-18,10,v1.3,Job matching,Internal,true,2.43,0.074,false,
+RUN-v13-10-19,10,v1.3,Research,Client,true,2.11,0.076,false,
+RUN-v13-10-20,10,v1.3,Data request,Power user,true,2.44,0.078,false,
+RUN-v13-10-21,10,v1.3,Report generation,Internal,true,2.32,0.07,false,
+RUN-v13-10-22,10,v1.3,Job matching,Client,true,2.75,0.072,false,
+RUN-v13-10-23,10,v1.3,Research,Power user,true,2.43,0.074,false,
+RUN-v13-10-24,10,v1.3,Data request,Internal,true,2.76,0.076,false,
+RUN-v13-10-25,10,v1.3,Report generation,Client,true,2,0.078,false,
+RUN-v13-10-26,10,v1.3,Job matching,Power user,true,2.43,0.07,false,
+RUN-v13-10-27,10,v1.3,Research,Internal,true,2.11,0.072,false,
+RUN-v13-10-28,10,v1.3,Data request,Client,true,2.44,0.074,false,
+RUN-v13-10-29,10,v1.3,Report generation,Power user,true,2.32,0.076,false,
+RUN-v13-10-30,10,v1.3,Job matching,Internal,true,2.75,0.078,false,
+RUN-v13-10-31,10,v1.3,Research,Client,true,2.43,0.07,false,
+RUN-v13-10-32,10,v1.3,Data request,Power user,true,2.76,0.072,false,
+RUN-v13-10-33,10,v1.3,Report generation,Internal,true,2,0.074,false,
+RUN-v13-10-34,10,v1.3,Job matching,Client,false,2.43,0.076,false,Other
+RUN-v13-10-35,10,v1.3,Research,Power user,false,2.11,0.078,false,Other
+RUN-v13-11-01,11,v1.3,Job matching,Power user,true,2.35,0.07,true,
+RUN-v13-11-02,11,v1.3,Research,Internal,true,2.03,0.072,true,
+RUN-v13-11-03,11,v1.3,Data request,Client,true,2.36,0.074,false,
+RUN-v13-11-04,11,v1.3,Report generation,Power user,true,2.24,0.076,false,
+RUN-v13-11-05,11,v1.3,Job matching,Internal,true,2.67,0.078,false,
+RUN-v13-11-06,11,v1.3,Research,Client,true,2.35,0.07,false,
+RUN-v13-11-07,11,v1.3,Data request,Power user,true,2.68,0.072,false,
+RUN-v13-11-08,11,v1.3,Report generation,Internal,true,2.56,0.074,false,
+RUN-v13-11-09,11,v1.3,Job matching,Client,true,2.35,0.076,false,
+RUN-v13-11-10,11,v1.3,Research,Power user,true,2.03,0.078,false,
+RUN-v13-11-11,11,v1.3,Data request,Internal,true,2.36,0.07,false,
+RUN-v13-11-12,11,v1.3,Report generation,Client,true,2.24,0.072,false,
+RUN-v13-11-13,11,v1.3,Job matching,Power user,true,2.67,0.074,false,
+RUN-v13-11-14,11,v1.3,Research,Internal,true,2.35,0.076,false,
+RUN-v13-11-15,11,v1.3,Data request,Client,true,2.68,0.078,false,
+RUN-v13-11-16,11,v1.3,Report generation,Power user,true,2.56,0.07,false,
+RUN-v13-11-17,11,v1.3,Job matching,Internal,true,2.35,0.072,false,
+RUN-v13-11-18,11,v1.3,Research,Client,true,2.03,0.074,false,
+RUN-v13-11-19,11,v1.3,Data request,Power user,true,2.36,0.076,false,
+RUN-v13-11-20,11,v1.3,Report generation,Internal,true,2.24,0.078,false,
+RUN-v13-11-21,11,v1.3,Job matching,Client,true,2.67,0.07,false,
+RUN-v13-11-22,11,v1.3,Research,Power user,true,2.35,0.072,false,
+RUN-v13-11-23,11,v1.3,Data request,Internal,true,2.68,0.074,false,
+RUN-v13-11-24,11,v1.3,Report generation,Client,true,2.56,0.076,false,
+RUN-v13-11-25,11,v1.3,Job matching,Power user,true,2.35,0.078,false,
+RUN-v13-11-26,11,v1.3,Research,Internal,true,2.03,0.07,false,
+RUN-v13-11-27,11,v1.3,Data request,Client,true,2.36,0.072,false,
+RUN-v13-11-28,11,v1.3,Report generation,Power user,true,2.24,0.074,false,
+RUN-v13-11-29,11,v1.3,Job matching,Internal,true,2.67,0.076,false,
+RUN-v13-11-30,11,v1.3,Research,Client,true,2.35,0.078,false,
+RUN-v13-11-31,11,v1.3,Data request,Power user,true,2.68,0.07,false,
+RUN-v13-11-32,11,v1.3,Report generation,Internal,true,2.56,0.072,false,
+RUN-v13-11-33,11,v1.3,Job matching,Client,true,2.35,0.074,false,
+RUN-v13-11-34,11,v1.3,Research,Power user,false,2.03,0.076,false,Other
+RUN-v13-11-35,11,v1.3,Data request,Internal,false,2.36,0.078,false,Other
+RUN-v13-12-01,12,v1.3,Research,Internal,true,1.95,0.07,true,
+RUN-v13-12-02,12,v1.3,Data request,Client,true,2.28,0.072,true,
+RUN-v13-12-03,12,v1.3,Report generation,Power user,true,2.16,0.074,false,
+RUN-v13-12-04,12,v1.3,Job matching,Internal,true,2.59,0.076,false,
+RUN-v13-12-05,12,v1.3,Research,Client,true,2.27,0.078,false,
+RUN-v13-12-06,12,v1.3,Data request,Power user,true,2.6,0.07,false,
+RUN-v13-12-07,12,v1.3,Report generation,Internal,true,2.48,0.072,false,
+RUN-v13-12-08,12,v1.3,Job matching,Client,true,2.91,0.074,false,
+RUN-v13-12-09,12,v1.3,Research,Power user,true,1.95,0.076,false,
+RUN-v13-12-10,12,v1.3,Data request,Internal,true,2.28,0.078,false,
+RUN-v13-12-11,12,v1.3,Report generation,Client,true,2.16,0.07,false,
+RUN-v13-12-12,12,v1.3,Job matching,Power user,true,2.59,0.072,false,
+RUN-v13-12-13,12,v1.3,Research,Internal,true,2.27,0.074,false,
+RUN-v13-12-14,12,v1.3,Data request,Client,true,2.6,0.076,false,
+RUN-v13-12-15,12,v1.3,Report generation,Power user,true,2.48,0.078,false,
+RUN-v13-12-16,12,v1.3,Job matching,Internal,true,2.91,0.07,false,
+RUN-v13-12-17,12,v1.3,Research,Client,true,1.95,0.072,false,
+RUN-v13-12-18,12,v1.3,Data request,Power user,true,2.28,0.074,false,
+RUN-v13-12-19,12,v1.3,Report generation,Internal,true,2.16,0.076,false,
+RUN-v13-12-20,12,v1.3,Job matching,Client,true,2.59,0.078,false,
+RUN-v13-12-21,12,v1.3,Research,Power user,true,2.27,0.07,false,
+RUN-v13-12-22,12,v1.3,Data request,Internal,true,2.6,0.072,false,
+RUN-v13-12-23,12,v1.3,Report generation,Client,true,2.48,0.074,false,
+RUN-v13-12-24,12,v1.3,Job matching,Power user,true,2.91,0.076,false,
+RUN-v13-12-25,12,v1.3,Research,Internal,true,1.95,0.078,false,
+RUN-v13-12-26,12,v1.3,Data request,Client,true,2.28,0.07,false,
+RUN-v13-12-27,12,v1.3,Report generation,Power user,true,2.16,0.072,false,
+RUN-v13-12-28,12,v1.3,Job matching,Internal,true,2.59,0.074,false,
+RUN-v13-12-29,12,v1.3,Research,Client,true,2.27,0.076,false,
+RUN-v13-12-30,12,v1.3,Data request,Power user,true,2.6,0.078,false,
+RUN-v13-12-31,12,v1.3,Report generation,Internal,true,2.48,0.07,false,
+RUN-v13-12-32,12,v1.3,Job matching,Client,true,2.91,0.072,false,
+RUN-v13-12-33,12,v1.3,Research,Power user,true,1.95,0.074,false,
+RUN-v13-12-34,12,v1.3,Data request,Internal,true,2.28,0.076,false,
+RUN-v13-12-35,12,v1.3,Report generation,Client,false,2.16,0.078,false,Other
