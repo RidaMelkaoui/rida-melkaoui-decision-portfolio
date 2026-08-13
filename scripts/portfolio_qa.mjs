@@ -32,9 +32,20 @@ const identity = await desktop.evaluate(() => ({
   headerAvatar: document.querySelector(".identity-avatar img")?.getAttribute("src"),
   sections: [...document.querySelectorAll(".section-identity h2")].map((node) => node.textContent?.trim()),
   bodyOverflow: document.documentElement.scrollWidth - document.documentElement.clientWidth,
+  hologram: {
+    rays: document.querySelectorAll(".projection-rays span").length,
+    source: !!document.querySelector(".projection-source"),
+    figure: !!document.querySelector(".hologram-figure"),
+  },
+  experienceDates: [...document.querySelectorAll(".timeline-list span")].map((node) => ({
+    fontSize: Number.parseFloat(getComputedStyle(node).fontSize),
+    borderWidth: Number.parseFloat(getComputedStyle(node).borderTopWidth),
+  })),
 }));
-if (!identity.heroImage?.includes("rida-profile-evening")) throw new Error(`Incorrect hero image: ${identity.heroImage}`);
+if (!identity.heroImage?.includes("rida-header-cutout")) throw new Error(`Incorrect hologram image: ${identity.heroImage}`);
 if (!identity.headerAvatar?.includes("rida-header-cutout")) throw new Error(`Incorrect header avatar: ${identity.headerAvatar}`);
+if (!identity.hologram.figure || !identity.hologram.source || identity.hologram.rays !== 7) throw new Error(`Hologram anatomy regression: ${JSON.stringify(identity.hologram)}`);
+if (identity.experienceDates.some(({ fontSize, borderWidth }) => fontSize < 8 || borderWidth <= 0)) throw new Error(`Experience date styling regression: ${JSON.stringify(identity.experienceDates)}`);
 for (const heading of ["PROJECTS", "DECISION METHOD", "PROFESSIONAL EXPERIENCE", "PROFILE"]) {
   if (!identity.sections.includes(heading)) throw new Error(`Missing explicit section heading: ${heading}`);
 }
@@ -43,6 +54,11 @@ await desktop.screenshot({ path: path.join(output, "desktop-hero.png"), fullPage
 
 await desktop.getByRole("link", { name: /Projects/ }).click();
 await desktop.waitForTimeout(500);
+const projectsGhost = await desktop.evaluate(() => {
+  const rect = document.querySelector(".projects-ghost")?.getBoundingClientRect();
+  return rect ? { left: rect.left, right: rect.right, within: rect.left >= 0 && rect.right <= innerWidth } : null;
+});
+if (!projectsGhost?.within) throw new Error(`Projects label clipping: ${JSON.stringify(projectsGhost)}`);
 await desktop.locator(".project-row").first().click();
 await desktop.waitForTimeout(350);
 const collapseState = await desktop.evaluate(() => ({
@@ -97,6 +113,14 @@ await desktop.waitForTimeout(1400);
 const profileVisible = await desktop.getByRole("heading", { name: "PROFILE", exact: true }).isVisible();
 await desktop.screenshot({ path: path.join(output, "desktop-profile.png"), fullPage: false });
 
+await desktop.getByRole("link", { name: /Contact/ }).click();
+await desktop.waitForTimeout(400);
+const desktopContact = await desktop.evaluate(() => {
+  const rect = document.querySelector(".contact-statement")?.getBoundingClientRect();
+  return rect ? { left: rect.left, right: rect.right, within: rect.left >= 0 && rect.right <= innerWidth } : null;
+});
+if (!desktopContact?.within) throw new Error(`Desktop contact statement clipping: ${JSON.stringify(desktopContact)}`);
+
 const liveLab = await browser.newPage({ viewport: { width: 1200, height: 850 } });
 watch(liveLab);
 await liveLab.goto(`${baseUrl}/labs/agent/index.html`, { waitUntil: "networkidle" });
@@ -114,6 +138,28 @@ const mobileBox = await mobile.evaluate(() => ({
 }));
 if (mobileBox.clientWidth !== mobileBox.scrollWidth) throw new Error(`Mobile overflow: ${JSON.stringify(mobileBox)}`);
 await mobile.screenshot({ path: path.join(output, "mobile-hero.png"), fullPage: false });
+
+const responsiveMatrix = [];
+for (const width of [320, 375, 768, 1024, 1280, 1536, 1920]) {
+  await mobile.setViewportSize({ width, height: width < 700 ? 844 : 960 });
+  await mobile.waitForTimeout(650);
+  responsiveMatrix.push(await mobile.evaluate(() => {
+    const ghost = document.querySelector(".projects-ghost")?.getBoundingClientRect();
+    const contact = document.querySelector(".contact-statement")?.getBoundingClientRect();
+    const portal = document.querySelector(".portrait-portal")?.getBoundingClientRect();
+    return {
+      width: innerWidth,
+      overflow: document.documentElement.scrollWidth - document.documentElement.clientWidth,
+      ghostWithin: !ghost || ghost.width === 0 || (ghost.left >= 0 && ghost.right <= innerWidth),
+      contactWithin: !contact || (contact.left >= 0 && contact.right <= innerWidth),
+      portalWithin: !portal || (portal.left >= -1 && portal.right <= innerWidth + 1),
+    };
+  }));
+}
+if (responsiveMatrix.some(({ overflow, ghostWithin, contactWithin, portalWithin }) => overflow !== 0 || !ghostWithin || !contactWithin || !portalWithin)) {
+  throw new Error(`Responsive matrix regression: ${JSON.stringify(responsiveMatrix)}`);
+}
+await mobile.setViewportSize({ width: 390, height: 844 });
 
 await mobile.getByRole("button", { name: "Toggle navigation" }).click();
 const menuOpen = await mobile.locator(".site-header nav.open").isVisible();
@@ -141,6 +187,7 @@ if (issues.length) throw new Error(`Console issues: ${issues.join(" | ")}`);
 
 console.log(JSON.stringify({
   identity,
+  projectsGhost,
   collapseState,
   routeProof,
   routeImage,
@@ -152,9 +199,11 @@ console.log(JSON.stringify({
   stellantisMetrics,
   stellantisImage,
   profileVisible,
+  desktopContact,
   labTitle,
   labVisible,
   mobileBox,
+  responsiveMatrix,
   mobileExperience,
   menuOpen,
   issues,

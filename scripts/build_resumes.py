@@ -90,6 +90,18 @@ def make_styles(branded: bool):
             "skill_body", fontName="Arial", fontSize=7.55, leading=9.45,
             textColor=INK,
         ),
+        "project_body": ParagraphStyle(
+            "project_body", fontName="Arial", fontSize=7.95, leading=9.8,
+            textColor=INK, leftIndent=3*mm,
+        ),
+        "education_spec": ParagraphStyle(
+            "education_spec", fontName="Arial-Italic", fontSize=7.8, leading=9.4,
+            textColor=MUTED, leftIndent=4*mm,
+        ),
+        "language": ParagraphStyle(
+            "language", fontName="Arial", fontSize=8.15, leading=9.7,
+            textColor=INK,
+        ),
         "small": ParagraphStyle(
             "small", fontName="Arial", fontSize=6.7, leading=8.1,
             textColor=MUTED,
@@ -161,7 +173,7 @@ def project_entry(title, label, narrative, styles, branded):
     return indented_block([
         Paragraph(title_line, styles["role"]),
         Spacer(1, 0.45*mm),
-        Paragraph(narrative, styles["body"]),
+        Paragraph(narrative, styles["project_body"]),
     ], branded)
 
 
@@ -273,33 +285,41 @@ def resume_story(branded: bool):
         ], styles, branded,
     ))
 
-    story.append(section_heading("Projects", styles, branded))
+    story.append(section_heading("Projects", styles, branded, before=2.6*mm))
     story.append(project_entry(
         "Demand / Order", "Forecasting & replenishment",
-        "Created to answer what to replenish and where to review exceptions, this cutoff-safe Python engine models 900 M5 item-store series, challenges forecasts against calibration-selected seasonal baselines and translates the winning signal into inventory-policy scenarios. It improved WAPE by <b>4.5%</b> and simulated <b>1,528 fewer lost units</b> at <b>96.7% fulfilled demand</b> on a 28-day holdout.",
+        "Built a cutoff-safe Python forecasting and replenishment engine to decide what to stock and where to review exceptions. It modeled 900 M5 item-store series, benchmarked candidates against calibrated seasonal baselines and converted the best signal into inventory scenarios—improving WAPE by <b>4.5%</b> and simulating <b>1,528 fewer lost units</b> at <b>96.7% fulfilled demand</b> on a 28-day holdout.",
         styles, branded,
     ))
-    story.append(Spacer(1, 1.0*mm if branded else 1.35*mm))
+    story.append(Spacer(1, 1.25*mm if branded else 1.6*mm))
     story.append(project_entry(
         "Route / Control", "Optimization & operations",
-        "To help dispatchers balance time windows with coherent routes, learned zone-order preferences from 6,112 public histories, combined directed travel times with constrained local search, and surfaced exceptions in a control tower. On a separate 13-route cohort, the policy cut simulated drive time <b>2.8%</b>, kept <b>100% timed-package adherence</b> and removed <b>332 zone re-entries</b>.",
+        "Built a dispatch control tower that learned zone-order preferences from 6,112 public histories, combined directed travel times with constrained local search and surfaced exceptions. On an unseen 13-route cohort, it cut simulated drive time by <b>2.8%</b>, preserved <b>100% timed-package adherence</b> and eliminated <b>332 zone re-entries</b>.",
         styles, branded,
     ))
-    story.append(Spacer(1, 1.0*mm if branded else 1.35*mm))
+    story.append(Spacer(1, 1.25*mm if branded else 1.6*mm))
     story.append(project_entry(
         "Agent / Proof", "AI evaluation & observability",
-        "Built an evaluation lab to decide whether a tool-using AI agent is repeatable enough to release, analyzing 3,336 official trajectories across pass@k, repeatability, cost, latency and failure modes. The pinned GPT-4.1 telecom cohort exposed a <b>14.9-point gap</b> between one-shot and repeatable success.",
+        "Built an AI-agent evaluation lab over 3,336 official tool-use trajectories, measuring pass@k, repeatability, cost, latency and failure modes before release. Its pinned GPT-4.1 telecom cohort revealed a <b>14.9-point gap</b> between one-shot and repeatable success.",
         styles, branded,
     ))
 
-    story.append(section_heading("Education", styles, branded))
+    story.append(section_heading("Education", styles, branded, before=2.35*mm))
     education = Table([
         [
-            Paragraph("<b>Mohammed VI International Civil Aviation Academy (AIAC)</b><br/>Engineering Degree — Industrial &amp; Production Engineering", styles["body"]),
+            [
+                Paragraph("<b>Mohammed VI International Civil Aviation Academy (AIAC)</b>", styles["body"]),
+                Spacer(1, 0.45*mm),
+                Paragraph("Engineering Degree | Industrial &amp; Production Engineering", styles["education_spec"]),
+            ],
             Paragraph("Nouaceur, Morocco<br/>2022 — 2025", styles["right"]),
         ],
         [
-            Paragraph("<b>Salmane El Farissi Preparatory Classes</b><br/>MPSI — MP", styles["body"]),
+            [
+                Paragraph("<b>Salmane El Farissi Preparatory Classes</b>", styles["body"]),
+                Spacer(1, 0.45*mm),
+                Paragraph("Preparatory Studies | MPSI - MP", styles["education_spec"]),
+            ],
             Paragraph("Salé, Morocco<br/>2020 — 2022", styles["right"]),
         ],
     ], colWidths=[width - 42*mm, 42*mm])
@@ -312,38 +332,51 @@ def resume_story(branded: bool):
     ]))
     story.append(education)
 
-    story.append(section_heading("Skills", styles, branded))
+    story.append(section_heading("Skills", styles, branded, before=2.35*mm))
     skills = [
         ("DATA & ANALYTICS", "Python · SQL · Pandas · NumPy · scikit-learn · statistics · forecasting · experimentation · data modeling · Databricks"),
         ("BI & DELIVERY", "Power BI · DAX · Excel · Power Query · Tableau · React · TypeScript · FastAPI · Git · Docker · KPI systems · automation"),
         ("INDUSTRIAL & QUALITY", "Supplier/process performance · PPM · OEE · FPY · 8D/CAPA · FMEA · root-cause analysis · Lean · launch/SOP governance"),
     ]
-    skill_table = Table([[Paragraph(head, styles["skill_head"]), Paragraph(body, styles["skill_body"])] for head, body in skills], colWidths=[40*mm, width - 44*mm])
+    skill_table = Table([
+        [Paragraph(".", styles["skill_head"]), Paragraph(head, styles["skill_head"]), Paragraph(body, styles["skill_body"])]
+        for head, body in skills
+    ], colWidths=[6*mm, 36*mm, width - 46*mm])
     skill_table.setStyle(TableStyle([
         ("VALIGN", (0, 0), (-1, -1), "TOP"),
         ("LEFTPADDING", (0, 0), (0, -1), 4*mm),
+        ("LEFTPADDING", (1, 0), (-1, -1), 0),
         ("RIGHTPADDING", (0, 0), (-1, -1), 0),
-        ("TOPPADDING", (0, 0), (-1, -1), 0.35*mm),
-        ("BOTTOMPADDING", (0, 0), (-1, -1), 0.85*mm),
+        ("TOPPADDING", (0, 0), (-1, -1), 0.45*mm),
+        ("BOTTOMPADDING", (0, 0), (-1, -1), 0.75*mm),
     ]))
     story.append(skill_table)
 
-    story.append(section_heading("Languages", styles, branded, before=2.75*mm))
-    story.append(indented_block([
-        Paragraph("<b>Arabic</b> — Native &nbsp;&nbsp;&nbsp; <b>French</b> — Fluent &nbsp;&nbsp;&nbsp; <b>English</b> — C1 (TOEIC 855; EF SET 62/100)", styles["body"])
-    ], branded))
+    story.append(section_heading("Languages", styles, branded, before=2.1*mm))
+    language_table = Table([[
+        Paragraph("<b>Arabic</b><br/><font color='#545760'>Native</font>", styles["language"]),
+        Paragraph("<b>French</b><br/><font color='#545760'>Fluent</font>", styles["language"]),
+        Paragraph("<b>English</b><br/><font color='#545760'>C1 | TOEIC 855 | EF SET 62/100</font>", styles["language"]),
+    ]], colWidths=[width/3]*3)
+    language_table.setStyle(TableStyle([
+        ("VALIGN", (0, 0), (-1, -1), "TOP"),
+        ("LEFTPADDING", (0, 0), (-1, -1), 4*mm),
+        ("RIGHTPADDING", (0, 0), (-1, -1), 4*mm),
+        ("TOPPADDING", (0, 0), (-1, -1), 0),
+        ("BOTTOMPADDING", (0, 0), (-1, -1), 0.8*mm),
+    ]))
+    story.append(language_table)
 
-    story.append(section_heading("Certifications", styles, branded, before=2.75*mm))
+    story.append(section_heading("Certifications", styles, branded, before=1.8*mm))
     cert_table = Table([[
-        Paragraph(hyperlink(CERTIFICATIONS, "IBM Data Analyst Professional Certificate") + "<br/><font color='#545760'>IBM / Coursera · 2026</font>", styles["small"]),
-        Paragraph(hyperlink(CERTIFICATIONS, "EF SET English Certificate — C1") + "<br/><font color='#545760'>EF SET · 62/100</font>", styles["small"]),
-        Paragraph(hyperlink(CERTIFICATIONS, "TOEIC Listening & Reading — C1") + "<br/><font color='#545760'>Score 855</font>", styles["small"]),
-    ]], colWidths=[(width - 4*mm)/3]*3)
+        Paragraph(hyperlink(CERTIFICATIONS, "IBM Data Analyst Professional Certificate") + "<br/><font color='#545760'>IBM / Coursera | 2026</font>", styles["small"]),
+        Paragraph(hyperlink(CERTIFICATIONS, "EF SET English Certificate | C1") + "<br/><font color='#545760'>EF SET | 62/100</font>", styles["small"]),
+        Paragraph(hyperlink(CERTIFICATIONS, "TOEIC Listening & Reading | C1") + "<br/><font color='#545760'>Score | 855</font>", styles["small"]),
+    ]], colWidths=[width/3]*3)
     cert_table.setStyle(TableStyle([
         ("VALIGN", (0, 0), (-1, -1), "TOP"),
-        ("LEFTPADDING", (0, 0), (0, 0), 4*mm),
-        ("LEFTPADDING", (1, 0), (-1, 0), 2*mm),
-        ("RIGHTPADDING", (0, 0), (-1, -1), 0),
+        ("LEFTPADDING", (0, 0), (-1, -1), 4*mm),
+        ("RIGHTPADDING", (0, 0), (-1, -1), 4*mm),
         ("TOPPADDING", (0, 0), (-1, -1), 0),
         ("BOTTOMPADDING", (0, 0), (-1, -1), 0),
     ]))

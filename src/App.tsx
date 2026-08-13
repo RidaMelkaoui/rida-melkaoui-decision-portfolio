@@ -305,9 +305,18 @@ function Hero() {
         <Suspense fallback={<div className="hero-scene scene-fallback" aria-hidden="true" />}>
           <DecisionScene className="hero-scene" />
         </Suspense>
-        <div className="portrait-portal">
-          <div className="portrait-rings" aria-hidden="true"><i /><i /><i /></div>
-          <img src="./images/rida-profile-evening.png" alt="Rida Melkaoui" />
+        <div className="portrait-portal" data-hologram>
+          <div className="projection-beam" aria-hidden="true" />
+          <div className="projection-rays" aria-hidden="true">
+            <span /><span /><span /><span /><span /><span /><span />
+          </div>
+          <div className="hologram-figure">
+            <img className="hologram-image" src="./images/rida-header-cutout.png" alt="Rida Melkaoui" />
+            <img className="hologram-echo echo-cyan" src="./images/rida-header-cutout.png" alt="" aria-hidden="true" />
+            <img className="hologram-echo echo-orange" src="./images/rida-header-cutout.png" alt="" aria-hidden="true" />
+            <span className="hologram-scan" aria-hidden="true" />
+          </div>
+          <div className="projection-source" aria-hidden="true"><i /><span>IDENTITY SIGNAL</span></div>
           <span className="portrait-reading reading-top">270</span>
           <span className="portrait-reading reading-left">180</span>
           <span className="portrait-reading reading-right">90</span>
