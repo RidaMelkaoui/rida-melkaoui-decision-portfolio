@@ -41,7 +41,7 @@ const projects: Project[] = [
     image: "./images/projects/demand-overview.png",
     detailImage: "./images/projects/demand-detail.png",
     lab: "./labs/demand/index.html",
-    source: "./evidence/demand-order.md",
+    source: "https://github.com/RidaMelkaoui/retail-demand-decision-engine",
     caveat: "M5 28-day holdout; policy outcomes are simulation, not realized savings.",
   },
   {
@@ -60,7 +60,7 @@ const projects: Project[] = [
     image: "./images/projects/route-control.png",
     detailImage: "./images/projects/route-detail.png",
     lab: "./labs/route/index.html",
-    source: "./evidence/route-control.md",
+    source: "https://github.com/RidaMelkaoui/last-mile-route-control-tower",
     caveat: "Separate 13-route public cohort; retrospective simulation, not a production claim.",
   },
   {
@@ -79,7 +79,7 @@ const projects: Project[] = [
     image: "./images/projects/agent-proof.png",
     detailImage: "./images/projects/agent-detail.png",
     lab: "./labs/agent/index.html",
-    source: "./evidence/agent-proof.md",
+    source: "https://github.com/RidaMelkaoui/agent-reliability-lab",
     caveat: "Pinned historical tau2-bench cohort; no live calls or current-production claim.",
   },
 ];
@@ -347,7 +347,7 @@ function ProjectCase({ project, active, onOpen }: { project: Project; active: bo
                 OPEN LIVE LAB <ArrowIcon direction="up-right" />
               </a>
               <a href={project.source} target="_blank" rel="noreferrer">
-                READ THE BUILD <ArrowIcon direction="up-right" />
+                OPEN SOURCE REPO <ArrowIcon direction="up-right" />
               </a>
             </div>
           </div>

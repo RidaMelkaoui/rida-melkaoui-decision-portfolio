@@ -27,18 +27,15 @@ All three local repositories are clean and use the `main` branch.
 
 ## Publishing status
 
-GitHub publication was not executed because `gh` is not installed/authenticated in this environment and the connected GitHub tools cannot create repositories. No credentials were requested or stored.
+Publication completed on 2026-08-13:
 
-After GitHub CLI authentication, create and push these four repositories:
+- Portfolio: <https://ridamelkaoui.github.io/rida-melkaoui-decision-portfolio/>
+- Portfolio source: <https://github.com/RidaMelkaoui/rida-melkaoui-decision-portfolio>
+- Demand / Order: <https://github.com/RidaMelkaoui/retail-demand-decision-engine>
+- Route / Control: <https://github.com/RidaMelkaoui/last-mile-route-control-tower>
+- Agent / Proof: <https://github.com/RidaMelkaoui/agent-reliability-lab>
 
-```powershell
-gh repo create retail-demand-decision-engine --public --source projects/retail-demand-decision-engine --remote origin --push
-gh repo create last-mile-route-control-tower --public --source projects/last-mile-route-control-tower --remote origin --push
-gh repo create agent-reliability-lab --public --source projects/agent-reliability-lab --remote origin --push
-gh repo create rida-melkaoui-decision-portfolio --public --source . --remote origin --push
-```
-
-Then enable GitHub Pages for the portfolio repository using GitHub Actions or deploy `dist/` to Vercel/Cloudflare Pages. Update the portfolio/resume URL only after the final public address is known.
+GitHub Pages deploys the production `dist/` artifact from `main` through `.github/workflows/deploy-pages.yml`. The live portfolio and an embedded decision lab were verified in a browser after deployment.
 
 ## Claim boundary
 
