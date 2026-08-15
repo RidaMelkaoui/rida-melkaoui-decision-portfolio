@@ -105,6 +105,72 @@ CURATED_OPPORTUNITIES = [
         "priority_tier": "P6",
         "url": "https://www.capgemini.com/ma-en/jobs/454212-fr_FR%2Bsap_btp/",
         "description": "Collects and translates business needs, structures data workflows, aligns technical teams, and validates delivery against operational outcomes."
+    },
+    {
+        "company": "Celonis",
+        "industry": "Process Mining & Execution Management",
+        "city": "Munich / Madrid",
+        "country": "Germany",
+        "title": "Value & Process Intelligence Engineer",
+        "work_mode": "Remote / Hybrid",
+        "priority_tier": "P1",
+        "url": "https://www.celonis.com/careers",
+        "description": "Combines process mining, SQL data modeling, and operational KPI optimization to identify execution bottlenecks and automate workflow decisions."
+    },
+    {
+        "company": "o9 Solutions",
+        "industry": "Enterprise Supply Chain Decision Management",
+        "city": "Amsterdam / London",
+        "country": "Netherlands",
+        "title": "Supply Chain Decision Architect",
+        "work_mode": "Remote / Hybrid",
+        "priority_tier": "P1",
+        "url": "https://o9solutions.com/careers",
+        "description": "Builds integrated business planning, demand forecasting models, and inventory optimization decision graphs for complex supply chains."
+    },
+    {
+        "company": "Kinaxis",
+        "industry": "Supply Chain Concurrent Planning & Optimization",
+        "city": "London / Europe",
+        "country": "UK",
+        "title": "Operations Research & Supply Chain Analyst",
+        "work_mode": "Remote",
+        "priority_tier": "P2",
+        "url": "https://www.kinaxis.com/en/careers",
+        "description": "Designs concurrent planning algorithms, safety stock simulations, and exception-monitoring workflows for global manufacturing operations."
+    },
+    {
+        "company": "Chari",
+        "industry": "B2B E-commerce & FMCG Logistics SaaS",
+        "city": "Casablanca",
+        "country": "Morocco",
+        "title": "Operations & Logistics Data Analyst",
+        "work_mode": "Hybrid",
+        "priority_tier": "P5",
+        "url": "https://chari.co/",
+        "description": "Optimizes last-mile delivery routes, warehouse picking throughput, and inventory replenishment forecasting for retail distribution across Morocco."
+    },
+    {
+        "company": "Shippeo",
+        "industry": "Real-Time Transportation Visibility Platform",
+        "city": "Paris",
+        "country": "France",
+        "title": "Supply Chain Data & BI Engineer",
+        "work_mode": "Remote / Hybrid",
+        "priority_tier": "P1",
+        "url": "https://www.shippeo.com/careers",
+        "description": "Builds tracking data pipelines, predictive ETA models, and carrier quality scorecards for multimodal supply chain networks."
+    },
+    {
+        "company": "Sennder",
+        "industry": "Digital Road Freight Forwarding",
+        "city": "Berlin",
+        "country": "Germany",
+        "title": "Operations Analytics & BI Engineer",
+        "work_mode": "Remote",
+        "priority_tier": "P1",
+        "url": "https://www.sennder.com/careers",
+        "description": "Develops carrier matching analytics, freight pricing models, and automated exception queues for European road transportation."
     }
 ]
 
