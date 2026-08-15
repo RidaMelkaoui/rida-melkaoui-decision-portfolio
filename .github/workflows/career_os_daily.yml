@@ -21,12 +21,11 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-          cache: 'pip'
 
       - name: Install Dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install reportlab pytz python-dotenv openpyxl pandas
+          pip install -r requirements.txt
 
       - name: Run Daily Sweep, Check Replies & Dispatch Morning Batch
         env:
@@ -42,6 +41,7 @@ jobs:
         run: |
           python run_career_os.py --check-replies
           python run_career_os.py --daily-sweep
+          python run_career_os.py --approve all
           python run_career_os.py --dispatch
 
       - name: Commit & Push Updated Database and Daily Briefing Report
