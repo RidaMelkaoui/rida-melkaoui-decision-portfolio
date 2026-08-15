@@ -25,6 +25,13 @@ CANDIDATE_LOCATION = os.getenv("CANDIDATE_LOCATION", "Kenitra / Salé, Morocco")
 PORTFOLIO_URL = os.getenv("PORTFOLIO_URL", "https://ridamelkaoui.github.io/rida-melkaoui-decision-portfolio/")
 LINKEDIN_URL = os.getenv("LINKEDIN_URL", "https://www.linkedin.com/in/rida-melkaoui-7bab50256/")
 
+# Master Resume Path
+MASTER_RESUME_PATH = PROJECT_ROOT / "deliverables" / "final-profile" / "Rida_Melkaoui_Data_AI_Resume_ATS.pdf"
+if not MASTER_RESUME_PATH.exists():
+    MASTER_RESUME_PATH = PROJECT_ROOT / "public" / "documents" / "Rida_Melkaoui_Data_AI_Resume.pdf"
+if not MASTER_RESUME_PATH.exists():
+    MASTER_RESUME_PATH = DATA_DIR / "Rida_Melkaoui_Resume.pdf"
+
 # Email Credentials
 GMAIL_USER = os.getenv("GMAIL_USER", "ridamelkaouiofficial@gmail.com")
 GMAIL_APP_PASSWORD = os.getenv("GMAIL_APP_PASSWORD", "").replace(" ", "")

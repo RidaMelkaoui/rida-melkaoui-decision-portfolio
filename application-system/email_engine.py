@@ -15,7 +15,7 @@ from config import (
     GMAIL_USER, GMAIL_APP_PASSWORD, CANDIDATE_NAME, CANDIDATE_TITLE,
     CANDIDATE_EMAIL, CANDIDATE_PHONE, PORTFOLIO_URL, LINKEDIN_URL,
     SEND_WINDOW_START_HOUR, SEND_WINDOW_END_HOUR, FOLLOWUP_DAYS,
-    get_timezone_for_country, is_blacklisted, PROJECT_ROOT
+    get_timezone_for_country, is_blacklisted, PROJECT_ROOT, MASTER_RESUME_PATH, DATA_DIR
 )
 from database import get_connection
 
@@ -185,14 +185,23 @@ def queue_outreach_for_contact(
     # Check for tailored cover letter and master resume
     clean_co = "".join(c if c.isalnum() else "_" for c in row["company_name"]).strip("_")
     cl_path = PROJECT_ROOT / "deliverables" / "applications" / clean_co / f"Rida_Melkaoui_Cover_Letter_{clean_co}.pdf"
-    master_resume = PROJECT_ROOT / "deliverables" / "final-profile" / "Rida_Melkaoui_Industrial_Data_AI_BI_CV.pdf"
-    if not master_resume.exists():
-        master_resume = PROJECT_ROOT / "public" / "documents" / "Rida_Melkaoui_Data_AI_Resume.pdf"
+    
+    # Resolve master resume PDF
+    master_resume = None
+    for cand in [
+        MASTER_RESUME_PATH,
+        PROJECT_ROOT / "deliverables" / "final-profile" / "Rida_Melkaoui_Data_AI_Resume_ATS.pdf",
+        PROJECT_ROOT / "public" / "documents" / "Rida_Melkaoui_Data_AI_Resume.pdf",
+        DATA_DIR / "Rida_Melkaoui_Resume.pdf"
+    ]:
+        if cand and cand.exists():
+            master_resume = cand
+            break
 
     attachments = []
     if cl_path.exists():
         attachments.append(str(cl_path))
-    if master_resume.exists():
+    if master_resume:
         attachments.append(str(master_resume))
 
     attachment_str = ",".join(attachments)
@@ -231,9 +240,26 @@ def process_due_emails(dry_run: bool = False, force: bool = False) -> List[Dict]
             WHERE eq.status = 'approved' AND eq.scheduled_time <= ? AND c.status NOT IN ('replied', 'rejected', 'checked')
         """, (now_utc,)).fetchall()
 
+    # Resolve master resume fallback for dispatch
+    resolved_master_resume = None
+    for cand in [
+        MASTER_RESUME_PATH,
+        PROJECT_ROOT / "deliverables" / "final-profile" / "Rida_Melkaoui_Data_AI_Resume_ATS.pdf",
+        PROJECT_ROOT / "public" / "documents" / "Rida_Melkaoui_Data_AI_Resume.pdf",
+        DATA_DIR / "Rida_Melkaoui_Resume.pdf"
+    ]:
+        if cand and cand.exists():
+            resolved_master_resume = cand
+            break
+
     results = []
     for item in due_items:
-        attachments = [p for p in item["attachment_paths"].split(",") if p] if item["attachment_paths"] else []
+        attachments = [p for p in item["attachment_paths"].split(",") if p and Path(p).exists()] if item["attachment_paths"] else []
+        
+        # Ensure master resume is always included in attachments
+        has_resume = any("resume" in p.lower() or "cv" in p.lower() for p in attachments)
+        if not has_resume and resolved_master_resume:
+            attachments.append(str(resolved_master_resume))
         
         if dry_run:
             results.append({"id": item["id"], "recipient": item["recipient_email"], "status": "dry_run_ready"})
