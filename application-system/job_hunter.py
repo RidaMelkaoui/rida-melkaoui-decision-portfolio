@@ -171,7 +171,92 @@ CURATED_OPPORTUNITIES = [
         "priority_tier": "P1",
         "url": "https://www.sennder.com/careers",
         "description": "Develops carrier matching analytics, freight pricing models, and automated exception queues for European road transportation."
+    },
+    {
+        "company": "Samsara",
+        "industry": "Connected Operations IoT & Industrial Telematics",
+        "city": "London / Europe",
+        "country": "UK",
+        "title": "Operations BI & Analytics Engineer",
+        "work_mode": "Remote",
+        "priority_tier": "P1",
+        "url": "https://www.samsara.com/company/careers/",
+        "description": "Transforms IoT telemetry and vehicle asset data into operational decision intelligence and predictive fleet workflows."
+    },
+    {
+        "company": "Forto",
+        "industry": "Digital Freight Forwarding & Supply Chain Tech",
+        "city": "Berlin",
+        "country": "Germany",
+        "title": "Supply Chain Data & Trade Analytics Engineer",
+        "work_mode": "Remote / Hybrid",
+        "priority_tier": "P1",
+        "url": "https://www.forto.com/careers/",
+        "description": "Designs freight pricing algorithms, lane predictability models, and automated supply chain visibility workflows."
+    },
+    {
+        "company": "InstaDeep",
+        "industry": "Decision-Making AI & Enterprise Optimization",
+        "city": "Paris / London / Casablanca",
+        "country": "France",
+        "title": "Decision AI & Optimization Engineer",
+        "work_mode": "Remote / Hybrid",
+        "priority_tier": "P1",
+        "url": "https://www.instadeep.com/careers",
+        "description": "Applies deep reinforcement learning and mathematical programming to industrial routing, scheduling, and operational decision systems."
+    },
+    {
+        "company": "Cognite",
+        "industry": "Industrial DataOps & AI for Manufacturing",
+        "city": "Oslo / Europe",
+        "country": "Norway",
+        "title": "Industrial Solutions & Data Engineer",
+        "work_mode": "Remote",
+        "priority_tier": "P2",
+        "url": "https://www.cognite.com/en/careers",
+        "description": "Unifies OT and IT data across manufacturing plants to build contextualized decision tools and predictive maintenance pipelines."
+    },
+    {
+        "company": "Transporeon",
+        "industry": "Transportation Management Platform",
+        "city": "Amsterdam / Europe",
+        "country": "Netherlands",
+        "title": "Logistics Network Data Analyst",
+        "work_mode": "Remote",
+        "priority_tier": "P2",
+        "url": "https://www.transporeon.com/en/careers",
+        "description": "Analyzes global transport network flows, slot booking bottlenecks, and carrier spot-rate trends to automate logistics decisions."
+    },
+    {
+        "company": "Yassir",
+        "industry": "On-Demand Mobility & Logistics Tech Scaleup",
+        "city": "Casablanca",
+        "country": "Morocco",
+        "title": "Operations & Dispatch Analytics Lead",
+        "work_mode": "Hybrid / Remote",
+        "priority_tier": "P5",
+        "url": "https://yassir.com/careers/",
+        "description": "Optimizes on-demand driver dispatch, pricing elasticity, and fulfillment SLAs across North African metro areas."
     }
+]
+
+# Additional High-Growth Industrial & Tech Contacts
+CURATED_CONTACTS = [
+    {"company": "InstaDeep", "name": "Karim Beguir", "title": "Co-founder & CEO", "email": "recruitment@instadeep.com", "country": "France"},
+    {"company": "InstaDeep", "name": "Talent Acquisition Team", "title": "Head of People & Hiring", "email": "careers@instadeep.com", "country": "France"},
+    {"company": "Freterium", "name": "Mehdi Cherif Alami", "title": "Co-founder & CEO", "email": "contact@freterium.com", "country": "Morocco"},
+    {"company": "Freterium", "name": "Talent & Growth Lead", "title": "Operations Hiring Lead", "email": "talent@freterium.com", "country": "Morocco"},
+    {"company": "Chari", "name": "Ismael Belkhayat", "title": "Co-founder & CEO", "email": "contact@chari.co", "country": "Morocco"},
+    {"company": "Chari", "name": "Recruitment Department", "title": "Talent Lead", "email": "jobs@chari.co", "country": "Morocco"},
+    {"company": "Lokad", "name": "Joannes Vermorel", "title": "Founder & CEO", "email": "contact@lokad.com", "country": "France"},
+    {"company": "Yassir", "name": "Operations Hiring Team", "title": "Talent Acquisition Lead", "email": "careers@yassir.com", "country": "Morocco"},
+    {"company": "Thales", "name": "Équipe Recrutement Maroc", "title": "Responsable Recrutement & RH", "email": "recrutement.maroc@thalesgroup.com", "country": "Morocco"},
+    {"company": "Siemens Energy", "name": "Talent Acquisition Morocco", "title": "HR & Operations Lead", "email": "careers.morocco@siemens-energy.com", "country": "Morocco"},
+    {"company": "Schneider Electric", "name": "Direction des Ressources Humaines", "title": "Talent Lead Maroc", "email": "recruitment.morocco@se.com", "country": "Morocco"},
+    {"company": "STMicroelectronics", "name": "Ressources Humaines Bouskoura", "title": "Site Talent Lead", "email": "recrutement.bouskoura@st.com", "country": "Morocco"},
+    {"company": "Safran Electrical & Power", "name": "Service Recrutement & Mobilité", "title": "Talent Acquisition", "email": "recrutement.sep@safrangroup.com", "country": "Morocco"},
+    {"company": "Nexans", "name": "Direction RH & Développement", "title": "Talent Lead", "email": "rh.maroc@nexans.com", "country": "Morocco"},
+    {"company": "Hitachi Energy", "name": "Talent Acquisition Hub", "title": "HR Lead Morocco", "email": "morocco.careers@hitachienergy.com", "country": "Morocco"}
 ]
 
 def seed_and_tailor_jobs():
@@ -219,9 +304,23 @@ def seed_and_tailor_jobs():
                 VALUES (?, ?, ?, ?, 'tailored')
             """, (company_id, job_id, item["title"], pdf_path))
 
+    # Seed curated high-growth contacts
+    seeded_contacts = 0
+    for c in CURATED_CONTACTS:
+        if is_blacklisted(c["company"]):
+            continue
+        co_id = upsert_company(name=c["company"], country=c.get("country", "Morocco"), conn=conn)
+        cur.execute("SELECT id FROM contacts WHERE email = ?", (c["email"].strip(),))
+        if not cur.fetchone():
+            cur.execute("""
+                INSERT INTO contacts (company_id, name, title, email, status)
+                VALUES (?, ?, ?, ?, 'pending')
+            """, (co_id, c["name"], c["title"], c["email"].strip()))
+            seeded_contacts += 1
+
     conn.commit()
     conn.close()
-    print(f"Successfully seeded {seeded_count} curated job opportunities and generated tailored PDF application packages.")
+    print(f"Successfully seeded {seeded_count} new job opportunities and {seeded_contacts} new key contacts.")
 
 if __name__ == "__main__":
     seed_and_tailor_jobs()
