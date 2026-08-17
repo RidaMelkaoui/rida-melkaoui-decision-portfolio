@@ -254,15 +254,54 @@ def process_due_emails(dry_run: bool = False, force: bool = False) -> List[Dict]
 
     results = []
     for item in due_items:
-        attachments = [p for p in item["attachment_paths"].split(",") if p and Path(p).exists()] if item["attachment_paths"] else []
+        attachments = []
+        if item["attachment_paths"]:
+            for raw_p in item["attachment_paths"].split(","):
+                if not raw_p.strip():
+                    continue
+                p_obj = Path(raw_p.strip())
+                if p_obj.exists():
+                    attachments.append(str(p_obj))
+                else:
+                    # Search relative to PROJECT_ROOT if Windows path on Linux
+                    normalized_str = raw_p.replace("\\", "/")
+                    if "Profile Upgrader/" in normalized_str:
+                        clean_rel = normalized_str.split("Profile Upgrader/")[-1]
+                    elif "deliverables/" in normalized_str:
+                        clean_rel = "deliverables/" + normalized_str.split("deliverables/")[-1]
+                    else:
+                        clean_rel = p_obj.name
+
+                    local_cand = PROJECT_ROOT / clean_rel
+                    if local_cand.exists():
+                        attachments.append(str(local_cand))
+                    else:
+                        # Search by filename in deliverables
+                        fname = p_obj.name
+                        for candidate_dir in [
+                            PROJECT_ROOT / "deliverables" / "applications" / "".join(c if c.isalnum() else "_" for c in item["company_name"]).strip("_"),
+                            PROJECT_ROOT / "deliverables" / "final-profile",
+                            PROJECT_ROOT / "public" / "documents",
+                            DATA_DIR
+                        ]:
+                            if (candidate_dir / fname).exists():
+                                attachments.append(str(candidate_dir / fname))
+                                break
         
-        # Ensure master resume is always included in attachments
-        has_resume = any("resume" in p.lower() or "cv" in p.lower() for p in attachments)
+        # Guarantee 1: Ensure Cover Letter is attached
+        clean_co = "".join(c if c.isalnum() else "_" for c in item["company_name"]).strip("_")
+        cl_candidate = PROJECT_ROOT / "deliverables" / "applications" / clean_co / f"Rida_Melkaoui_Cover_Letter_{clean_co}.pdf"
+        has_cl = any("cover_letter" in Path(a).name.lower() for a in attachments)
+        if not has_cl and cl_candidate.exists():
+            attachments.insert(0, str(cl_candidate))
+
+        # Guarantee 2: Ensure Master Resume is attached
+        has_resume = any("resume" in Path(a).name.lower() or "cv" in Path(a).name.lower() for a in attachments)
         if not has_resume and resolved_master_resume:
             attachments.append(str(resolved_master_resume))
         
         if dry_run:
-            results.append({"id": item["id"], "recipient": item["recipient_email"], "status": "dry_run_ready"})
+            results.append({"id": item["id"], "recipient": item["recipient_email"], "status": "dry_run_ready", "attachments": attachments})
             continue
 
         success, err = send_smtp_email(
